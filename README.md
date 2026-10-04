@@ -28,15 +28,15 @@ roles, executive roles and student roles are left out. All of this is decided in
 **Employer career sites.** `data/companies.json` names the employers to check.
 They are hospitals and health systems in the region, health plans, revenue
 cycle firms, health information companies and clinical research organisations.
-Each employer's own job feed is read on every run. Five platforms are
-supported, which are Workday, Oracle Cloud, Greenhouse, Ashby and
+Each employer's own job feed is read on every run. The supported platforms
+are Workday, Oracle Cloud, iCIMS, Eightfold, UKG, Greenhouse, Lever, Ashby and
 SmartRecruiters.
 
 **The Muse.** A general job board with a public feed, read for its healthcare
 and office categories in Cincinnati and remote.
 
-Employers whose career sites use other platforms, such as iCIMS, are not read
-yet.
+Employers whose career sites use other platforms, such as Taleo,
+SuccessFactors or Avature, are not read yet.
 
 ## The match score
 
@@ -92,4 +92,16 @@ employer's identifier on it, such as `workday:tenant/wd5/site`, and the value
 holds the employer's name. Two optional settings exist. `"strict": true` keeps
 only titles specific to the field, for an employer that is not purely in
 healthcare. `"home": "Cincinnati, OH"` is used when an employer posts a state
-with no city.
+with no city. `"local": true` marks an employer that only operates inside the
+area, so every location it posts counts. `"state": "OH"` is added to a location
+that names a town with no state.
+
+| Platform | Identifier | Example |
+|---|---|---|
+| Workday | tenant, server, site | `workday:tenant/wd5/site` |
+| Oracle Cloud | host and site number | `oracle:host.oraclecloud.com/CX_1` |
+| iCIMS | subdomain | `icims:careers-example` |
+| iCIMS, newer front end | careers host | `jibe:careers.example.com` |
+| Eightfold | host and domain | `eightfold:example.eightfold.ai|example.com` |
+| UKG | host, tenant, board id | `ukg:recruiting.ultipro.com/TENANT/board-id` |
+| Greenhouse, Lever, Ashby, SmartRecruiters | board name | `greenhouse:example` |

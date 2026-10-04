@@ -17,6 +17,13 @@
 "greenhouse:oscar": {
 "name": "Oscar Health"
 },
+"icims:careers-ketteringhealth": {
+"name": "Kettering Health",
+"state": "OH"
+},
+"jibe:careers.medpace.com": {
+"name": "Medpace"
+},
 "oracle:eswt.fa.us6.oraclecloud.com/CX_1001": {
 "home": "Cincinnati, OH",
 "local": true,

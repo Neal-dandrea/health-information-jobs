@@ -506,6 +506,10 @@ def main() -> int:
         got, failed_sites = ats.collect(
             companies, lambda url, json_body=None: fetch(url, 25, json_body), listing,
             progress=progress)
+        for r in got:                 # a description that came with the listing
+            if r.get("_text"):
+                INLINE_TEXT[r["url"]] = match.plain(r["_text"])
+            r.pop("_text", None)
         rows += got
         report["careers"] = (f"{len(got)} listings from {len(companies)} employer "
                              f"sites, {len(failed_sites)} unreachable")
