@@ -1,0 +1,39 @@
+name: Update listings
+
+on:
+  schedule:
+    - cron: "43 */6 * * *"     # four times a day, off the hour
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python collect.py
+        env:
+          # The resume profile is a repository secret. It is never written to
+          # the repository. Without it the run still works and adds no scores.
+          RESUME_PROFILE: ${{ secrets.RESUME_PROFILE }}
+      - name: Commit the refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Refresh listings"
+            git push
+          fi

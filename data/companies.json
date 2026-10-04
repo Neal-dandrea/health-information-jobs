@@ -1,0 +1,155 @@
+{
+"ashby:akasa": {
+"name": "Akasa"
+},
+"ashby:cedar": {
+"name": "Cedar"
+},
+"ashby:codametrix": {
+"name": "CodaMetrix"
+},
+"ashby:inovalon": {
+"name": "Inovalon"
+},
+"greenhouse:datavant2": {
+"name": "Datavant"
+},
+"greenhouse:oscar": {
+"name": "Oscar Health"
+},
+"oracle:eswt.fa.us6.oraclecloud.com/CX_1001": {
+"home": "Cincinnati, OH",
+"local": true,
+"name": "UC Health"
+},
+"oracle:fa-etxt-saasfaprod1.fa.ocs.oraclecloud.com/CX_5": {
+"home": "Cincinnati, OH",
+"local": true,
+"name": "The Christ Hospital"
+},
+"oracle:fa-evly-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
+"home": "Cincinnati, OH",
+"local": true,
+"name": "TriHealth"
+},
+"smartrecruiters:Experian": {
+"name": "Experian",
+"strict": true
+},
+"smartrecruiters:PriviaHealth": {
+"name": "Privia Health"
+},
+"workday:cardinalhealth/wd1/EXT": {
+"name": "Cardinal Health",
+"strict": true
+},
+"workday:caresource/wd1/CareSource": {
+"name": "CareSource"
+},
+"workday:ccf/wd1/ClevelandClinicCareers": {
+"name": "Cleveland Clinic"
+},
+"workday:centene/wd5/Centene_External": {
+"name": "Centene"
+},
+"workday:cigna/wd5/cignacareers": {
+"name": "Cigna Group"
+},
+"workday:cincinnatichildrens/wd5/careersatcincinnatichildrens": {
+"home": "Cincinnati, OH",
+"local": true,
+"name": "Cincinnati Children's"
+},
+"workday:cvshealth/wd1/CVS_Health_Careers": {
+"name": "CVS Health",
+"strict": true
+},
+"workday:devoted/wd1/Devoted": {
+"name": "Devoted Health"
+},
+"workday:easyservice/wd5/BonSecoursCareers": {
+"name": "Bon Secours"
+},
+"workday:easyservice/wd5/BonSecoursMercyHealthCareers": {
+"name": "Bon Secours Mercy Health"
+},
+"workday:easyservice/wd5/MercyHealthCareers": {
+"name": "Mercy Health"
+},
+"workday:ensemblehp/wd5/ensemblehealthpartnerscareers": {
+"name": "Ensemble Health Partners"
+},
+"workday:evolent/wd1/External": {
+"name": "Evolent"
+},
+"workday:fortrea/wd1/Fortrea": {
+"name": "Fortrea",
+"strict": true
+},
+"workday:guidehouse/wd1/External": {
+"name": "Guidehouse",
+"strict": true
+},
+"workday:healthcare/wd1/Search": {
+"name": "Solventum",
+"strict": true
+},
+"workday:humana/wd5/Humana_External_Career_Site": {
+"name": "Humana"
+},
+"workday:icon/wd3/broadbean_external": {
+"name": "ICON plc",
+"strict": true
+},
+"workday:iqvia/wd1/IQVIA": {
+"name": "IQVIA",
+"strict": true
+},
+"workday:labcorp/wd1/external": {
+"name": "Labcorp",
+"strict": true
+},
+"workday:mckesson/wd3/External_Careers": {
+"name": "McKesson",
+"strict": true
+},
+"workday:nationwidechildrens/wd5/NCHCareers": {
+"name": "Nationwide Children's Hospital"
+},
+"workday:ohiohealth/wd5/OhioHealthJobs": {
+"name": "OhioHealth"
+},
+"workday:osu/wd1/OSUCareers": {
+"name": "The Ohio State University",
+"strict": true
+},
+"workday:parexel/wd1/Parexel_External_Careers": {
+"name": "Parexel",
+"strict": true
+},
+"workday:r1rcm/wd1/R1RCM": {
+"name": "R1 RCM"
+},
+"workday:savista/wd1/Savista": {
+"name": "Savista"
+},
+"workday:stelizabeth/wd115/StElizabethExternalCareerSite": {
+"home": "Edgewood, KY",
+"local": true,
+"name": "St. Elizabeth Healthcare"
+},
+"workday:syneoshealth/wd12/Syneos_Health_External_Site": {
+"name": "Syneos Health",
+"strict": true
+},
+"workday:thermofisher/wd5/ThermoFisherCareers": {
+"name": "Thermo Fisher Scientific",
+"strict": true
+},
+"workday:vizient/wd1/Vizient_Careers": {
+"name": "Vizient"
+},
+"workday:waystar/wd1/Waystar": {
+"name": "Waystar"
+}
+}
