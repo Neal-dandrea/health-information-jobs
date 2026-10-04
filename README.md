@@ -5,7 +5,7 @@ research jobs that are remote or near Cincinnati, Ohio.
 
 **The list is at https://neal-dandrea.github.io/health-information-jobs/**
 
-It refreshes three times a day. You can filter by area, level, field, how
+It refreshes four times a day, at 8 AM, 12 PM, 4 PM and 8 PM Eastern. You can filter by area, level, field, how
 recently a role was posted and match score, and you can search by city, state
 or country.
 
