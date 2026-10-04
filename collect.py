@@ -54,7 +54,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 DOCS = os.path.join(HERE, "docs")
 OUT = os.path.join(HERE, "out")
-UA = "job-list/1.0 (personal job search; python-urllib)"
+UA = "Mozilla/5.0 (compatible; job-list/1.0; personal job search)"
 TODAY = dt.date.today()
 
 

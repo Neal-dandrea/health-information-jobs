@@ -262,30 +262,60 @@ def jibe(token, company, fetch, listing, anyloc=False, max_pages: int = 30):
 
 
 def eightfold(token, company, fetch, listing, anyloc=False, max_jobs: int = 3000):
-    """Eightfold career sites. The identifier is host|domain."""
+    """Eightfold career sites. The identifier is host|domain. Eightfold has an
+    older feed and a newer one, and a given employer answers only one of them."""
     host, domain = token.split("|")
+
+    def row_for(name, locs, stamp, url, text=""):
+        posted = None
+        if stamp:
+            posted = dt.datetime.fromtimestamp(int(stamp), dt.timezone.utc).date().isoformat()
+        if name.isupper():            # some employers post titles in capitals
+            name = name.title()
+        row = listing("careers", company, name, url,
+                      location="; ".join(x.title() if x.isupper() else x for x in locs if x),
+                      posted=posted)
+        row["_text"] = text
+        return row
+
     out, start = [], 0
+    try:
+        while start < max_jobs:
+            doc = json.loads(fetch(f"https://{host}/api/apply/v2/jobs?domain={domain}"
+                                   f"&num=100&start={start}&sort_by=timestamp"))
+            rows = doc["positions"]
+            for j in rows:
+                if not wanted(j.get("name")):
+                    continue
+                locs = list(j.get("locations") or [j.get("location") or ""])
+                if (j.get("work_location_option") or "").lower() == "remote":
+                    locs.append("Remote")
+                out.append(row_for(j["name"], locs, j.get("t_create"),
+                                   j.get("canonicalPositionUrl")
+                                   or f"https://{host}/careers/job/{j.get('id')}",
+                                   j.get("job_description") or ""))
+            start += 100
+            if len(rows) < 100 or start >= int(doc.get("count") or 0):
+                break
+        return out
+    except Exception:                                     # noqa: BLE001
+        out, start = [], 0
     while start < max_jobs:
-        doc = json.loads(fetch(f"https://{host}/api/apply/v2/jobs?domain={domain}"
-                               f"&num=100&start={start}&sort_by=timestamp"))
-        rows = doc.get("positions") or []
+        doc = json.loads(fetch(f"https://{host}/api/pcsx/search?domain={domain}"
+                               f"&query=&start={start}"))
+        data = doc.get("data") or {}
+        rows = data.get("positions") or []
         for j in rows:
             if not wanted(j.get("name")):
                 continue
-            locs = j.get("locations") or [j.get("location") or ""]
-            if (j.get("work_location_option") or "").lower() == "remote":
-                locs = list(locs) + ["Remote"]
-            posted = None
-            if j.get("t_create"):
-                posted = dt.datetime.fromtimestamp(int(j["t_create"]),
-                                                   dt.timezone.utc).date().isoformat()
-            url = j.get("canonicalPositionUrl") or f"https://{host}/careers/job/{j.get('id')}"
-            row = listing("careers", company, j["name"], url,
-                          location="; ".join(x for x in locs if x), posted=posted)
-            row["_text"] = j.get("job_description") or ""
-            out.append(row)
-        start += 100
-        if len(rows) < 100 or start >= int(doc.get("count") or 0):
+            locs = list(j.get("standardizedLocations") or j.get("locations") or [])
+            locs = [re.sub(r", US$", "", x) for x in locs]
+            if (j.get("workLocationOption") or "").lower() == "remote":
+                locs.append("Remote")
+            out.append(row_for(j["name"], locs, j.get("postedTs"),
+                               f"https://{host}{j.get('positionUrl') or ''}"))
+        start += len(rows)
+        if not rows or start >= int(data.get("count") or 0):
             break
     return out
 

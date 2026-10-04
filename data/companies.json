@@ -11,33 +11,136 @@
 "ashby:inovalon": {
 "name": "Inovalon"
 },
+"eightfold:premierhealth.eightfold.ai|premierhealth.com": {
+"name": "Premier Health"
+},
+"greenhouse:cloverhealth": {
+"name": "Clover Health"
+},
 "greenhouse:datavant2": {
 "name": "Datavant"
 },
+"greenhouse:neuehealth": {
+"name": "NeueHealth"
+},
 "greenhouse:oscar": {
 "name": "Oscar Health"
+},
+"greenhouse:precisionmedicinegroup": {
+"name": "Precision Medicine Group"
+},
+"greenhouse:science37": {
+"name": "Science 37"
+},
+"greenhouse:uasi": {
+"name": "UASI"
+},
+"icims:careers-brightspring": {
+"name": "BrightSpring Health Services"
+},
+"icims:careers-cotiviti": {
+"name": "Cotiviti"
+},
+"icims:careers-healthedge": {
+"name": "HealthEdge"
 },
 "icims:careers-ketteringhealth": {
 "name": "Kettering Health",
 "state": "OH"
 },
+"icims:careers-mrocorp": {
+"name": "MRO Corp"
+},
+"icims:careers-velocityclinical": {
+"name": "Velocity Clinical Research"
+},
+"icims:careers-ventrahealth": {
+"name": "Ventra Health"
+},
+"icims:careers-wcgclinical": {
+"name": "WCG Clinical"
+},
 "jibe:careers.medpace.com": {
 "name": "Medpace"
+},
+"lever:aledade": {
+"name": "Aledade"
+},
+"lever:arcadia": {
+"name": "Arcadia"
+},
+"lever:clarifyhealth": {
+"name": "Clarify Health"
+},
+"lever:veeva": {
+"name": "Veeva Systems",
+"strict": true
+},
+"oracle:eeho.fa.us2.oraclecloud.com/CX_45001": {
+"name": "Oracle",
+"strict": true
+},
+"oracle:ejko.fa.us2.oraclecloud.com/CX_3": {
+"name": "Blue Cross Blue Shield of Michigan"
+},
+"oracle:ejrz.fa.us2.oraclecloud.com/CX_5001": {
+"name": "VITAS Healthcare"
+},
+"oracle:eluq.fa.us2.oraclecloud.com/CX_2001": {
+"name": "Kroger",
+"strict": true
+},
+"oracle:eodr.fa.us2.oraclecloud.com/CX_1001": {
+"name": "Tenet Healthcare"
+},
+"oracle:eodr.fa.us2.oraclecloud.com/CX_2001": {
+"name": "Conifer Health Solutions"
+},
+"oracle:eord.fa.us2.oraclecloud.com/CX_1001": {
+"name": "Adena Health"
 },
 "oracle:eswt.fa.us6.oraclecloud.com/CX_1001": {
 "home": "Cincinnati, OH",
 "local": true,
 "name": "UC Health"
 },
+"oracle:fa-equm-saasfaprod1.fa.ocs.oraclecloud.com/CX_1001": {
+"name": "Omega Healthcare"
+},
+"oracle:fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
+"name": "GuideWell"
+},
+"oracle:fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/CX_1001": {
+"name": "Florida Blue"
+},
 "oracle:fa-etxt-saasfaprod1.fa.ocs.oraclecloud.com/CX_5": {
 "home": "Cincinnati, OH",
 "local": true,
 "name": "The Christ Hospital"
 },
+"oracle:fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
+"name": "Mayo Clinic"
+},
 "oracle:fa-evly-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
 "home": "Cincinnati, OH",
 "local": true,
 "name": "TriHealth"
+},
+"oracle:fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/CX_2": {
+"name": "EXL",
+"strict": true
+},
+"oracle:hckd.fa.us2.oraclecloud.com/CX_1": {
+"name": "Molina Healthcare"
+},
+"oracle:hdox.fa.us6.oraclecloud.com/CX_1": {
+"name": "Quest Diagnostics"
+},
+"oracle:ibnjjb.fa.ocs.oraclecloud.com/CX_1": {
+"name": "Lifepoint Health"
+},
+"oracle:ibpcjb.fa.ocs.oraclecloud.com/CX_1004": {
+"name": "Ascension"
 },
 "smartrecruiters:Experian": {
 "name": "Experian",
@@ -45,6 +148,38 @@
 },
 "smartrecruiters:PriviaHealth": {
 "name": "Privia Health"
+},
+"smartrecruiters:sutherland": {
+"name": "Sutherland",
+"strict": true
+},
+"ukg:medmutual.rec.pro.ukg.net/MED1500MMOO/ef821115-21e9-4a27-9b98-50f8e2f05f30": {
+"name": "Medical Mutual of Ohio"
+},
+"ukg:mmhealth.rec.pro.ukg.net/MAR1052MGMH/8cc2d18e-f33a-4496-825e-4b5c69e3cf1d": {
+"name": "Margaret Mary Health"
+},
+"ukg:recruiting.ultipro.com/ADV1023AVR/6051d363-03fe-4650-945e-f836306a8388": {
+"name": "Advarra"
+},
+"ukg:recruiting.ultipro.com/CTI1000CTIC/a3dbbc6d-3274-40c4-b0a6-1188df489f67": {
+"name": "CTI Clinical Trial and Consulting Services"
+},
+"workday:agilonhealth/wd1/External": {
+"name": "agilon health"
+},
+"workday:alignmenthealthcare/wd12/ahc_external": {
+"name": "Alignment Health"
+},
+"workday:athenahealth/wd1/External": {
+"name": "athenahealth"
+},
+"workday:baxter/wd1/baxter": {
+"name": "Baxter",
+"strict": true
+},
+"workday:bhs/wd1/careers": {
+"name": "Baptist Health"
 },
 "workday:cardinalhealth/wd1/EXT": {
 "name": "Cardinal Health",
@@ -59,6 +194,9 @@
 "workday:centene/wd5/Centene_External": {
 "name": "Centene"
 },
+"workday:chenmed/wd1/ChenMed": {
+"name": "ChenMed"
+},
 "workday:cigna/wd5/cignacareers": {
 "name": "Cigna Group"
 },
@@ -67,9 +205,22 @@
 "local": true,
 "name": "Cincinnati Children's"
 },
+"workday:corrohealth/wd1/Corro": {
+"name": "CorroHealth"
+},
+"workday:cpsi/wd1/CPSI": {
+"name": "TruBridge"
+},
 "workday:cvshealth/wd1/CVS_Health_Careers": {
 "name": "CVS Health",
 "strict": true
+},
+"workday:davita/wd1/DKC_External": {
+"name": "DaVita"
+},
+"workday:daytonchildrens/wd1/dayton_childrens_career_site": {
+"name": "Dayton Children's Hospital",
+"state": "OH"
 },
 "workday:devoted/wd1/Devoted": {
 "name": "Devoted Health"
@@ -83,6 +234,9 @@
 "workday:easyservice/wd5/MercyHealthCareers": {
 "name": "Mercy Health"
 },
+"workday:elevancehealth/wd1/ANT": {
+"name": "Elevance Health"
+},
 "workday:ensemblehp/wd5/ensemblehealthpartnerscareers": {
 "name": "Ensemble Health Partners"
 },
@@ -93,13 +247,29 @@
 "name": "Fortrea",
 "strict": true
 },
+"workday:freseniusmedicalcare/wd3/fme": {
+"name": "Fresenius Medical Care"
+},
+"workday:gehc/wd5/GEHC_ExternalSite": {
+"name": "GE HealthCare",
+"strict": true
+},
 "workday:guidehouse/wd1/External": {
 "name": "Guidehouse",
 "strict": true
 },
+"workday:hcsc/wd1/HCSC_External": {
+"name": "Health Care Service Corporation"
+},
 "workday:healthcare/wd1/Search": {
 "name": "Solventum",
 "strict": true
+},
+"workday:healthcatalyst/wd5/healthcatalystcareers": {
+"name": "Health Catalyst"
+},
+"workday:highmarkhealth/wd1/highmark": {
+"name": "Highmark Health"
 },
 "workday:humana/wd5/Humana_External_Career_Site": {
 "name": "Humana"
@@ -112,12 +282,23 @@
 "name": "IQVIA",
 "strict": true
 },
+"workday:javararesearch/wd12/External_Career_Site": {
+"name": "Javara"
+},
+"workday:jj/wd5/JJ": {
+"name": "Johnson & Johnson",
+"strict": true
+},
 "workday:labcorp/wd1/external": {
 "name": "Labcorp",
 "strict": true
 },
 "workday:mckesson/wd3/External_Careers": {
 "name": "McKesson",
+"strict": true
+},
+"workday:myhrabc/wd5/Global": {
+"name": "Cencora",
 "strict": true
 },
 "workday:nationwidechildrens/wd5/NCHCareers": {
@@ -130,15 +311,34 @@
 "name": "The Ohio State University",
 "strict": true
 },
+"workday:oxfordcorp/wd108/Oxford_Careers": {
+"name": "Oxford Global Resources",
+"strict": true
+},
 "workday:parexel/wd1/Parexel_External_Careers": {
 "name": "Parexel",
 "strict": true
+},
+"workday:premierinc/wd1/External_Professional": {
+"name": "Premier Inc"
+},
+"workday:premierresearch/wd12/PremierResearch": {
+"name": "Premier Research"
+},
+"workday:pressganey/wd1/Careers": {
+"name": "Press Ganey"
 },
 "workday:r1rcm/wd1/R1RCM": {
 "name": "R1 RCM"
 },
 "workday:savista/wd1/Savista": {
 "name": "Savista"
+},
+"workday:sharecare/wd1/Sharecare_Careers": {
+"name": "Sharecare"
+},
+"workday:shm/wd5/Summit_CityMD": {
+"name": "VillageMD"
 },
 "workday:stelizabeth/wd115/StElizabethExternalCareerSite": {
 "home": "Edgewood, KY",
@@ -153,10 +353,22 @@
 "name": "Thermo Fisher Scientific",
 "strict": true
 },
+"workday:univofky/wd108/UKKD": {
+"name": "UK King's Daughters"
+},
+"workday:veradigm/wd12/VR": {
+"name": "Veradigm"
+},
 "workday:vizient/wd1/Vizient_Careers": {
 "name": "Vizient"
 },
 "workday:waystar/wd1/Waystar": {
 "name": "Waystar"
+},
+"workday:worldwide/wd1/External": {
+"name": "Worldwide Clinical Trials"
+},
+"workday:zelis/wd115/ZelisCareers": {
+"name": "Zelis"
 }
 }
