@@ -51,6 +51,24 @@ EXCLUDE = re.compile(
     r"\bintern\b|internship|co-?op\b|fellow(ship)?\b|resident\b|student|"
     r"sales|driver|housekeep|food service|cook\b|security officer|maintenance", re.I)
 
+# Employers left off this list by choice: contract research organisations, which
+# run clinical trials on behalf of drug and device companies. A listing from any
+# source is dropped when its employer matches. Clinical research roles at
+# hospitals, universities and drug companies themselves are not affected.
+BLOCKED_EMPLOYERS = re.compile(
+    r"\bICON\b|\bIQVIA\b|syneos|parexel|fortrea|\bPPD\b|thermo fisher|"
+    r"\bCTI\b|clinical trial and consulting|worldwide clinical trials|premier research|"
+    r"precision (for medicine|medicine group)|science 37|\bPRA health|covance|"
+    r"charles river|\bPSI CRO\b|catalyst clinical research|\bemmes\b|allucent|ergomed|"
+    r"\bTFS healthscience|novotech|propharma|caidya|\brho\b,? inc|alimentiv|\bKCR\b|"
+    r"advanced clinical|veristat|\bcytel\b|\blinical\b|george clinical|frontage|"
+    r"altasciences|celerion|\bQPS\b|pharm-olam|clinipace|medpace research", re.I)
+
+
+def blocked(company: str) -> bool:
+    return bool(BLOCKED_EMPLOYERS.search(company or ""))
+
+
 SENIOR = re.compile(r"\bsenior\b|\bsr\b\.?|\blead\b|principal|manager|supervisor|"
                     r"\bIII\b|\bIV\b|\bV\b|expert|\bhead\b|consultant", re.I)
 ENTRY = re.compile(r"associate|assistant|coordinator|representative|\bI\b|\b1\b|"

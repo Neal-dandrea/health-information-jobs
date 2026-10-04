@@ -20,7 +20,8 @@ A role is listed when its title fits the field and it is in one of these places.
 - **Dayton area.** About an hour away. It is hidden unless you ask for it.
 
 Licensed clinical roles (nursing, pharmacy, therapy and the like), engineering
-roles, executive roles and student roles are left out. All of this is decided in
+roles, executive roles and student roles are left out. Contract research
+organisations are also left out as employers, by choice. All of this is decided in
 `roles.py`.
 
 ## Where the listings come from

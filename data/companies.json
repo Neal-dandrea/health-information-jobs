@@ -26,12 +26,6 @@
 "greenhouse:oscar": {
 "name": "Oscar Health"
 },
-"greenhouse:precisionmedicinegroup": {
-"name": "Precision Medicine Group"
-},
-"greenhouse:science37": {
-"name": "Science 37"
-},
 "greenhouse:uasi": {
 "name": "UASI"
 },
@@ -162,9 +156,6 @@
 "ukg:recruiting.ultipro.com/ADV1023AVR/6051d363-03fe-4650-945e-f836306a8388": {
 "name": "Advarra"
 },
-"ukg:recruiting.ultipro.com/CTI1000CTIC/a3dbbc6d-3274-40c4-b0a6-1188df489f67": {
-"name": "CTI Clinical Trial and Consulting Services"
-},
 "workday:agilonhealth/wd1/External": {
 "name": "agilon health"
 },
@@ -243,10 +234,6 @@
 "workday:evolent/wd1/External": {
 "name": "Evolent"
 },
-"workday:fortrea/wd1/Fortrea": {
-"name": "Fortrea",
-"strict": true
-},
 "workday:freseniusmedicalcare/wd3/fme": {
 "name": "Fresenius Medical Care"
 },
@@ -273,14 +260,6 @@
 },
 "workday:humana/wd5/Humana_External_Career_Site": {
 "name": "Humana"
-},
-"workday:icon/wd3/broadbean_external": {
-"name": "ICON plc",
-"strict": true
-},
-"workday:iqvia/wd1/IQVIA": {
-"name": "IQVIA",
-"strict": true
 },
 "workday:javararesearch/wd12/External_Career_Site": {
 "name": "Javara"
@@ -315,15 +294,8 @@
 "name": "Oxford Global Resources",
 "strict": true
 },
-"workday:parexel/wd1/Parexel_External_Careers": {
-"name": "Parexel",
-"strict": true
-},
 "workday:premierinc/wd1/External_Professional": {
 "name": "Premier Inc"
-},
-"workday:premierresearch/wd12/PremierResearch": {
-"name": "Premier Research"
 },
 "workday:pressganey/wd1/Careers": {
 "name": "Press Ganey"
@@ -345,14 +317,6 @@
 "local": true,
 "name": "St. Elizabeth Healthcare"
 },
-"workday:syneoshealth/wd12/Syneos_Health_External_Site": {
-"name": "Syneos Health",
-"strict": true
-},
-"workday:thermofisher/wd5/ThermoFisherCareers": {
-"name": "Thermo Fisher Scientific",
-"strict": true
-},
 "workday:univofky/wd108/UKKD": {
 "name": "UK King's Daughters"
 },
@@ -364,9 +328,6 @@
 },
 "workday:waystar/wd1/Waystar": {
 "name": "Waystar"
-},
-"workday:worldwide/wd1/External": {
-"name": "Worldwide Clinical Trials"
 },
 "workday:zelis/wd115/ZelisCareers": {
 "name": "Zelis"

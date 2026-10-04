@@ -481,9 +481,10 @@ def write_outputs(listings: List[dict], new: List[dict], report: Dict[str, str],
 
 
 def keep(rec: dict) -> bool:
-    """True when the listing is in a place this list covers. A listing whose
-    location is still unknown is held back until its own page has been read."""
-    return bool(rec["areas"])
+    """True when the listing is in a place this list covers and its employer is
+    not one left off by choice. A listing whose location is still unknown is
+    held back until its own page has been read."""
+    return bool(rec["areas"]) and not roles.blocked(rec["company"])
 
 
 def main() -> int:
