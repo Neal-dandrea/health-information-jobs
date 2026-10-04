@@ -484,7 +484,10 @@ def keep(rec: dict) -> bool:
     """True when the listing is in a place this list covers and its employer is
     not one left off by choice. A listing whose location is still unknown is
     held back until its own page has been read."""
-    return bool(rec["areas"]) and not roles.blocked(rec["company"])
+    # The title is checked again here, so a listing carried over from an earlier
+    # run is dropped when the rules in roles.py change.
+    return (bool(rec["areas"]) and not roles.blocked(rec["company"])
+            and roles.relevant(rec["title"]))
 
 
 def main() -> int:

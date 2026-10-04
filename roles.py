@@ -1,6 +1,8 @@
 """roles.py — which postings belong on this list, and how they are tagged.
 
-This list is for health information management and the work around it, for
+This list is for health information management and the work around it (quality
+and compliance, reimbursement and revenue analysis, project and program
+management, clinical documentation, patient services, medical coding excluded), for
 someone early in their career, in two places: remote, or within about 45
 minutes of the north side of Cincinnati. Everything that decides "is this posting relevant"
 lives here, so changing the target is a matter of editing this one file.
@@ -17,8 +19,14 @@ from typing import List
 STRICT = re.compile(
     r"health information|\bHIMS?\b|medical records?|release of information|\bROI specialist|"
     r"records (retrieval|specialist|analyst|coordinator|clerk|management)|"
-    r"\bcod(er|ing)\b|\bCDI\b|clinical documentation|\bDRG\b|\bHCC\b|risk adjustment|"
-    r"revenue (cycle|integrity|recovery)|reimbursement|denials?\b|appeals?\b|"
+    r"\bCDI\b|clinical documentation|"
+    r"revenue (cycle|integrity|recovery|analyst)|reimbursement|denials?\b|appeals?\b|"
+    r"(managed care|payer|contracts?|pricing|charge ?master|decision support|"
+    r"cost report\w*|financial planning|budget) analyst|"
+    r"quality (compliance|assurance|improvement|management|program|systems?)|"
+    r"compliance (associate|consultant|program|manager|officer|lead|monitor)|"
+    r"regulatory compliance|accreditation|patient safety|risk (management|analyst)|"
+    r"performance improvement|process improvement|"
     r"charge ?(master|capture|integrity|description)|\bCDM\b|pricing transparency|"
     r"medical billing|billing (specialist|analyst|coordinator|representative)|"
     r"claims? (analyst|specialist|examiner|processor|resolution|auditor)|"
@@ -35,7 +43,9 @@ STRICT = re.compile(
     r"data (quality|integrity|governance)", re.I)
 BROAD = re.compile(
     r"(business|data|reporting|financial|operations|quality|contracts?|pricing|audit) analyst|"
-    r"(project|program|account|operations|office|administrative) coordinator|"
+    r"(project|program) (manager|management|coordinator|specialist|analyst|associate|"
+    r"administrator|lead|officer|planner)|\bPMO\b|"
+    r"(account|operations|office|administrative) coordinator|"
     r"\bauditor\b|operations specialist|account (specialist|representative)", re.I)
 
 # Titles that are never a fit: licensed clinical work, engineering, executives,
@@ -49,7 +59,11 @@ EXCLUDE = re.compile(
     r"engineer|developer|architect|scientist|programmer|devops|"
     r"attorney|\bcounsel\b|chief|president|\bVP\b|\bAVP\b|\bSVP\b|\bEVP\b|director|"
     r"\bintern\b|internship|co-?op\b|fellow(ship)?\b|resident\b|student|"
-    r"sales|driver|housekeep|food service|cook\b|security officer|maintenance", re.I)
+    r"sales|driver|housekeep|food service|cook\b|security officer|maintenance|"
+    # medical coding roles, which need coding experience and a coding credential
+    r"\bcod(er|ers|ing)\b|\bDRG\w*|\bHCC\b|risk adjustment|\bCCS\b|\bCPC\b|"
+    r"clinical validation|medical review auditor|"
+    r"\bencoder\b|charge capture (specialist|auditor)", re.I)
 
 # Employers left off this list by choice: contract research organisations, which
 # run clinical trials on behalf of drug and device companies. A listing from any
@@ -69,7 +83,10 @@ def blocked(company: str) -> bool:
     return bool(BLOCKED_EMPLOYERS.search(company or ""))
 
 
-SENIOR = re.compile(r"\bsenior\b|\bsr\b\.?|\blead\b|principal|manager|supervisor|"
+# "Project manager" and "program manager" name the work, not a rank, so they do
+# not count as senior on their own.
+SENIOR = re.compile(r"\bsenior\b|\bsr\b\.?|\blead\b|principal|"
+                    r"(?<!project )(?<!program )(?<!product )manager|supervisor|"
                     r"\bIII\b|\bIV\b|\bV\b|expert|\bhead\b|consultant", re.I)
 ENTRY = re.compile(r"associate|assistant|coordinator|representative|\bI\b|\b1\b|"
                    r"entry|junior|\bjr\b|trainee|new grad|apprentice|clerk", re.I)
@@ -94,19 +111,23 @@ TRACKS = [
     ("Health Information", re.compile(
         r"health information|\bHIMS?\b|medical records?|release of information|"
         r"regist(rar|ry)|data (quality|integrity|governance)|\bEpic\b|\bEHR\b|\bEMR\b", re.I)),
-    ("Coding and CDI", re.compile(
-        r"\bcod(er|ing)\b|\bCDI\b|clinical documentation|\bDRG\b|\bHCC\b|risk adjustment", re.I)),
+    ("Clinical Documentation", re.compile(r"\bCDI\b|clinical documentation", re.I)),
     ("Revenue Cycle", re.compile(
         r"revenue|reimbursement|denials?\b|appeals?\b|charge|\bCDM\b|pricing|billing|"
         r"claims?\b|payer|managed care|contracts?\b|financial|insurance verification|"
-        r"prior authori|pre.?cert", re.I)),
+        r"prior authori|pre.?cert|budget|cost report|decision support", re.I)),
     ("Clinical Research", re.compile(
         r"clinical (research|trials?|study|operations)|study (coordinator|start)|"
         r"regulatory|patient concierge|site (activation|management)", re.I)),
     ("Data and Analytics", re.compile(
         r"analyst|analytics|informatics|reporting|health data|clinical data", re.I)),
     ("Compliance and Quality", re.compile(
-        r"compliance|privacy|\bHIPAA\b|audit|quality|credentialing|utilization", re.I)),
+        r"compliance|privacy|\bHIPAA\b|audit|quality|credentialing|utilization|"
+        r"accreditation|patient safety|risk (management|analyst)|"
+        r"(performance|process) improvement|regulatory", re.I)),
+    ("Project and Program", re.compile(
+        r"(project|program) (manager|management|coordinator|specialist|analyst|associate|"
+        r"administrator|lead|officer|planner)|\bPMO\b", re.I)),
     ("Patient Services", re.compile(
         r"patient (access|financial|accounts?|concierge|registration|services)|"
         r"account coordinator|scheduling", re.I)),

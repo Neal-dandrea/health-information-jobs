@@ -1,7 +1,9 @@
 # Health Information Job List
 
-One searchable list of health information, coding, revenue cycle and clinical
-research jobs that are remote or near Cincinnati, Ohio.
+One searchable list of health information jobs and the work around it: quality
+and compliance, reimbursement and revenue analysis, project and program
+management, clinical documentation and patient services. Roles are remote or
+near Cincinnati, Ohio.
 
 **The list is at https://neal-dandrea.github.io/health-information-jobs/**
 
@@ -19,8 +21,8 @@ A role is listed when its title fits the field and it is in one of these places.
 - **Remote.**
 - **Dayton area.** About an hour away. It is hidden unless you ask for it.
 
-Licensed clinical roles (nursing, pharmacy, therapy and the like), engineering
-roles, executive roles and student roles are left out. Contract research
+Licensed clinical roles (nursing, pharmacy, therapy and the like), medical
+coding roles, engineering roles, executive roles and student roles are left out. Contract research
 organisations are also left out as employers, by choice. All of this is decided in
 `roles.py`.
 
