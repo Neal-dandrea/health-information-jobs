@@ -29,7 +29,7 @@ THE RESUME STATEMENTS ARE PRIVATE. They come from the RESUME_STATEMENTS
 environment variable or from private/statements.json, never from the repository.
 Only the resulting number and the name of the best-fitting resume are published.
 
-A score is kept in data/semantic.json and reused, so a posting is embedded once.
+The raw result is kept in data/semantic.json and reused, so a posting is embedded once.
 The file records which resume it was computed against. When the resume changes,
 run `python3 semantic.py --rescore` on the machine that holds the stored
 description text.
@@ -184,11 +184,13 @@ class Scorer:
         self.model = TextEmbedding(MODEL, threads=max(1, min(12, (os.cpu_count() or 2) // 2)))
         self.resumes = statements["resumes"]
         self.bullets = np.array(list(self.model.embed(statements["bullets"])))
+        # LOW and HIGH are left out on purpose. The stored value is the raw
+        # blend, so the scale can be retuned without embedding anything again.
         self.key = hashlib.sha1(json.dumps(statements, sort_keys=True).encode()
-                                + f"{MODEL}{LOW}{HIGH}{TOP_N}".encode()).hexdigest()[:12]
+                                + f"{MODEL}{TOP_N}{MAX_SENTENCES}{MAX_WORDS}".encode()).hexdigest()[:12]
 
-    def score_many(self, texts: Dict[str, str]) -> Dict[str, Tuple[int, str]]:
-        """{posting id: (score 0-100, best resume name)} for each description."""
+    def score_many(self, texts: Dict[str, str]) -> Dict[str, Tuple[float, str]]:
+        """{posting id: (raw blend, best resume name)} for each description."""
         np = self.np
         split = {pid: sentences(t) for pid, t in texts.items()}
         flat = [s for ss in split.values() for s in ss]
@@ -211,9 +213,13 @@ class Scorer:
                 raw = 0.5 * top + 0.5 * req
                 if raw > best[0] + 1e-9:
                     best = (float(raw), name)
-            pct = round(100 * min(1.0, max(0.0, (best[0] - LOW) / (HIGH - LOW))))
-            out[pid] = (pct, best[1])
+            out[pid] = (round(best[0], 4), best[1])
         return out
+
+
+def percent(raw: float) -> int:
+    """The raw blend on the published 0 to 100 scale."""
+    return round(100 * min(1.0, max(0.0, (raw - LOW) / (HIGH - LOW))))
 
 
 def _load_scores() -> dict:
@@ -244,15 +250,15 @@ def enrich(listings: List[dict], fresh_texts: Dict[str, str],
     todo = {pid: t for pid, t in {**(all_texts or {}), **fresh_texts}.items()
             if pid in active and pid not in scores and len(t) > 200}
     new = scorer.score_many(todo) if todo else {}
-    for pid, (pct, name) in new.items():
-        scores[pid] = [pct, name]
+    for pid, (raw, name) in new.items():
+        scores[pid] = [raw, name]
     scores = {pid: v for pid, v in scores.items() if pid in active}
     os.makedirs(os.path.dirname(SCORES), exist_ok=True)
     with open(SCORES, "w") as fh:
         json.dump({"key": scorer.key, "s": scores}, fh, separators=(",", ":"), sort_keys=True)
     for r in listings:
         if r["id"] in scores:
-            r["sem"], r["sem_resume"] = scores[r["id"]]
+            r["sem"], r["sem_resume"] = percent(scores[r["id"]][0]), scores[r["id"]][1]
         else:
             r.pop("sem", None)
             r.pop("sem_resume", None)
