@@ -50,6 +50,7 @@ import urllib.request
 from typing import Callable, Dict, List, Optional
 
 import ats
+import manual
 import match
 import semantic
 import roles
@@ -422,7 +423,7 @@ def unslim(rec: dict) -> dict:
 
 
 def write_outputs(listings: List[dict], new: List[dict], report: Dict[str, str],
-                  first_run: bool) -> str:
+                  first_run: bool, tabs: Optional[Dict[str, int]] = None) -> str:
     os.makedirs(DATA, exist_ok=True)
     os.makedirs(DOCS, exist_ok=True)
     os.makedirs(OUT, exist_ok=True)
@@ -436,7 +437,7 @@ def write_outputs(listings: List[dict], new: List[dict], report: Dict[str, str],
     unchanged = (old.get("sig") == sig and os.path.exists(os.path.join(DOCS, "list.json")))
     with open(os.path.join(DOCS, "checked.json"), "w") as fh:
         json.dump({"checked": now, "changed": old.get("generated") if unchanged else now,
-                   "sources": report}, fh, separators=(",", ":"))
+                   "sources": report, "tabs": tabs or {}}, fh, separators=(",", ":"))
     path = os.path.join(OUT, f"new_{TODAY.isoformat()}.md")
     if unchanged:
         return path
@@ -548,6 +549,13 @@ def main() -> int:
                 INLINE_TEXT[r["url"]] = match.plain(r["_text"])
             r.pop("_text", None)
         rows += got
+        for key, entry in companies.items():      # remember how each site is doing
+            if key in failed_sites:
+                entry["fails"] = entry.get("fails", 0) + 1
+            else:
+                entry["fails"] = 0
+        with open(os.path.join(DATA, "companies.json"), "w") as fh:
+            json.dump(companies, fh, indent=0, sort_keys=True)
         report["careers"] = (f"{len(got)} listings from {len(companies)} employer "
                              f"sites, {len(failed_sites)} unreachable")
         print(f"  {'careers':14s} {report['careers']}  ({time.time() - t0:.1f}s)",
@@ -630,7 +638,15 @@ def main() -> int:
     listings.sort(key=key, reverse=True)
     new.sort(key=key, reverse=True)
 
-    path = write_outputs(listings, new, report, first_run)
+    # Employers whose jobs cannot be read: those listed by hand in
+    # data/manual.json, and career sites that have stopped answering.
+    failing = [{"name": e["name"], "url": ats.careers_url(k),
+                "platform": k.split(":", 1)[0].title(), "origin": "feed not answering",
+                "note": f"Its job feed has not answered for {e['fails']} runs in a row"}
+               for k, e in companies.items() if e.get("fails", 0) >= 6]
+    by_hand = manual.write(DOCS, DATA, [], failing)
+
+    path = write_outputs(listings, new, report, first_run, tabs={"manual": by_hand})
     with open(os.path.join(DATA, "seen.json"), "w") as fh:
         json.dump(seen, fh, separators=(",", ":"), sort_keys=True)
 

@@ -368,6 +368,57 @@ _HAS_STATE = re.compile(r"\b[A-Z]{2}\b|Ohio|Kentucky|Indiana|United States", re.
 _STATE_ONLY = re.compile(r"^\s*(OH|KY|Ohio|Kentucky)?,?\s*(United States|USA|US)?\s*$", re.I)
 
 
+def careers_url(key: str) -> str:
+    """A page a person can open for a registry entry."""
+    platform, token = key.split(":", 1)
+    if platform == "workday":
+        tenant, wd, site = token.split("/")
+        return f"https://{tenant}.{wd}.myworkdayjobs.com/{site}"
+    if platform == "oracle":
+        host, site = token.split("/")
+        return f"https://{host}/hcmUI/CandidateExperience/en/sites/{site}/jobs"
+    if platform == "icims":
+        return f"https://{token}.icims.com/jobs/search"
+    if platform == "eightfold":
+        return f"https://{token.split('|')[0]}/careers"
+    if platform == "ukg":
+        host, tenant, board = token.split("/")
+        return f"https://{host}/{tenant}/JobBoard/{board}"
+    return {"greenhouse": "https://job-boards.greenhouse.io/", "lever": "https://jobs.lever.co/",
+            "ashby": "https://jobs.ashbyhq.com/", "smartrecruiters": "https://jobs.smartrecruiters.com/",
+            "workable": "https://apply.workable.com/", "jibe": "https://"}.get(platform, "") + token
+
+
+def collect(companies: Dict[str, dict], fetch, listing, workers: int = 16,
+            progress=None) -> Tuple[List[dict], Dict[str, str]]:
+    """Read every company in the registry. Returns (listings, failures).
+
+    `companies` maps "platform:identifier" to {"name": ...}. A company whose
+    feed fails is reported in `failures` and does not stop the others.
+    """
+    def one(key: str):
+        platform, token = key.split(":", 1)
+        try:
+            rows = READERS[platform](token, companies[key]["name"], fetch, listing)
+            for r in rows:
+                r["ats"] = key
+            return key, rows, None
+        except Exception as e:                            # noqa: BLE001
+            return key, [], f"{type(e).__name__}: {str(e)[:80]}"
+
+    rows: List[dict] = []
+    failures: Dict[str, str] = {}
+    keys = [k for k in companies if k.split(":", 1)[0] in READERS]
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        for n, (key, got, err) in enumerate(pool.map(one, keys), 1):
+            rows += got
+            if err:
+                failures[key] = err
+            if progress and n % 100 == 0:
+                progress(n, len(keys))
+    return rows, failures
+
+
 def collect(companies: Dict[str, dict], fetch, listing, workers: int = 4,
             progress=None) -> Tuple[List[dict], Dict[str, str]]:
     """Read every employer in the registry. Returns (listings, failures).

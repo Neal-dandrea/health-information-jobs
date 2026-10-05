@@ -1,0 +1,282 @@
+[
+ {
+  "name": "University of Cincinnati",
+  "url": "https://jobs.uc.edu/",
+  "platform": "SuccessFactors"
+ },
+ {
+  "name": "Western & Southern Financial Group",
+  "url": "https://careers-westernsouthern.icims.com/",
+  "platform": "iCIMS"
+ },
+ {
+  "name": "UnitedHealth Group / Optum",
+  "url": "https://careers.unitedhealthgroup.com/",
+  "platform": "Taleo"
+ },
+ {
+  "name": "Change Healthcare",
+  "url": "https://careers.unitedhealthgroup.com/",
+  "platform": "Taleo"
+ },
+ {
+  "name": "FinThrive",
+  "url": "https://finthrive.com/careers",
+  "platform": "Dayforce"
+ },
+ {
+  "name": "Epic Systems",
+  "url": "https://careers.epic.com/",
+  "platform": "Avature"
+ },
+ {
+  "name": "CommonSpirit Health",
+  "url": "https://www.commonspirit.careers/",
+  "platform": "iCIMS"
+ },
+ {
+  "name": "Kaiser Permanente",
+  "url": "https://www.kaiserpermanentejobs.org/",
+  "platform": "Avature / Taleo"
+ },
+ {
+  "name": "Nym Health",
+  "url": "https://nym.health/careers/",
+  "platform": "Comeet"
+ },
+ {
+  "name": "AGS Health",
+  "url": "https://jobs.agshealth.com/a/job-list",
+  "platform": "unknown"
+ },
+ {
+  "name": "AAPC",
+  "url": "https://www.aapc.com/about-us/careers",
+  "platform": "unknown"
+ },
+ {
+  "name": "HCA Healthcare",
+  "url": "https://careers.hcahealthcare.com/",
+  "platform": "unknown"
+ },
+ {
+  "name": "Encompass Health",
+  "url": "https://encompasshealth.avature.net/ehchiring",
+  "platform": "Avature"
+ },
+ {
+  "name": "Select Medical",
+  "url": "https://careers.selectmedical.com/",
+  "platform": "not found"
+ },
+ {
+  "name": "Mayfield Brain & Spine",
+  "url": "https://mayfieldclinic.hrmdirect.com/employment/job-openings.php?search=true",
+  "platform": "HRMDirect / ClearCompany"
+ },
+ {
+  "name": "Beacon Orthopaedics",
+  "url": "https://careers.sca.health/",
+  "platform": "SCA Health careers site"
+ },
+ {
+  "name": "HealthSource of Ohio",
+  "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=b74e199c-4b7f-49b7-9c06-aea1694aa504",
+  "platform": "ADP Workforce Now"
+ },
+ {
+  "name": "Lindner Center of HOPE",
+  "url": "https://lindnercenterofhope.org/careers/",
+  "platform": "not found"
+ },
+ {
+  "name": "Hoxworth / University of Cincinnati",
+  "url": "https://jobs.uc.edu/",
+  "platform": "SuccessFactors"
+ },
+ {
+  "name": "Wright State Physicians",
+  "url": "https://wrightstatephysicians.org/",
+  "platform": "not found"
+ },
+ {
+  "name": "Highland District Hospital",
+  "url": "https://www.hdh.org/employment/",
+  "platform": "Paycom"
+ },
+ {
+  "name": "UK HealthCare",
+  "url": "https://ukjobs.uky.edu/postings/search",
+  "platform": "PeopleAdmin"
+ },
+ {
+  "name": "Norton Healthcare",
+  "url": "https://nortonhealthcare.com/careers/",
+  "platform": "iCIMS behind custom front end; careers-nortonhealthcare.icims.com redirects, check fails"
+ },
+ {
+  "name": "Kindred / ScionHealth",
+  "url": "https://kindred.taleo.net/careersection/kndexternalcareersection/",
+  "platform": "Taleo"
+ },
+ {
+  "name": "Omnicare",
+  "url": "https://www.omnicare.com/careers",
+  "platform": "CVS Health"
+ },
+ {
+  "name": "Signify Health",
+  "url": "https://www.signifyhealth.com/careers",
+  "platform": "CVS Health"
+ },
+ {
+  "name": "Oak Street Health",
+  "url": "https://www.oakstreethealth.com/careers",
+  "platform": "CVS Health"
+ },
+ {
+  "name": "UnitedHealth Group / Optum / Change Healthcare",
+  "url": "https://uhg.taleo.net/careersection/10000/",
+  "platform": "Taleo"
+ },
+ {
+  "name": "Gainwell Technologies",
+  "url": "https://jobs.gainwelltechnologies.com/",
+  "platform": "SuccessFactors"
+ },
+ {
+  "name": "Conduent",
+  "url": "https://careers.conduent.com/",
+  "platform": "Phenom-only"
+ },
+ {
+  "name": "Maximus",
+  "url": "https://maximus.avature.net/careers/Job-Search_US",
+  "platform": "Avature"
+ },
+ {
+  "name": "Verisma",
+  "url": "https://us62e2.dayforcehcm.com/CandidatePortal/en-US/verisma",
+  "platform": "Dayforce"
+ },
+ {
+  "name": "Aptarro",
+  "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6ed5c0b2-05bc-44c5-9b4c-292b93204b50",
+  "platform": "ADP Workforce Now"
+ },
+ {
+  "name": "Access Healthcare",
+  "url": "https://www.accesshealthcare.com/careers",
+  "platform": "not found"
+ },
+ {
+  "name": "GeBBS Healthcare",
+  "url": "https://gebbs.com/careers/",
+  "platform": "not found"
+ },
+ {
+  "name": "AMN Healthcare",
+  "url": "https://www.amnhealthcare.com/careers/",
+  "platform": "not found"
+ },
+ {
+  "name": "Harmony Healthcare",
+  "url": "https://www.harmony.solutions/careers/",
+  "platform": "not found"
+ },
+ {
+  "name": "Pena4",
+  "url": "https://www.pena4.com/careers/",
+  "platform": "not found"
+ },
+ {
+  "name": "e4health",
+  "url": "https://recruiting.paylocity.com/recruiting/jobs/All/9d609744-c6de-46ac-abdd-9d67a0dbef46/e4health",
+  "platform": "Paylocity"
+ },
+ {
+  "name": "KIWI-TEK",
+  "url": "https://kiwi-tek.com/careers/",
+  "platform": "not found"
+ },
+ {
+  "name": "Medical Record Associates",
+  "url": "https://www.mrahis.com/careers/",
+  "platform": "not found"
+ },
+ {
+  "name": "Kforce",
+  "url": "https://www.kforce.com/careers/",
+  "platform": "custom"
+ },
+ {
+  "name": "Coronis Health",
+  "url": "https://one-coronishealth.darwinbox.com/ms/candidatev2/main/careers/allJobs",
+  "platform": "Darwinbox"
+ },
+ {
+  "name": "Signature Performance",
+  "url": "https://myjobs.adp.com/signatureperformancecareers/cx",
+  "platform": "ADP"
+ },
+ {
+  "name": "MultiPlan / Claritev",
+  "url": "https://myjobs.adp.com/claritevcareers/cx",
+  "platform": "ADP"
+ },
+ {
+  "name": "Performant",
+  "url": "https://performant.wd1.myworkdayjobs.com/Performant",
+  "platform": "Workday tenant performant/wd1/Performant found but the public jobs API returns 403"
+ },
+ {
+  "name": "Cognizant",
+  "url": "https://careers.cognizant.com/",
+  "platform": "not found"
+ },
+ {
+  "name": "MEDITECH",
+  "url": "https://ehr.meditech.com/careers",
+  "platform": "not found"
+ },
+ {
+  "name": "Nuance / Microsoft",
+  "url": "https://apply.careers.microsoft.com/",
+  "platform": "Eightfold PCSX; v2 jobs API returns 'Not authorized for PCSX'"
+ },
+ {
+  "name": "Innovaccer",
+  "url": "https://innovaccer.com/careers/jobs",
+  "platform": "Workable"
+ },
+ {
+  "name": "Lightbeam",
+  "url": "https://lightbeamhealth.com/careers/",
+  "platform": "not found"
+ },
+ {
+  "name": "Zotec Partners",
+  "url": "https://app.jazz.co/widgets/basic/create/zotecpartners",
+  "platform": "JazzHR"
+ },
+ {
+  "name": "SummaCare",
+  "url": "https://www.summahealth.org/careers",
+  "platform": "not found"
+ },
+ {
+  "name": "Paramount Health",
+  "url": "https://www.paramounthealthcare.com/careers",
+  "platform": "not found"
+ },
+ {
+  "name": "Medidata",
+  "url": "https://www.medidata.com/en/careers/",
+  "platform": "not found"
+ },
+ {
+  "name": "Registry Partners",
+  "url": "https://registrypartnershr.my.salesforce-sites.com/recruit/fRecruit__ApplyJobList",
+  "platform": "Salesforce site"
+ }
+]
