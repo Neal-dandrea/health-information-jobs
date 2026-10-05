@@ -63,7 +63,9 @@ EXCLUDE = re.compile(
     # medical coding roles, which need coding experience and a coding credential
     r"\bcod(er|ers|ing)\b|\bDRG\w*|\bHCC\b|risk adjustment|\bCCS\b|\bCPC\b|"
     r"clinical validation|medical review auditor|"
-    r"\bencoder\b|charge capture (specialist|auditor)", re.I)
+    r"\bencoder\b|charge capture (specialist|auditor)|"
+    r"tuition reimbursement|behavior analyst|\bBCBA\b|\bRBT\b|account executive|"
+    r"\bM\.D\.|\bMD\b|ologist\b|strategy leader|strategy partner", re.I)
 
 # Employers left off this list by choice: contract research organisations, which
 # run clinical trials on behalf of drug and device companies. A listing from any
@@ -76,7 +78,8 @@ BLOCKED_EMPLOYERS = re.compile(
     r"charles river|\bPSI CRO\b|catalyst clinical research|\bemmes\b|allucent|ergomed|"
     r"\bTFS healthscience|novotech|propharma|caidya|\brho\b,? inc|alimentiv|\bKCR\b|"
     r"advanced clinical|veristat|\bcytel\b|\blinical\b|george clinical|frontage|"
-    r"altasciences|celerion|\bQPS\b|pharm-olam|clinipace|medpace", re.I)
+    r"altasciences|celerion|\bQPS\b|pharm-olam|clinipace|medpace|protrials|"
+    r"contract research|clinical research organi[sz]ation|\bCRO\b", re.I)
 
 
 def blocked(company: str) -> bool:

@@ -1,4 +1,11 @@
 {
+"ashby:abby-care": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Abby Care",
+"scope": "health"
+},
 "ashby:abridge": {
 "fails": 0,
 "name": "Abridge"
@@ -11,13 +18,76 @@
 "fails": 0,
 "name": "Akasa"
 },
+"ashby:alan": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Alan",
+"scope": "health"
+},
+"ashby:allarahealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Allara",
+"scope": "health"
+},
+"ashby:alpacahealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Alpaca Health",
+"scope": "health"
+},
 "ashby:ambiencehealthcare": {
 "fails": 0,
 "name": "Ambience Healthcare"
 },
+"ashby:amperos": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Amperos",
+"scope": "health"
+},
 "ashby:anglehealth": {
 "fails": 0,
 "name": "Angle Health"
+},
+"ashby:ascertain": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Ascertain",
+"scope": "health"
+},
+"ashby:atlasonc": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Atlas Oncology Partners",
+"scope": "health"
+},
+"ashby:bicara-therapeutics": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Bicara Therapeutics",
+"scope": "health"
+},
+"ashby:big-leap-health": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Big Leap Health",
+"scope": "health"
+},
+"ashby:camber": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Camber",
+"scope": "health"
 },
 "ashby:candidhealth": {
 "fails": 0,
@@ -44,9 +114,37 @@
 "fails": 0,
 "name": "CodaMetrix"
 },
+"ashby:codes-health": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Codes Health",
+"scope": "health"
+},
 "ashby:commure": {
 "fails": 0,
 "name": "Commure"
+},
+"ashby:finni-health": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Finni Health",
+"scope": "health"
+},
+"ashby:flaglerhealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Flagler Health",
+"scope": "health"
+},
+"ashby:generatorhealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Generator Health",
+"scope": "health"
 },
 "ashby:gravie": {
 "fails": 0,
@@ -56,6 +154,48 @@
 "fails": 0,
 "name": "Headway"
 },
+"ashby:healthmatch": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Healthmatch",
+"scope": "health"
+},
+"ashby:heidihealth.com.au": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Heidi",
+"scope": "health"
+},
+"ashby:hims-and-hers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Hims & Hers",
+"scope": "health"
+},
+"ashby:hirehangar": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Hire Hangar",
+"scope": "health"
+},
+"ashby:humatahealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Humata Health, Inc",
+"scope": "health"
+},
+"ashby:iambic-therapeutics": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Iambic Therapeutics",
+"scope": "health"
+},
 "ashby:infinitus": {
 "fails": 0,
 "name": "Infinitus Systems"
@@ -64,9 +204,72 @@
 "fails": 0,
 "name": "Inovalon"
 },
+"ashby:knownwell": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Knownwell",
+"scope": "health"
+},
+"ashby:legionhealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Legion Health",
+"scope": "health"
+},
+"ashby:lifen": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Lifen",
+"scope": "health"
+},
+"ashby:lunar": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Lunar",
+"scope": "health"
+},
+"ashby:marblehealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Marble Health",
+"scope": "health"
+},
+"ashby:miramace": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Mira Mace",
+"scope": "health"
+},
+"ashby:nabihealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Nabi",
+"scope": "health"
+},
 "ashby:nabla": {
 "fails": 0,
 "name": "Nabla"
+},
+"ashby:neko-health": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Neko Health",
+"scope": "health"
+},
+"ashby:niramedical": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Nira Medical",
+"scope": "health"
 },
 "ashby:notable": {
 "fails": 0,
@@ -76,25 +279,137 @@
 "fails": 0,
 "name": "OpenLoop Health"
 },
+"ashby:paradigm-health": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Paradigm Health",
+"scope": "health"
+},
+"ashby:pear-vc": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Pear VC",
+"scope": "health"
+},
 "ashby:pearlhealth": {
 "fails": 0,
 "name": "Pearl Health"
+},
+"ashby:prompt": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Prompt",
+"scope": "health"
+},
+"ashby:raintree-systems": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Raintree Systems",
+"scope": "health"
 },
 "ashby:regard": {
 "fails": 0,
 "name": "Regard"
 },
+"ashby:reklamehealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Reklame Health",
+"scope": "health"
+},
 "ashby:revecore": {
 "fails": 0,
 "name": "Revecore"
+},
+"ashby:sailorhealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Sailor Health",
+"scope": "health"
+},
+"ashby:scan-com": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Scan.com",
+"scope": "health"
+},
+"ashby:seyna": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Seyna",
+"scope": "health"
+},
+"ashby:solace": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Solace Health",
+"scope": "health"
+},
+"ashby:sparrow": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Sparrow",
+"scope": "health"
+},
+"ashby:sprinter-health": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Sprinter Health",
+"scope": "health"
+},
+"ashby:tavahealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Tava Health",
+"scope": "health"
+},
+"ashby:teal-health": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Teal Health",
+"scope": "health"
 },
 "ashby:tennr": {
 "fails": 0,
 "name": "Tennr"
 },
+"ashby:terac": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Terac",
+"scope": "health"
+},
+"ashby:vertanical": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Vertanical",
+"scope": "health"
+},
 "ashby:virtahealth": {
 "fails": 0,
 "name": "Virta Health"
+},
+"ashby:vynca": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Vynca",
+"scope": "health"
 },
 "ashby:wheel": {
 "fails": 0,
@@ -109,6 +424,48 @@
 "fails": 0,
 "name": "Premier Health"
 },
+"greenhouse:4dmoleculartherapeutics": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "4Dmoleculartherapeutics",
+"scope": "health"
+},
+"greenhouse:9thwayinsignia": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "9th Way Insignia",
+"scope": "health"
+},
+"greenhouse:acadiapharmaceuticals": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Acadia Pharmaceuticals Inc.",
+"scope": "health"
+},
+"greenhouse:adaptivebiotechnologies": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Adaptivebiotechnologies",
+"scope": "health"
+},
+"greenhouse:advancedmd": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Advancedmd",
+"scope": "health"
+},
+"greenhouse:akerotherapeutics": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Akerotherapeutics",
+"scope": "health"
+},
 "greenhouse:americaninstitutesforresearch": {
 "fails": 0,
 "name": "American Institutes for Research",
@@ -118,23 +475,121 @@
 "fails": 0,
 "name": "Amwell"
 },
+"greenhouse:assemblyhealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Assemblyhealth",
+"scope": "health"
+},
 "greenhouse:atricure": {
 "fails": 0,
 "home": "Mason, OH",
 "name": "AtriCure",
 "strict": true
 },
+"greenhouse:attainpartners": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Attain Partners",
+"scope": "health"
+},
+"greenhouse:axle": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Axle",
+"scope": "health"
+},
 "greenhouse:bayada": {
 "fails": 0,
 "name": "BAYADA Home Health Care"
+},
+"greenhouse:beaconbiosignals": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Beacon Biosignals",
+"scope": "health"
+},
+"greenhouse:betterhelpcom": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "BetterHelp",
+"scope": "health"
+},
+"greenhouse:billiontoone": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Billiontoone",
+"scope": "health"
+},
+"greenhouse:blackbirdhealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Blackbird Health",
+"scope": "health"
 },
 "greenhouse:bluestone": {
 "fails": 0,
 "name": "Bluestone Physician Services"
 },
+"greenhouse:braveheartbio": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Braveheart Bio",
+"scope": "health"
+},
+"greenhouse:bridgebio": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "BridgeBio Pharma",
+"scope": "health"
+},
+"greenhouse:briefly": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Outside GC",
+"scope": "health"
+},
+"greenhouse:cariboubiosciencesinc": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Caribou Biosciences, Inc.",
+"scope": "health"
+},
 "greenhouse:carrotfertility": {
 "fails": 0,
 "name": "Carrot Fertility"
+},
+"greenhouse:cei": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Cincinnati Eye Institute",
+"scope": "health"
+},
+"greenhouse:charliehealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Charlie Health",
+"scope": "health"
+},
+"greenhouse:charliehealthbehavioralhealthoperations": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Charliehealthbehavioralhealthoperations",
+"scope": "health"
 },
 "greenhouse:cloverhealth": {
 "fails": 0,
@@ -148,18 +603,81 @@
 "fails": 0,
 "name": "Collective Health"
 },
+"greenhouse:connectionshealthsolutions": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Connections Health Solutions",
+"scope": "health"
+},
+"greenhouse:corcepttherapeutics": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Corcept Therapeutics",
+"scope": "health"
+},
+"greenhouse:counterparthealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Counterpart Health",
+"scope": "health"
+},
 "greenhouse:datavant2": {
 "fails": 0,
 "name": "Datavant"
+},
+"greenhouse:daymarkhealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Daymark Health",
+"scope": "health"
 },
 "greenhouse:definitivehc": {
 "fails": 0,
 "name": "Definitive Healthcare"
 },
+"greenhouse:delfina": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Delfina",
+"scope": "health"
+},
+"greenhouse:deliveroo": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Deliveroo",
+"scope": "health"
+},
 "greenhouse:doximity": {
 "fails": 0,
 "name": "Doximity",
 "strict": true
+},
+"greenhouse:eclinicalsolutions": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "eClinical Solutions",
+"scope": "health"
+},
+"greenhouse:erc8585757pathlight53t353": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "ERC Pathlight",
+"scope": "health"
+},
+"greenhouse:fay": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Fay",
+"scope": "health"
 },
 "greenhouse:flatironhealth": {
 "fails": 0,
@@ -169,9 +687,44 @@
 "fails": 0,
 "name": "Flume Health"
 },
+"greenhouse:freenome": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Freenome",
+"scope": "health"
+},
 "greenhouse:garnerhealth": {
 "fails": 0,
 "name": "Garner Health"
+},
+"greenhouse:genedx": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Genedx",
+"scope": "health"
+},
+"greenhouse:generatebiomedicines": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Generatebiomedicines",
+"scope": "health"
+},
+"greenhouse:greenbrookmedical": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Greenbrook Medical",
+"scope": "health"
+},
+"greenhouse:healthie": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Healthie",
+"scope": "health"
 },
 "greenhouse:healthjoy": {
 "fails": 0,
@@ -185,10 +738,59 @@
 "fails": 0,
 "name": "Honor"
 },
+"greenhouse:indigenouspactpbcinc": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Indigenouspactpbcinc",
+"scope": "health"
+},
+"greenhouse:inspiremedicalsystemsinc": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Inspire Medical Systems",
+"scope": "health"
+},
 "greenhouse:intersystems": {
 "fails": 0,
 "name": "InterSystems",
 "strict": true
+},
+"greenhouse:interwellhealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Interwell Health",
+"scope": "health"
+},
+"greenhouse:iterativehealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Iterative Health",
+"scope": "health"
+},
+"greenhouse:ivxhealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "IVX Health",
+"scope": "health"
+},
+"greenhouse:jadebiosciences": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Jade Biosciences",
+"scope": "health"
+},
+"greenhouse:kodiaksolutions": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Kodiak Solutions",
+"scope": "health"
 },
 "greenhouse:komodohealth": {
 "fails": 0,
@@ -198,9 +800,51 @@
 "fails": 0,
 "name": "Luma Health"
 },
+"greenhouse:machinifyinc": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Machinify",
+"scope": "health"
+},
+"greenhouse:maplighttherapeutics": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "MapLight Therapeutics",
+"scope": "health"
+},
 "greenhouse:mavenclinic": {
 "fails": 0,
 "name": "Maven Clinic"
+},
+"greenhouse:medallionakafirstlayerai": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Medallionakafirstlayerai",
+"scope": "health"
+},
+"greenhouse:medicalinformaticsengineering": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Medical Informatics Engineering",
+"scope": "health"
+},
+"greenhouse:medsien": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Medsien",
+"scope": "health"
+},
+"greenhouse:midihealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Midi Health",
+"scope": "health"
 },
 "greenhouse:natera": {
 "fails": 0,
@@ -211,9 +855,23 @@
 "fails": 0,
 "name": "NeueHealth"
 },
+"greenhouse:noctrixhealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Noctrixhealth",
+"scope": "health"
+},
 "greenhouse:omadahealth": {
 "fails": 0,
 "name": "Omada Health"
+},
+"greenhouse:ora": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Ora",
+"scope": "health"
 },
 "greenhouse:oscar": {
 "fails": 0,
@@ -232,19 +890,89 @@
 "fails": 0,
 "name": "Papa"
 },
+"greenhouse:paradigmtreatmentcenters": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Paradigmtreatmentcenters",
+"scope": "health"
+},
+"greenhouse:pathai": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Pathai",
+"scope": "health"
+},
 "greenhouse:patientpoint": {
 "fails": 0,
 "home": "Cincinnati, OH",
 "name": "PatientPoint",
 "strict": true
 },
+"greenhouse:peptilogics": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Peptilogics",
+"scope": "health"
+},
+"greenhouse:pfm": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Pfm",
+"scope": "health"
+},
+"greenhouse:praxisprecisionmedicines": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Praxis Precision Medicines, Inc.",
+"scope": "health"
+},
+"greenhouse:prospectus": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Prospectus",
+"scope": "health"
+},
+"greenhouse:pulsebiosciences": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Pulsebiosciences",
+"scope": "health"
+},
 "greenhouse:qgenda": {
 "fails": 0,
 "name": "QGenda"
 },
+"greenhouse:revolutionmedicines": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Revolutionmedicines",
+"scope": "health"
+},
 "greenhouse:rightwayhealthcare": {
 "fails": 0,
 "name": "Rightway"
+},
+"greenhouse:science37": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Science37",
+"scope": "health"
+},
+"greenhouse:shieldshealthsolutions": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Shields Health Solutions",
+"scope": "health"
 },
 "greenhouse:sidecarhealth": {
 "fails": 0,
@@ -290,9 +1018,23 @@
 "fails": 0,
 "name": "Zocdoc"
 },
+"icims:artemisarc-aptiveresources": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Artemis Arc",
+"scope": "health"
+},
 "icims:careers-acadiahealthcare": {
 "fails": 0,
 "name": "Acadia Healthcare"
+},
+"icims:careers-aptiveresources": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Aptive",
+"scope": "health"
 },
 "icims:careers-ardenthealth": {
 "fails": 0,
@@ -301,6 +1043,13 @@
 "icims:careers-athletico": {
 "fails": 0,
 "name": "Athletico Physical Therapy"
+},
+"icims:careers-berrydunn": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "BerryDunn",
+"scope": "health"
 },
 "icims:careers-brightspring": {
 "fails": 0,
@@ -322,6 +1071,13 @@
 "icims:careers-cotiviti": {
 "fails": 0,
 "name": "Cotiviti"
+},
+"icims:careers-curanahealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Curanahealth",
+"scope": "health"
 },
 "icims:careers-devereux": {
 "fails": 0,
@@ -348,6 +1104,13 @@
 "fails": 0,
 "name": "Legacy Health"
 },
+"icims:careers-maxor": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Maxor National Pharmacy Services, LLC",
+"scope": "health"
+},
 "icims:careers-meridianbioscience": {
 "fails": 0,
 "home": "Cincinnati, OH",
@@ -358,9 +1121,30 @@
 "fails": 0,
 "name": "MRO Corp"
 },
+"icims:careers-mynorthsidecareer": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Mynorthsidecareer",
+"scope": "health"
+},
 "icims:careers-navitus": {
 "fails": 0,
 "name": "Navitus Health Solutions"
+},
+"icims:careers-northside": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Northside Hospital",
+"scope": "health"
+},
+"icims:careers-nph": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "NeuroPsychiatric Hospitals",
+"scope": "health"
 },
 "icims:careers-primehealthcare": {
 "fails": 0,
@@ -394,9 +1178,23 @@
 "fails": 0,
 "name": "Emory Healthcare"
 },
+"icims:general-careers-curanahealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Curana Health, Inc.",
+"scope": "health"
+},
 "icims:jobs-fchp": {
 "fails": 0,
 "name": "Fallon Health"
+},
+"icims:uscareers-lumanity": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Lumanity",
+"scope": "health"
 },
 "jibe:careers.accentcare.com": {
 "fails": 0,
@@ -442,6 +1240,27 @@
 "fails": 0,
 "name": "OSF HealthCare"
 },
+"lever:ClinicalHealthNetworkForTransformation": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Clinical Health Network For Transformation",
+"scope": "health"
+},
+"lever:Trend-Health-Partners": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Trend Health Partners",
+"scope": "health"
+},
+"lever:abtaba": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Above and Beyond Therapy",
+"scope": "health"
+},
 "lever:aledade": {
 "fails": 0,
 "name": "Aledade"
@@ -450,17 +1269,73 @@
 "fails": 0,
 "name": "Arcadia"
 },
+"lever:artera": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "ArteraAI",
+"scope": "health"
+},
+"lever:assist-world": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Assist World",
+"scope": "health"
+},
 "lever:clarifyhealth": {
 "fails": 0,
 "name": "Clarify Health"
+},
+"lever:coalfire": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Coalfire",
+"scope": "health"
 },
 "lever:curai": {
 "fails": 0,
 "name": "Curai Health"
 },
+"lever:delfidiagnostics": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "DELFI Diagnostics, Inc.",
+"scope": "health"
+},
+"lever:distro": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Distro",
+"scope": "health"
+},
+"lever:enablecomp": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Enablecomp",
+"scope": "health"
+},
+"lever:erg": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Eastern Research Group",
+"scope": "health"
+},
 "lever:h1": {
 "fails": 0,
 "name": "H1"
+},
+"lever:hhaexchange": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Hhaexchange",
+"scope": "health"
 },
 "lever:hsag": {
 "fails": 0,
@@ -470,13 +1345,55 @@
 "fails": 0,
 "name": "Included Health"
 },
+"lever:jobgether": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Jobgether",
+"scope": "health"
+},
+"lever:kariusdx": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Karius",
+"scope": "health"
+},
 "lever:lyrahealth": {
 "fails": 0,
 "name": "Lyra Health"
 },
+"lever:meds": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Meds",
+"scope": "health"
+},
+"lever:momsmeals": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Mom's Meals",
+"scope": "health"
+},
 "lever:nomihealth": {
 "fails": 0,
 "name": "Nomi Health"
+},
+"lever:npowermedicine": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "N-Power Medicine",
+"scope": "health"
+},
+"lever:orcabiosystems": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Orca Bio",
+"scope": "health"
 },
 "lever:pointclickcare": {
 "fails": 0,
@@ -485,6 +1402,20 @@
 "lever:porter": {
 "fails": 0,
 "name": "Porter"
+},
+"lever:ppmi": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Planned Parenthood of Michigan",
+"scope": "health"
+},
+"lever:protrials": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "ProTrials Research, Inc.",
+"scope": "health"
 },
 "lever:redoxengine": {
 "fails": 0,
@@ -502,6 +1433,13 @@
 "fails": 0,
 "name": "Telligen"
 },
+"lever:tendo": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Tendo",
+"scope": "health"
+},
 "lever:veeva": {
 "fails": 0,
 "name": "Veeva Systems",
@@ -510,6 +1448,13 @@
 "lever:verifiable": {
 "fails": 0,
 "name": "Verifiable"
+},
+"lever:wepclinical": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "WEP Clinical",
+"scope": "health"
 },
 "lever:zushealth": {
 "fails": 0,
@@ -528,6 +1473,13 @@
 "name": "Oracle",
 "strict": true
 },
+"oracle:eeik.fa.us2.oraclecloud.com/CX_1": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "University of Wyoming",
+"scope": "health"
+},
 "oracle:eevd.fa.us6.oraclecloud.com/CX_2": {
 "fails": 0,
 "name": "Hearst Health"
@@ -535,6 +1487,20 @@
 "oracle:eevd.fa.us6.oraclecloud.com/CX_5": {
 "fails": 0,
 "name": "Homecare Homebase"
+},
+"oracle:eglz.fa.us2.oraclecloud.com/CX": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Cottage Health",
+"scope": "health"
+},
+"oracle:eglz.fa.us2.oraclecloud.com/CX_1": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Cottage Health",
+"scope": "health"
 },
 "oracle:egpy.fa.us2.oraclecloud.com/CX_3001": {
 "fails": 0,
@@ -557,6 +1523,13 @@
 "fails": 0,
 "name": "VITAS Healthcare"
 },
+"oracle:ekgn.fa.us6.oraclecloud.com/CX_1": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "the Myriad Genetics Candidate site",
+"scope": "health"
+},
 "oracle:ekgn.fa.us6.oraclecloud.com/CX_2001": {
 "fails": 0,
 "name": "Myriad Genetics",
@@ -570,6 +1543,13 @@
 "fails": 0,
 "name": "Kroger",
 "strict": true
+},
+"oracle:eodr.fa.us2.oraclecloud.com/CX_1": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Tenet Healthcare Corporation",
+"scope": "health"
 },
 "oracle:eodr.fa.us2.oraclecloud.com/CX_1001": {
 "fails": 0,
@@ -587,6 +1567,27 @@
 "fails": 0,
 "name": "Northwell Health"
 },
+"oracle:eqtm.fa.us2.oraclecloud.com/cx_3001": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Franciscan Missionaries of Our Lady Health System",
+"scope": "health"
+},
+"oracle:eqtm.fa.us2.oraclecloud.com/fmolhs-careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Eqtm",
+"scope": "health"
+},
+"oracle:eswt.fa.us6.oraclecloud.com/CX_1": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "UC Health",
+"scope": "health"
+},
 "oracle:eswt.fa.us6.oraclecloud.com/CX_1001": {
 "fails": 0,
 "home": "Cincinnati, OH",
@@ -597,9 +1598,23 @@
 "fails": 0,
 "name": "Providence"
 },
+"oracle:fa-eomf-saasfaprod1.fa.ocs.oraclecloud.com/CX_1002": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "UTHealth Houston",
+"scope": "health"
+},
 "oracle:fa-equm-saasfaprod1.fa.ocs.oraclecloud.com/CX_1001": {
 "fails": 0,
 "name": "Omega Healthcare"
+},
+"oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "TriNet",
+"scope": "health"
 },
 "oracle:fa-etnf-saasfaprod1.fa.ocs.oraclecloud.com/CX_1001": {
 "fails": 0,
@@ -638,9 +1653,30 @@
 "name": "EXL",
 "strict": true
 },
+"oracle:fa-ewkd-saasfaprod1.fa.ocs.oraclecloud.com/USF": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Fa Ewkd Saasfaprod1",
+"scope": "health"
+},
+"oracle:fa-ewkd-saasfaprod1.fa.ocs.oraclecloud.com/cx_1": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "University of South Florida",
+"scope": "health"
+},
 "oracle:hckd.fa.us2.oraclecloud.com/CX_1": {
 "fails": 0,
 "name": "Molina Healthcare"
+},
+"oracle:hdkk.fa.us6.oraclecloud.com/CX_1": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Cedars-Sinai",
+"scope": "health"
 },
 "oracle:hdkk.fa.us6.oraclecloud.com/CX_2001": {
 "fails": 0,
@@ -649,6 +1685,13 @@
 "oracle:hdox.fa.us6.oraclecloud.com/CX_1": {
 "fails": 0,
 "name": "Quest Diagnostics"
+},
+"oracle:iblyjb.fa.ocs.oraclecloud.com/cytel": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Iblyjb",
+"scope": "health"
 },
 "oracle:ibnjjb.fa.ocs.oraclecloud.com/CX_1": {
 "fails": 0,
@@ -761,6 +1804,27 @@
 "name": "Gainwell Technologies",
 "strict": true
 },
+"smartrecruiters:AbbVie": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Abbvie",
+"scope": "health"
+},
+"smartrecruiters:AntonPaar1": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Anton Paar",
+"scope": "health"
+},
+"smartrecruiters:Boulanger": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Boulanger",
+"scope": "health"
+},
 "smartrecruiters:Eurofins": {
 "fails": 0,
 "name": "Eurofins",
@@ -775,6 +1839,20 @@
 "fails": 0,
 "name": "Henry Ford Health"
 },
+"smartrecruiters:IntegratedDermatology": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Integrated Dermatology",
+"scope": "health"
+},
+"smartrecruiters:Intuitive": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Intuitive Surgical",
+"scope": "health"
+},
 "smartrecruiters:NorthwesternMedicine": {
 "fails": 0,
 "name": "Northwestern Medicine"
@@ -783,14 +1861,77 @@
 "fails": 0,
 "name": "Privia Health"
 },
+"smartrecruiters:SMCP": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Smcp",
+"scope": "health"
+},
+"smartrecruiters:Sutherland": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Sutherland",
+"scope": "health"
+},
+"smartrecruiters:Vetoquinol": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Vetoquinol",
+"scope": "health"
+},
 "smartrecruiters:WellmarkInc": {
 "fails": 0,
 "name": "Wellmark Blue Cross and Blue Shield"
+},
+"smartrecruiters:energypool": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Energypool",
+"scope": "health"
+},
+"smartrecruiters:guidehealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Guidehealth",
+"scope": "health"
+},
+"smartrecruiters:johnsnowlabs": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "John Snow Labs",
+"scope": "health"
+},
+"smartrecruiters:lingraphica": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Lingraphica",
+"scope": "health"
+},
+"smartrecruiters:munsonhealthcare1": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Munson Healthcare",
+"scope": "health"
 },
 "smartrecruiters:sutherland": {
 "fails": 0,
 "name": "Sutherland",
 "strict": true
+},
+"smartrecruiters:whitecollars": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Whitecollars",
+"scope": "health"
 },
 "ukg:baptisthealth.rec.pro.ukg.net/BAP1500BHDM/5a6b1470-b5c5-4d26-a171-11ad94efcba8": {
 "fails": 0,
@@ -812,6 +1953,13 @@
 "fails": 0,
 "home": "Loveland, OH",
 "name": "Carespring"
+},
+"ukg:recruiting.ultipro.com/CTI1000CTIC/a3dbbc6d-3274-40c4-b0a6-1188df489f67": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Recruiting.Ultipro.Com",
+"scope": "health"
 },
 "ukg:recruiting2.ultipro.com/MED1007MHP/ffa5492f-9175-4dab-891d-a6a5d6dced2f": {
 "fails": 0,
@@ -840,9 +1988,23 @@
 "name": "Abbott",
 "strict": true
 },
+"workday:abbott/wd5/abbottcareers2": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Abbott",
+"scope": "health"
+},
 "workday:adventhealth/wd12/AH_External_Career_Site": {
 "fails": 0,
 "name": "AdventHealth"
+},
+"workday:adventisthealthcare/wd1/adventisthealthcarecareers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Adventisthealthcare",
+"scope": "health"
 },
 "workday:agilonhealth/wd1/External": {
 "fails": 0,
@@ -860,6 +2022,13 @@
 "fails": 0,
 "name": "Alignment Health"
 },
+"workday:alirahealth/wd3/AliraHealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Alirahealth",
+"scope": "health"
+},
 "workday:allina/wd5/External": {
 "fails": 0,
 "name": "Allina Health"
@@ -867,6 +2036,13 @@
 "workday:altru/wd503/careers": {
 "fails": 0,
 "name": "Altru Health System"
+},
+"workday:aoncology/wd12/aoncology_careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "American Oncology Network AON",
+"scope": "health"
 },
 "workday:arkbluecross/wd1/ABCBS_External_Careers": {
 "fails": 0,
@@ -906,6 +2082,13 @@
 "fails": 0,
 "name": "Baystate Health"
 },
+"workday:bbinsurance/wd1/careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Brown & Brown Insurance",
+"scope": "health"
+},
 "workday:bcbsaz/wd1/BCBSAZCareers": {
 "fails": 0,
 "name": "Blue Cross Blue Shield of Arizona"
@@ -938,6 +2121,13 @@
 "fails": 0,
 "name": "Blue Cross and Blue Shield of North Carolina"
 },
+"workday:bcbsnj/wd5/hc": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Horizon NJ Health",
+"scope": "health"
+},
 "workday:bcbsri/wd1/BCBSRICareers": {
 "fails": 0,
 "name": "Blue Cross & Blue Shield of Rhode Island"
@@ -958,6 +2148,13 @@
 "fails": 0,
 "name": "BD",
 "strict": true
+},
+"workday:beigene/wd5/beigene": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "BeOne",
+"scope": "health"
 },
 "workday:bhs/wd1/careers": {
 "fails": 0,
@@ -992,6 +2189,13 @@
 "fails": 0,
 "name": "Carilion Clinic"
 },
+"workday:carislifesciences/wd12/cls": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Caris",
+"scope": "health"
+},
 "workday:catalent/wd1/External": {
 "fails": 0,
 "name": "Catalent",
@@ -1004,6 +2208,13 @@
 "workday:centene/wd5/Centene_External": {
 "fails": 0,
 "name": "Centene"
+},
+"workday:chaptershealth/wd5/jobs": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Chaptershealth",
+"scope": "health"
 },
 "workday:chenmed/wd1/ChenMed": {
 "fails": 0,
@@ -1035,6 +2246,13 @@
 "fails": 0,
 "name": "Cityblock Health"
 },
+"workday:cni/wd503/CNI": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Chickasaw Nation Industries",
+"scope": "health"
+},
 "workday:cookchildrens/wd1/Cook_Childrens_Careers": {
 "fails": 0,
 "name": "Cook Children's"
@@ -1042,6 +2260,13 @@
 "workday:corrohealth/wd1/Corro": {
 "fails": 0,
 "name": "CorroHealth"
+},
+"workday:corrohealth/wd1/corro": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Corrohealth",
+"scope": "health"
 },
 "workday:covenanthealth/wd12/CovenantHealthCareers": {
 "fails": 0,
@@ -1082,6 +2307,13 @@
 "fails": 0,
 "name": "Devoted Health"
 },
+"workday:devoted/wd1/devoted": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Devoted",
+"scope": "health"
+},
 "workday:easyservice/wd5/BonSecoursCareers": {
 "fails": 0,
 "name": "Bon Secours"
@@ -1110,9 +2342,23 @@
 "fails": 0,
 "name": "Evolent"
 },
+"workday:fmr/wd1/fidelitycareers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Fidelity Investments",
+"scope": "health"
+},
 "workday:franciscanalliance/wd5/FA_External_Career_Site": {
 "fails": 0,
 "name": "Franciscan Health"
+},
+"workday:franciscanalliance/wd5/fa_external_career_site": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Franciscanalliance",
+"scope": "health"
 },
 "workday:freseniusmedicalcare/wd3/fme": {
 "fails": 0,
@@ -1131,19 +2377,47 @@
 "fails": 0,
 "name": "Geisinger"
 },
+"workday:geisinger/wd5/geisingerexternal": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Geisinger",
+"scope": "health"
+},
 "workday:genesishcs/wd1/GenesisHCS": {
 "fails": 0,
 "home": "Zanesville, OH",
 "name": "Genesis HealthCare System"
 },
+"workday:gmh/wd12/External_Careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Gmh",
+"scope": "health"
+},
 "workday:gohealthuc/wd12/External": {
 "fails": 0,
 "name": "GoHealth Urgent Care"
+},
+"workday:guardianlife/wd5/guardian-life-careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Guardian Life",
+"scope": "health"
 },
 "workday:guidehouse/wd1/External": {
 "fails": 0,
 "name": "Guidehouse",
 "strict": true
+},
+"workday:guidehouse/wd1/external": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Guidehouse",
+"scope": "health"
 },
 "workday:hcsc/wd1/HCSC_External": {
 "fails": 0,
@@ -1153,6 +2427,13 @@
 "fails": 0,
 "name": "Solventum",
 "strict": true
+},
+"workday:healthcare/wd1/search": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Solventum",
+"scope": "health"
 },
 "workday:healthcatalyst/wd5/healthcatalystcareers": {
 "fails": 0,
@@ -1187,6 +2468,13 @@
 "fails": 0,
 "name": "Humana"
 },
+"workday:hummingbird/wd1/hummingbird": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Hummingbird",
+"scope": "health"
+},
 "workday:huron/wd1/huroncareers": {
 "fails": 0,
 "name": "Huron Consulting Group",
@@ -1200,6 +2488,20 @@
 "fails": 0,
 "name": "Impact Advisors",
 "strict": true
+},
+"workday:inizio/wd3/cso": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Inizio Engage",
+"scope": "health"
+},
+"workday:ivyrehab/wd5/Ivy_Rehab": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Ivyrehab",
+"scope": "health"
 },
 "workday:javararesearch/wd12/External_Career_Site": {
 "fails": 0,
@@ -1230,6 +2532,13 @@
 "workday:lcmchealth/wd1/LCMCHealth": {
 "fails": 0,
 "name": "LCMC Health"
+},
+"workday:lifestance/wd5/careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "LifeStance Health",
+"scope": "health"
 },
 "workday:lthc/wd1/ExcellusBCBSCareers": {
 "fails": 0,
@@ -1264,6 +2573,13 @@
 "name": "McKesson",
 "strict": true
 },
+"workday:mckesson/wd3/SCRI_Careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Sarah Cannon Research Institute (SCRI)",
+"scope": "health"
+},
 "workday:medimpact/wd5/MedImpact": {
 "fails": 0,
 "name": "MedImpact"
@@ -1289,6 +2605,13 @@
 "workday:mercy/wd1/mercycareers": {
 "fails": 0,
 "name": "Mercy"
+},
+"workday:merit/wd503/Merit": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Merit",
+"scope": "health"
 },
 "workday:methodisthealth/wd5/MLH": {
 "fails": 0,
@@ -1323,6 +2646,20 @@
 "name": "Cencora",
 "strict": true
 },
+"workday:namsa/wd5/NAMSA": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Namsa",
+"scope": "health"
+},
+"workday:nant/wd5/immunitybio": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "ImmunityBio",
+"scope": "health"
+},
 "workday:nationwidechildrens/wd5/NCHCareers": {
 "fails": 0,
 "name": "Nationwide Children's Hospital"
@@ -1339,9 +2676,23 @@
 "fails": 0,
 "name": "NextGen Healthcare"
 },
+"workday:nextgen/wd5/nextgen_careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Nextgen",
+"scope": "health"
+},
 "workday:nghs/wd1/External": {
 "fails": 0,
 "name": "Northeast Georgia Health System"
+},
+"workday:nghs/wd1/external": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Northeast Georgia Health System (NGHS)",
+"scope": "health"
 },
 "workday:nmhs/wd108/NMHS": {
 "fails": 0,
@@ -1372,6 +2723,13 @@
 "fails": 0,
 "name": "OhioHealth"
 },
+"workday:ohiohealth/wd5/ohiohealthjobs": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Ohiohealth",
+"scope": "health"
+},
 "workday:onehealthineers/wd3/SHSJB": {
 "fails": 0,
 "name": "Siemens Healthineers",
@@ -1398,6 +2756,20 @@
 "fails": 0,
 "name": "BlueCross BlueShield of South Carolina"
 },
+"workday:ovationhealthcare/wd5/ovationhealthcare": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Ovationhealthcare",
+"scope": "health"
+},
+"workday:overlakemedicalcenter/wd5/overlake_external_career_site": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Overlake Hospital Medical Center",
+"scope": "health"
+},
 "workday:owensborohealth/wd1/OwensboroHealth": {
 "fails": 0,
 "name": "Owensboro Health"
@@ -1411,6 +2783,20 @@
 "fails": 0,
 "name": "Oxford Global Resources",
 "strict": true
+},
+"workday:pennant/wd1/PennantServicesCareerSite": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Pennant Group",
+"scope": "health"
+},
+"workday:philips/wd3/internal-job-postings-list-for-philips-contingent-workers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Philips (Internal Job Postings List For Philips Contingent Workers)",
+"scope": "health"
 },
 "workday:philips/wd3/jobs-and-careers": {
 "fails": 0,
@@ -1436,6 +2822,13 @@
 "workday:premierinc/wd1/External_Professional": {
 "fails": 0,
 "name": "Premier Inc"
+},
+"workday:premierinc/wd1/external_professional": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Premier",
+"scope": "health"
 },
 "workday:pressganey/wd1/Careers": {
 "fails": 0,
@@ -1482,6 +2875,20 @@
 "fails": 0,
 "name": "Roswell Park Comprehensive Cancer Center"
 },
+"workday:rrhs/wd5/RRH": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Rochester Regional Health",
+"scope": "health"
+},
+"workday:rrhs/wd5/acm": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Rrhs",
+"scope": "health"
+},
 "workday:sagility/wd1/SagilityUSA": {
 "fails": 0,
 "name": "Sagility"
@@ -1498,6 +2905,13 @@
 "fails": 0,
 "name": "Sanford Health"
 },
+"workday:sanford/wd5/sanfordhealth": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Sanford Health",
+"scope": "health"
+},
 "workday:savista/wd1/Savista": {
 "fails": 0,
 "name": "Savista"
@@ -1505,6 +2919,20 @@
 "workday:scanhealthplan/wd108/scancareers": {
 "fails": 0,
 "name": "SCAN Health Plan"
+},
+"workday:schumacher/wd1/corporate-careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Schumacher",
+"scope": "health"
+},
+"workday:seattlechildrens/wd5/external": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Seattle Children's",
+"scope": "health"
 },
 "workday:sentara/wd1/SCS": {
 "fails": 0,
@@ -1529,6 +2957,20 @@
 "workday:silvercross/wd5/SilverCrossCareers": {
 "fails": 0,
 "name": "Silver Cross Hospital"
+},
+"workday:silvercross/wd5/silvercrosscareers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Silver Cross",
+"scope": "health"
+},
+"workday:solutionhealth/wd1/Careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Solutionhealth",
+"scope": "health"
 },
 "workday:spectrumhealth/wd5/CorewellHealthCareers": {
 "fails": 0,
@@ -1565,6 +3007,13 @@
 "fails": 0,
 "name": "Sutter Health"
 },
+"workday:taskus/wd1/careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Taskus",
+"scope": "health"
+},
 "workday:tegria/wd12/EXT": {
 "fails": 0,
 "name": "Tegria",
@@ -1583,9 +3032,23 @@
 "fails": 0,
 "name": "ThedaCare"
 },
+"workday:thinkbrg/wd5/BRG_External_Career_Site": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "BRG",
+"scope": "health"
+},
 "workday:tidelandshealth/wd12/Tidelands": {
 "fails": 0,
 "name": "Tidelands Health"
+},
+"workday:travere/wd1/traverecareers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Travere Therapeutics",
+"scope": "health"
 },
 "workday:trinityhealth/wd1/Jobs": {
 "fails": 0,
@@ -1616,6 +3079,13 @@
 "workday:uoflhealth/wd1/UofLHealthCareers": {
 "fails": 0,
 "name": "UofL Health"
+},
+"workday:usuro/wd1/nju_careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Usuro",
+"scope": "health"
 },
 "workday:valleychildrens/wd12/VCH_External": {
 "fails": 0,
@@ -1677,6 +3147,13 @@
 "workday:wvumedicine/wd1/WVUH": {
 "fails": 0,
 "name": "WVU Medicine"
+},
+"workday:xerispharma/wd503/xerispharmaceuticalscareers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Xerispharma",
+"scope": "health"
 },
 "workday:zelis/wd115/ZelisCareers": {
 "fails": 0,
