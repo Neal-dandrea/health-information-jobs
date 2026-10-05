@@ -71,6 +71,28 @@ _BOILERPLATE = re.compile(
     r"background check|drug (test|screen)|privacy (notice|policy)|applicants? (will|must|may)|"
     r"recruit(er|ing) (scam|fraud)|click (here|apply)|apply (now|today|online)|"
     r"about (us|the company)|our mission|we are an? |founded in|headquartered", re.I)
+# ── how much experience a posting reads as wanting ──────────────────────────
+# Many postings never state a number of years. For those, the sentences that
+# talk about experience are compared with two sets of example sentences, one
+# written the way entry-level postings read and one the way senior postings
+# read. The result is positive when the posting sits closer to the entry-level
+# examples. Checked on 2026-10-04 against postings that do state years, it told
+# "2 years or less" from "5 years or more" correctly about nine times in ten.
+ENTRY_EXAMPLES = [
+    "This is an entry level position and no prior experience is required.",
+    "Recent graduates are encouraged to apply.",
+    "We will train the right candidate with little or no experience.",
+    "Zero to two years of related experience.",
+]
+SENIOR_EXAMPLES = [
+    "Requires five or more years of progressive experience in the field.",
+    "Extensive experience leading teams and managing complex programs.",
+    "A seasoned professional with deep expertise and a proven track record.",
+    "Minimum of seven years of related experience including supervisory experience.",
+]
+_EXPERIENCE_TALK = re.compile(r"experience|graduate|entry|level|years?|background|"
+                              r"track record|expert|senior|train", re.I)
+
 _REQUIREMENT = re.compile(
     r"experience|knowledge|proficien|familiar|ability|skills?\b|understanding|"
     r"degree|required|preferred|qualif|responsib|develop|build|design|implement|"
@@ -184,13 +206,16 @@ class Scorer:
         self.model = TextEmbedding(MODEL, threads=max(1, min(12, (os.cpu_count() or 2) // 2)))
         self.resumes = statements["resumes"]
         self.bullets = np.array(list(self.model.embed(statements["bullets"])))
+        self.entry = np.array(list(self.model.embed(ENTRY_EXAMPLES)))
+        self.senior = np.array(list(self.model.embed(SENIOR_EXAMPLES)))
         # LOW and HIGH are left out on purpose. The stored value is the raw
         # blend, so the scale can be retuned without embedding anything again.
         self.key = hashlib.sha1(json.dumps(statements, sort_keys=True).encode()
-                                + f"{MODEL}{TOP_N}{MAX_SENTENCES}{MAX_WORDS}".encode()).hexdigest()[:12]
+                                + f"{MODEL}{TOP_N}{MAX_SENTENCES}{MAX_WORDS}level".encode()).hexdigest()[:12]
 
-    def score_many(self, texts: Dict[str, str]) -> Dict[str, Tuple[float, str]]:
-        """{posting id: (raw blend, best resume name)} for each description."""
+    def score_many(self, texts: Dict[str, str]) -> Dict[str, Tuple[float, str, Optional[float]]]:
+        """{posting id: (raw blend, best resume name, entry-level lean)} for each
+        description. The lean is None when no sentence talks about experience."""
         np = self.np
         split = {pid: sentences(t) for pid, t in texts.items()}
         flat = [s for ss in split.values() for s in ss]
@@ -202,8 +227,14 @@ class Scorer:
             if len(ss) < MIN_SENTENCES:
                 at += len(ss)
                 continue                       # too little text to judge
-            sims = vectors[at:at + len(ss)] @ self.bullets.T
+            mine = vectors[at:at + len(ss)]
+            sims = mine @ self.bullets.T
             at += len(ss)
+            talk = np.array([bool(_EXPERIENCE_TALK.search(s)) for s in ss])
+            lean = None
+            if talk.any():
+                lean = round(float((mine[talk] @ self.entry.T).max()
+                                   - (mine[talk] @ self.senior.T).max()), 3)
             is_req = np.array([bool(_REQUIREMENT.search(s)) for s in ss])
             best = (-1.0, "")
             for name, idx in self.resumes.items():
@@ -213,7 +244,7 @@ class Scorer:
                 raw = 0.5 * top + 0.5 * req
                 if raw > best[0] + 1e-9:
                     best = (float(raw), name)
-            out[pid] = (round(best[0], 4), best[1])
+            out[pid] = (round(best[0], 4), best[1], lean)
         return out
 
 
@@ -250,8 +281,8 @@ def enrich(listings: List[dict], fresh_texts: Dict[str, str],
     todo = {pid: t for pid, t in {**(all_texts or {}), **fresh_texts}.items()
             if pid in active and pid not in scores and len(t) > 200}
     new = scorer.score_many(todo) if todo else {}
-    for pid, (raw, name) in new.items():
-        scores[pid] = [raw, name]
+    for pid, (raw, name, lean) in new.items():
+        scores[pid] = [raw, name, lean]
     scores = {pid: v for pid, v in scores.items() if pid in active}
     os.makedirs(os.path.dirname(SCORES), exist_ok=True)
     with open(SCORES, "w") as fh:
@@ -259,9 +290,11 @@ def enrich(listings: List[dict], fresh_texts: Dict[str, str],
     for r in listings:
         if r["id"] in scores:
             r["sem"], r["sem_resume"] = percent(scores[r["id"]][0]), scores[r["id"]][1]
+            r["entry_lean"] = scores[r["id"]][2] if len(scores[r["id"]]) > 2 else None
         else:
             r.pop("sem", None)
             r.pop("sem_resume", None)
+            r["entry_lean"] = None
     return {"scored": len(scores), "new": len(new)}
 
 

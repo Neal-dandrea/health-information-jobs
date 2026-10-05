@@ -394,7 +394,7 @@ def load_json(path: str, default):
         return default
 
 
-PAGE_FIELDS = {"company", "title", "url", "locations", "places", "posted", "first_seen", "match", "match_basis", "sem", "req", "tracks", "level", "areas"}
+PAGE_FIELDS = {"exp_note", "company", "title", "url", "locations", "places", "posted", "first_seen", "match", "match_basis", "sem", "req", "tracks", "level", "areas"}
 
 
 def slim(rec: dict) -> dict:
@@ -571,6 +571,7 @@ def main() -> int:
         tag(r)
     held = sum(1 for r in listings if roles.location_unknown(r["locations"]))
     listings = [r for r in listings if keep(r)]
+    in_range = len(listings)
     report["match"] = (f"{m['described']} descriptions read"
                        + (f", {held} postings waiting for their location" if held else "")
                        + ("" if m["scored"] else ", no resume profile so no scores"))
@@ -584,6 +585,20 @@ def main() -> int:
     report["meaning"] = (f"{sem['scored']} listings scored, {sem.get('new', 0)} new"
                          if sem["scored"] else f"skipped, {sem.get('note', '')}")
     print(f"  {'meaning':14s} {report['meaning']}  ({time.time() - t0:.1f}s)", flush=True)
+
+    # Keep only roles a recent graduate can go for: those asking for a few years
+    # at most, judged from the stated years or, failing that, from the wording.
+    fitting = []
+    for r in listings:
+        ok, why = roles.experience_fit((r.get("req") or {}).get("years"),
+                                       r.pop("entry_lean", None), r["title"])
+        if ok:
+            r["exp_note"] = why
+            fitting.append(r)
+    report["experience"] = (f"{len(fitting)} of {in_range} roles ask for "
+                            f"{roles.MAX_YEARS} years or less")
+    print(f"  {'experience':14s} {report['experience']}", flush=True)
+    listings = fitting
 
     new = []
     for r in listings:

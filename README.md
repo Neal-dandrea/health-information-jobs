@@ -21,6 +21,14 @@ A role is listed when its title fits the field and it is in one of these places.
 - **Remote.**
 - **Dayton area.** About an hour away. It is hidden unless you ask for it.
 
+The list is for someone early in their career, so a role is kept only when it
+asks for three years of experience or less. When a posting states a number of
+years, that number decides. When it states none, the embedding model compares
+its wording with example sentences from entry-level and senior postings, and the
+role is kept when it reads as entry level. On postings that do state years, that
+comparison separated "two years or less" from "five years or more" about nine
+times in ten. Both rules are in `roles.py` (`experience_fit`).
+
 Licensed clinical roles (nursing, pharmacy, therapy and the like), medical
 coding roles, engineering roles, executive roles and student roles are left out. Contract research
 organisations are also left out as employers, by choice. All of this is decided in

@@ -195,6 +195,11 @@
          research organisations, plus The Muse. A role is listed when it is remote or within about 45 minutes of
          the north side of Cincinnati. The Dayton area is about an hour away and is shown only when you ask for it.
          Licensed clinical roles, medical coding roles, engineering roles and student roles are left out.</p>
+      <p>The list is for someone early in their career, so a role is kept only when it asks for three years of
+         experience or less. When a posting states no number of years, an open-source language model compares its
+         wording with examples of entry-level and senior postings, and the role is kept when it reads as entry
+         level. Those roles carry the tag "Reads as entry level". This is a judgement from wording, so check the
+         posting.</p>
       <p>A date is the day the employer says the role was posted, or the day it was first seen here when the
          employer gives none. <a href="listings.csv">Download the full list as CSV</a>.</p>
       <p id="srcline"></p>
@@ -206,16 +211,16 @@
 <script>
 /* ── what differs between boards ─────────────────────────────────────────── */
 const CONFIG = {
-  storageKey: "hjl-filters-3",
+  storageKey: "hjl-filters-4",
   tracks: ["Compliance and Quality","Project and Program","Revenue Cycle","Health Information","Data and Analytics","Clinical Documentation","Clinical Research","Patient Services"],
   showFit: false,
   blank: {areas:[], level:""},
-  subtitle: (n, when) => `${n.toLocaleString()} open roles, remote or near Cincinnati, updated ${when}`,
+  subtitle: (n, when) => `${n.toLocaleString()} open roles asking 3 years of experience or less, remote or near Cincinnati, updated ${when}`,
   selects: [
     {id:"region",label:"Area",value:"core",options:[["core","Cincinnati area or remote"],["Cincinnati area","Cincinnati area only"],["Remote","Remote only"],["Dayton area","Dayton area (about an hour)"],["","All of the above"]]},
     {id:"level",label:"Level",value:"early",options:[["early","Hide senior roles"],["entry","Entry level only"],["","Any level"]]},
     {id:"age",label:"Posted within",value:"30",options:[["","Posted any time"],["1","Last 24 hours"],["3","Last 3 days"],["7","Last 7 days"],["30","Last 30 days"]]},
-    {id:"exp",label:"Experience asked",options:[["","Any experience asked"],["1","Asks 1 year or less"],["2","Asks 2 years or less"],["3","Asks 3 years or less"],["5","Asks 5 years or less"]]},
+    {id:"exp",label:"Experience asked",options:[["","Asks 3 years or less"],["2","Asks 2 years or less"],["1","Asks 1 year or less"]]},
     {id:"cred",label:"Credential",options:[["","Any credential asked"],["RHIA","Names RHIA"],["nocode","Hide roles naming CCS or CPC"],["norn","Hide roles naming RN"]]},
     {id:"scoreby",label:"Score by",needs:"sem",value:"avg",options:[["avg","Score by both"],["match","Score by keywords"],["sem","Score by meaning"]]},
     {id:"minmatch",label:"Minimum score",needs:"match",options:[["","Any match score"],["40","Score 40 and up"],["50","Score 50 and up"],["60","Score 60 and up"],["70","Score 70 and up"]]}
@@ -240,6 +245,7 @@ const CONFIG = {
   },
   reqTags: (r, q) => {
     const t = [];
+    if(r.exp_note) t.push(["note", r.exp_note]);
     if(q.degrees) t.push(["note", q.degrees[0]]);
     for(const c of (q.creds || [])) t.push(["note", c]);
     return t;

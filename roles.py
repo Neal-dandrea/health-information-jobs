@@ -107,6 +107,44 @@ def level_of(title: str) -> str:
     return ""
 
 
+# ── how much experience ─────────────────────────────────────────────────────
+# This list is for a recent graduate, so a role is kept only when it asks for
+# MAX_YEARS of experience or less.
+MAX_YEARS = 3
+# How far toward the senior examples a posting may read before it is dropped,
+# for postings that state no number of years. See semantic.py.
+LEAN_FLOOR = -0.02
+LEAN_SENIOR = -0.05
+
+
+def experience_fit(years, lean, title: str):
+    """(keep, why) for one posting.
+
+    `years` is the least experience the posting states, or None. `lean` is how
+    much its wording reads as entry level, or None when that could not be
+    worked out. `why` is a short label for the page, or "" when the stated
+    years already say it.
+    """
+    senior_title = level_of(title) == "Senior"
+    if years is not None:
+        if years > MAX_YEARS:
+            return False, ""
+        # A low number can come from a side requirement ("1 year of customer
+        # service") in a role that is otherwise senior.
+        if senior_title and lean is not None and lean < LEAN_SENIOR:
+            return False, ""
+        return True, ""
+    # No years stated. A manager, lead or consultant title is not a recent
+    # graduate's role, whatever the wording.
+    if senior_title:
+        return False, ""
+    if lean is not None:
+        if lean < LEAN_FLOOR:
+            return False, ""
+        return True, "Reads as entry level"
+    return True, ""
+
+
 TRACKS = [
     ("Health Information", re.compile(
         r"health information|\bHIMS?\b|medical records?|release of information|"
