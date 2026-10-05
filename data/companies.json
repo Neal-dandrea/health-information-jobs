@@ -415,6 +415,19 @@
 "fails": 0,
 "name": "Wheel"
 },
+"avature:maximus.avature.net/careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Maximus",
+"strict": true
+},
+"avature:slhs.avature.net/careersmarketplace": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "St. Luke's Health System"
+},
 "eightfold:bostonscientific.eightfold.ai|bostonscientific.com": {
 "fails": 0,
 "name": "Boston Scientific",
@@ -1174,6 +1187,14 @@
 "fails": 0,
 "name": "WCG Clinical"
 },
+"icims:careers-westernsouthern": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"home": "Cincinnati, OH",
+"name": "Western & Southern Financial Group",
+"strict": true
+},
 "icims:ehccareers-emory": {
 "fails": 0,
 "name": "Emory Healthcare"
@@ -1195,6 +1216,20 @@
 "from": "survey",
 "name": "Lumanity",
 "scope": "health"
+},
+"jazzhr:northkeycommunitycare": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"home": "Covington, KY",
+"local": true,
+"name": "NorthKey Community Care"
+},
+"jazzhr:zotecpartners": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Zotec Partners"
 },
 "jibe:careers.accentcare.com": {
 "fails": 0,
@@ -1239,6 +1274,12 @@
 "jibe:www.osfcareers.org": {
 "fails": 0,
 "name": "OSF HealthCare"
+},
+"jobvite:ashcompanies": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Alternate Solutions Health Network"
 },
 "lever:ClinicalHealthNetworkForTransformation": {
 "added": "2026-10-05",
@@ -1705,14 +1746,70 @@
 "fails": 0,
 "name": "Parkview Health"
 },
+"paylocity:37a50e24-8f9e-4b6c-adb1-d21fb1a0c823": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"home": "Cincinnati, OH",
+"local": true,
+"name": "The Health Collaborative"
+},
+"paylocity:7935bb0d-21dc-4cf4-8c00-7c1c6639d363": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Aspirion"
+},
+"paylocity:931f23ef-b8a8-44ef-8e92-4548004313bb": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Hoag"
+},
 "paylocity:9d609744-c6de-46ac-abdd-9d67a0dbef46": {
 "fails": 0,
 "name": "e4health"
+},
+"paylocity:a331754c-8be5-4f2c-8633-d5cd1edd04ca": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"home": "Hamilton, OH",
+"local": true,
+"name": "Primary Health Solutions"
+},
+"paylocity:bb0d9fba-4d0f-457f-be46-1efe14a5676c": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"home": "Edgewood, KY",
+"local": true,
+"name": "OrthoCincy"
+},
+"paylocity:bdabdac8-ae8f-4877-8c9b-5b5cc193aab0": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"home": "Cincinnati, OH",
+"local": true,
+"name": "Bayley"
 },
 "paylocity:beb98d2c-b30f-47df-adee-d9c41622f147": {
 "fails": 0,
 "name": "Child Focus",
 "strict": true
+},
+"paylocity:c1f24677-c655-47f5-a7f4-a1e1945e46cb": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Currance"
+},
+"paylocity:e17d268e-1abe-4e11-8fa8-bc9215bce4c0": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "NCQA"
 },
 "phenom:careers.amerihealthcaritas.com/us/en": {
 "fails": 0,
@@ -1794,6 +1891,12 @@
 "name": "Kaiser Permanente",
 "strict": true
 },
+"rippling:bamboo-health-careers": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Bamboo Health"
+},
 "rmk:careers.essilorluxottica.com": {
 "fails": 0,
 "name": "EssilorLuxottica",
@@ -1803,6 +1906,14 @@
 "fails": 0,
 "name": "Gainwell Technologies",
 "strict": true
+},
+"rmk:jobs.uc.edu": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"home": "Cincinnati, OH",
+"local": true,
+"name": "University of Cincinnati"
 },
 "smartrecruiters:AbbVie": {
 "added": "2026-10-05",
@@ -1933,6 +2044,25 @@
 "name": "Whitecollars",
 "scope": "health"
 },
+"taleo:scripps/2": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Scripps Health"
+},
+"taleo:uhhospitals/2": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "University Hospitals",
+"state": "OH"
+},
+"taleo:utsw/2": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "UT Southwestern"
+},
 "ukg:baptisthealth.rec.pro.ukg.net/BAP1500BHDM/5a6b1470-b5c5-4d26-a171-11ad94efcba8": {
 "fails": 0,
 "name": "Baptist Health Deaconess Madisonville"
@@ -1945,9 +2075,45 @@
 "fails": 0,
 "name": "Margaret Mary Health"
 },
+"ukg:mysomc.rec.pro.ukg.net/SOU1068SOMC/1735eb8a-40b2-43d2-89aa-99eea075dc4f": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Southern Ohio Medical Center"
+},
+"ukg:mysomc.rec.pro.ukg.net/SOU1068SOMC/b22a8c81-102d-44ef-8953-701bcd0e54d4": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Southern Ohio Medical Center"
+},
 "ukg:recruiting.ultipro.com/ADV1023AVR/6051d363-03fe-4650-945e-f836306a8388": {
 "fails": 0,
 "name": "Advarra"
+},
+"ukg:recruiting.ultipro.com/BHI1000BHIS/0b59f80d-07d2-4b59-afb0-af4583194a3c": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"home": "Cincinnati, OH",
+"local": true,
+"name": "Maple Knoll / BHI Senior Living"
+},
+"ukg:recruiting.ultipro.com/BHI1000BHIS/9cfa08cb-0d76-4d5a-9a03-9ee0a0c2eb8b": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"home": "Cincinnati, OH",
+"local": true,
+"name": "Maple Knoll / BHI Senior Living"
+},
+"ukg:recruiting.ultipro.com/BHI1000BHIS/e71a3962-c9a3-4604-8ed7-40c2f20ed960": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"home": "Cincinnati, OH",
+"local": true,
+"name": "Maple Knoll / BHI Senior Living"
 },
 "ukg:recruiting.ultipro.com/CAR1038/a2cb2439-e7a8-4744-1acc-2ee745a1bfeb": {
 "fails": 0,
@@ -1961,6 +2127,18 @@
 "name": "Recruiting.Ultipro.Com",
 "scope": "health"
 },
+"ukg:recruiting.ultipro.com/GRA1030GRALA/2d2b5749-b7ba-4967-bd35-8d14640a1518": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Grand Lake Health System"
+},
+"ukg:recruiting.ultipro.com/MED1023MEDU/a4519e64-6e7e-43bb-bb79-6161047f1528": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Meduit"
+},
 "ukg:recruiting2.ultipro.com/MED1007MHP/ffa5492f-9175-4dab-891d-a6a5d6dced2f": {
 "fails": 0,
 "name": "Medica"
@@ -1969,6 +2147,12 @@
 "fails": 0,
 "name": "Mesa Labs",
 "strict": true
+},
+"ukg:recruiting2.ultipro.com/NOR1027NMINC/fc008c11-8b24-4834-af91-b281183a52a6": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Noridian Healthcare Solutions"
 },
 "ukg:recruiting2.ultipro.com/WIS1003/e6da0c90-f987-63dc-99a9-fb8c9014f57e": {
 "fails": 0,
@@ -2145,7 +2329,7 @@
 "name": "Blue Cross of Idaho"
 },
 "workday:bdx/wd1/EXTERNAL_CAREER_SITE_USA": {
-"fails": 0,
+"fails": 1,
 "name": "BD",
 "strict": true
 },
@@ -2177,12 +2361,12 @@
 "name": "Cambia Health Solutions"
 },
 "workday:cardinalhealth/wd1/EXT": {
-"fails": 0,
+"fails": 1,
 "name": "Cardinal Health",
 "strict": true
 },
 "workday:caresource/wd1/CareSource": {
-"fails": 0,
+"fails": 1,
 "name": "CareSource"
 },
 "workday:carilionclinic/wd12/External_Careers": {
@@ -2252,6 +2436,13 @@
 "from": "survey",
 "name": "Chickasaw Nation Industries",
 "scope": "health"
+},
+"workday:cnx/wd1/external_global": {
+"added": "2026-10-05",
+"fails": 1,
+"from": "careers page",
+"name": "Concentrix",
+"strict": true
 },
 "workday:cookchildrens/wd1/Cook_Childrens_Careers": {
 "fails": 0,
@@ -2341,6 +2532,13 @@
 "workday:evolent/wd1/External": {
 "fails": 0,
 "name": "Evolent"
+},
+"workday:exactsciences/wd1/Exact_Sciences": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "Exact Sciences",
+"strict": true
 },
 "workday:fmr/wd1/fidelitycareers": {
 "added": "2026-10-05",
@@ -2641,6 +2839,12 @@
 "fails": 0,
 "name": "MUSC Health"
 },
+"workday:mvphealthcare/wd5/mvphealthcare": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "MVP Health Care"
+},
 "workday:myhrabc/wd5/Global": {
 "fails": 0,
 "name": "Cencora",
@@ -2733,6 +2937,13 @@
 "workday:onehealthineers/wd3/SHSJB": {
 "fails": 0,
 "name": "Siemens Healthineers",
+"strict": true
+},
+"workday:orthoclinical/wd1/Search": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "careers page",
+"name": "QuidelOrtho",
 "strict": true
 },
 "workday:osu/wd1/OSUCareers": {

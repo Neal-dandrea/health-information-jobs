@@ -76,8 +76,10 @@ def _ipv4_only(host, port, family=0, *args, **kwargs):
 socket.getaddrinfo = _ipv4_only
 
 
-def fetch(url: str, timeout: int = 60, json_body: Optional[dict] = None) -> bytes:
-    headers = {"User-Agent": UA, "Accept": "application/json, text/plain, */*"}
+def fetch(url: str, timeout: int = 60, json_body: Optional[dict] = None,
+          headers: Optional[dict] = None) -> bytes:
+    headers = {"User-Agent": UA, "Accept": "application/json, text/plain, */*",
+               **(headers or {})}
     data = None
     if json_body is not None:
         headers["Content-Type"] = "application/json"
@@ -542,7 +544,7 @@ def main() -> int:
                   + (f"unreachable ({err})" if err else f"{count} fitting"), flush=True)
 
         got, failed_sites = ats.collect(
-            companies, lambda url, json_body=None: fetch(url, 25, json_body), listing,
+            companies, lambda url, json_body=None, **kw: fetch(url, 25, json_body, **kw), listing,
             progress=progress)
         for r in got:                 # a description that came with the listing
             if r.get("_text"):
@@ -581,7 +583,7 @@ def main() -> int:
     # Read descriptions. This also finds the real location of a posting that
     # only said "3 Locations", so tagging and the location filter come after.
     t0 = time.time()
-    m = match.enrich(listings, lambda url, json_body=None: fetch(url, 20, json_body),
+    m = match.enrich(listings, lambda url, json_body=None, **kw: fetch(url, 20, json_body, **kw),
                      a.describe, inline=INLINE_TEXT,
                      progress=lambda n, total: print(f"    descriptions {n}/{total}",
                                                      flush=True))
@@ -644,7 +646,8 @@ def main() -> int:
                 "platform": k.split(":", 1)[0].title(), "origin": "feed not answering",
                 "note": f"Its job feed has not answered for {e['fails']} runs in a row"}
                for k, e in companies.items() if e.get("fails", 0) >= 6]
-    by_hand = manual.write(DOCS, DATA, [], failing)
+    by_hand = manual.write(DOCS, DATA, [], failing,
+                           [e["name"] for e in companies.values() if e.get("fails", 0) < 6])
 
     path = write_outputs(listings, new, report, first_run, tabs={"manual": by_hand})
     with open(os.path.join(DATA, "seen.json"), "w") as fh:

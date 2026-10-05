@@ -1,15 +1,5 @@
 [
  {
-  "name": "University of Cincinnati",
-  "url": "https://jobs.uc.edu/",
-  "platform": "SuccessFactors"
- },
- {
-  "name": "Western & Southern Financial Group",
-  "url": "https://careers-westernsouthern.icims.com/",
-  "platform": "iCIMS"
- },
- {
   "name": "FinThrive",
   "url": "https://finthrive.com/careers",
   "platform": "Dayforce"
@@ -98,26 +88,6 @@
   "name": "Omnicare",
   "url": "https://www.omnicare.com/careers",
   "platform": "CVS Health"
- },
- {
-  "name": "Signify Health",
-  "url": "https://www.signifyhealth.com/careers",
-  "platform": "CVS Health"
- },
- {
-  "name": "Oak Street Health",
-  "url": "https://www.oakstreethealth.com/careers",
-  "platform": "CVS Health"
- },
- {
-  "name": "UnitedHealth Group / Optum / Change Healthcare",
-  "url": "https://uhg.taleo.net/careersection/10000/",
-  "platform": "Taleo"
- },
- {
-  "name": "Maximus",
-  "url": "https://maximus.avature.net/careers/Job-Search_US",
-  "platform": "Avature"
  },
  {
   "name": "Verisma",
@@ -215,11 +185,6 @@
   "platform": "not found"
  },
  {
-  "name": "Zotec Partners",
-  "url": "https://app.jazz.co/widgets/basic/create/zotecpartners",
-  "platform": "JazzHR"
- },
- {
   "name": "SummaCare",
   "url": "https://www.summahealth.org/careers",
   "platform": "not found"
@@ -269,16 +234,6 @@
   "name": "Summa Health",
   "url": "https://www.summahealth.org/careers",
   "platform": "Infor"
- },
- {
-  "name": "UT Southwestern",
-  "url": "https://jobs.utsouthwestern.edu/",
-  "platform": "Taleo"
- },
- {
-  "name": "University Hospitals",
-  "url": "https://careers.uhhospitals.org/",
-  "platform": "Taleo"
  },
  {
   "name": "MD Anderson",
@@ -354,11 +309,6 @@
   "note": "careers-fairview iCIMS search failed; only internal-fairview seen"
  },
  {
-  "name": "Scripps Health",
-  "url": "https://careers.scripps.org/",
-  "platform": "Symphony Talent over Taleo"
- },
- {
   "name": "UCSF Health",
   "url": "https://www.ucsfhealth.org/about/careers",
   "platform": "unknown"
@@ -415,24 +365,9 @@
   "platform": "Infor"
  },
  {
-  "name": "Hoag",
-  "url": "https://careers.hoag.org/",
-  "platform": "SuccessFactors"
- },
- {
-  "name": "St. Luke's Health System",
-  "url": "https://stlukesonline.org/en/about/careers/",
-  "platform": "Avature"
- },
- {
   "name": "Independence Blue Cross",
   "url": "https://www.ibx.com/careers/index.html",
   "platform": "Taleo / SelectMinds"
- },
- {
-  "name": "Horizon BCBSNJ",
-  "url": "https://www.horizonblue.com/careers",
-  "platform": "unknown"
  },
  {
   "name": "CareFirst",
@@ -465,12 +400,6 @@
   "platform": "Dayforce"
  },
  {
-  "name": "MVP Health Care",
-  "url": "https://www.mvphealthcare.com/careers",
-  "platform": "Workday",
-  "note": "workday:mvphealthcare/wd5/mvphealthcare exists but returned 0 jobs today; recheck later"
- },
- {
   "name": "Curative",
   "url": "https://curative.com/careers",
   "platform": "unknown"
@@ -485,16 +414,6 @@
   "name": "Talbert House",
   "url": "https://www.talberthouse.org/careers/",
   "platform": "ADP"
- },
- {
-  "name": "OrthoCincy",
-  "url": "https://www.orthocincy.com/careers/",
-  "platform": "Paylocity"
- },
- {
-  "name": "The Health Collaborative",
-  "url": "https://healthcollab.org/careers/",
-  "platform": "Paylocity"
  },
  {
   "name": "PrimaryOne Health",
@@ -512,17 +431,6 @@
   "platform": "Dayforce"
  },
  {
-  "name": "Alternate Solutions Health Network",
-  "url": "https://jobs.jobvite.com/ashcompanies",
-  "platform": "Jobvite"
- },
- {
-  "name": "Maple Knoll / BHI Senior Living",
-  "url": "https://careers.bhiseniorliving.org/",
-  "platform": "UKG",
-  "note": "Ten separate UKG boards under recruiting.ultipro.com/BHI1000BHIS, one per community; the Maple Knoll board was not identified"
- },
- {
   "name": "Riverhills Neuroscience",
   "url": "https://www.riverhillsneuro.com/careers",
   "platform": "ApplicantPro"
@@ -531,11 +439,6 @@
   "name": "Greater Cincinnati Behavioral Health Services",
   "url": "https://www.gcbhs.com/careers",
   "platform": "ADP"
- },
- {
-  "name": "NorthKey Community Care",
-  "url": "https://www.northkey.org/careers/",
-  "platform": "JazzHR"
  },
  {
   "name": "Bluegrass Care Navigators",
@@ -588,17 +491,6 @@
   "platform": "Paycom"
  },
  {
-  "name": "Bayley",
-  "url": "https://www.bayleylife.org/careers",
-  "platform": "Paylocity"
- },
- {
-  "name": "Grand Lake Health System",
-  "url": "https://grandlakehealth.org/careers/",
-  "platform": "UKG",
-  "note": "Board id on the page failed the UKG check"
- },
- {
   "name": "Decatur County Memorial Hospital",
   "url": "https://dcmh.net/careers/join-our-team/",
   "platform": "HealthcareSource"
@@ -648,11 +540,6 @@
  {
   "name": "HealthPoint Family Care",
   "url": "https://www.healthpointfc.org/careers/",
-  "platform": "unknown"
- },
- {
-  "name": "Primary Health Solutions",
-  "url": "https://myprimaryhealthsolutions.org/careers/",
   "platform": "unknown"
  },
  {
@@ -716,12 +603,6 @@
   "platform": "unknown"
  },
  {
-  "name": "Meadowview Regional Medical Center",
-  "url": "https://www.meadowviewregional.com/careers",
-  "platform": "Lifepoint",
-  "note": "Lifepoint is already covered"
- },
- {
   "name": "Columbus Regional Health",
   "url": "https://www.crh.org/healthcare-professionals/career-opportunities",
   "platform": "unknown"
@@ -744,12 +625,6 @@
   "note": "URL UNCONFIRMED: cmhregional.com did not respond to curl from this host on any attempt; find the careers page by hand"
  },
  {
-  "name": "Southern Ohio Medical Center",
-  "url": "https://www.somc.org/careers/",
-  "platform": "unknown",
-  "note": "403 to curl"
- },
- {
   "name": "Wayne HealthCare",
   "url": "https://www.waynehealthcare.org/careers/",
   "platform": "unknown",
@@ -767,16 +642,6 @@
   "note": "Federal"
  },
  {
-  "name": "Aspirion",
-  "url": "https://www.aspirion.com/careers/",
-  "platform": "Paylocity"
- },
- {
-  "name": "Currance",
-  "url": "https://www.currance.com/our-story/careers/",
-  "platform": "Paylocity"
- },
- {
   "name": "Healthrise",
   "url": "https://www.healthrise.com/healthrise-careers/",
   "platform": "Paylocity"
@@ -786,11 +651,6 @@
   "url": "https://gebbs.com/careers/",
   "platform": "unknown",
   "note": "403 to curl"
- },
- {
-  "name": "Meduit",
-  "url": "https://www.meduitrcm.com/careers/",
-  "platform": "unknown"
  },
  {
   "name": "Firstsource",
@@ -811,12 +671,6 @@
   "name": "Performant Healthcare",
   "url": "https://performanthealthcare.com/",
   "platform": "unknown"
- },
- {
-  "name": "Concentrix",
-  "url": "https://jobs.concentrix.com/",
-  "platform": "Workday",
-  "note": "workday:cnx/wd1/external_global is a global non-health board, left out"
  },
  {
   "name": "NRC Health",
@@ -845,12 +699,6 @@
   "platform": "unknown"
  },
  {
-  "name": "Kaufman Hall",
-  "url": "https://www.kaufmanhall.com/about-us/careers",
-  "platform": "Workday (Vizient)",
-  "note": "Posts through Vizient, already covered"
- },
- {
   "name": "Forvis Mazars",
   "url": "https://www.forvismazars.us/careers",
   "platform": "Avature"
@@ -873,25 +721,9 @@
   "note": "jibe API check failed"
  },
  {
-  "name": "Bamboo Health",
-  "url": "https://bamboohealth.com/careers-at-bamboo-health/",
-  "platform": "Rippling"
- },
- {
   "name": "Healthcare Bluebook",
   "url": "https://www.healthcarebluebook.com/ui/home",
   "platform": "unknown"
- },
- {
-  "name": "Exact Sciences",
-  "url": "https://careers.exactsciences.com/",
-  "platform": "Workday",
-  "note": "workday:exactsciences/wd1/Exact_Sciences returned 0 jobs today; recheck later"
- },
- {
-  "name": "NCQA",
-  "url": "https://www.ncqa.org/about-ncqa/careers/",
-  "platform": "Paylocity"
  },
  {
   "name": "URAC",
@@ -934,11 +766,6 @@
   "url": "https://www.norc.org/",
   "platform": "unknown",
   "note": "Careers page not located"
- },
- {
-  "name": "Noridian Healthcare Solutions",
-  "url": "https://noridiansolutions.com/",
-  "platform": "unknown"
  },
  {
   "name": "Novitas Solutions",
@@ -1002,11 +829,6 @@
  {
   "name": "Benchmark Gensuite",
   "url": "https://benchmarkgensuite.com/careers/",
-  "platform": "unknown"
- },
- {
-  "name": "QuidelOrtho",
-  "url": "https://www.quidelortho.com/global/en/careers",
   "platform": "unknown"
  }
 ]
