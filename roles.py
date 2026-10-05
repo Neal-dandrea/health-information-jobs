@@ -76,7 +76,7 @@ BLOCKED_EMPLOYERS = re.compile(
     r"charles river|\bPSI CRO\b|catalyst clinical research|\bemmes\b|allucent|ergomed|"
     r"\bTFS healthscience|novotech|propharma|caidya|\brho\b,? inc|alimentiv|\bKCR\b|"
     r"advanced clinical|veristat|\bcytel\b|\blinical\b|george clinical|frontage|"
-    r"altasciences|celerion|\bQPS\b|pharm-olam|clinipace|medpace research", re.I)
+    r"altasciences|celerion|\bQPS\b|pharm-olam|clinipace|medpace", re.I)
 
 
 def blocked(company: str) -> bool:
