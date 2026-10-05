@@ -1388,7 +1388,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -2329,7 +2329,7 @@
 "name": "Blue Cross of Idaho"
 },
 "workday:bdx/wd1/EXTERNAL_CAREER_SITE_USA": {
-"fails": 1,
+"fails": 0,
 "name": "BD",
 "strict": true
 },
@@ -2361,12 +2361,12 @@
 "name": "Cambia Health Solutions"
 },
 "workday:cardinalhealth/wd1/EXT": {
-"fails": 1,
+"fails": 0,
 "name": "Cardinal Health",
 "strict": true
 },
 "workday:caresource/wd1/CareSource": {
-"fails": 1,
+"fails": 0,
 "name": "CareSource"
 },
 "workday:carilionclinic/wd12/External_Careers": {
@@ -2439,7 +2439,7 @@
 },
 "workday:cnx/wd1/external_global": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "careers page",
 "name": "Concentrix",
 "strict": true
