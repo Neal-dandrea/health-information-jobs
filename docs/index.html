@@ -217,7 +217,7 @@ const CONFIG = {
   tracks: ["Compliance and Quality","Project and Program","Revenue Cycle","Health Information","Data and Analytics","Clinical Documentation","Clinical Research","Patient Services"],
   showFit: false,
   blank: {areas:[], level:""},
-  subtitle: (n, when) => `${n.toLocaleString()} open roles asking 3 years of experience or less, remote or near Cincinnati, updated ${when}`,
+  subtitle: (n, when) => `${n.toLocaleString()} open roles asking 3 years of experience or less, remote or near Cincinnati, checked ${when}`,
   selects: [
     {id:"region",label:"Area",value:"core",options:[["core","Cincinnati area or remote"],["Cincinnati area","Cincinnati area only"],["Remote","Remote only"],["Dayton area","Dayton area (about an hour)"],["","All of the above"]]},
     {id:"level",label:"Level",value:"early",options:[["early","Hide senior roles"],["entry","Entry level only"],["","Any level"]]},
@@ -431,8 +431,13 @@ fetch("list.json", {cache:"no-cache"}).then(r => r.json()).then(d => {
     r._locTokens = new Set(r._loc.split(/[^a-z0-9]+/).filter(Boolean));
   }
   ALL.sort((a,b) => dayOf(b).localeCompare(dayOf(a)) || a.company.localeCompare(b.company));
-  const when = d.generated ? new Date(d.generated).toLocaleString(undefined, {dateStyle:"medium", timeStyle:"short"}) : "";
-  $("sub").textContent = CONFIG.subtitle(ALL.length, when);
+  const fmt = iso => iso ? new Date(iso).toLocaleString(undefined, {dateStyle:"medium", timeStyle:"short"}) : "";
+  $("sub").textContent = CONFIG.subtitle(ALL.length, fmt(d.generated));
+  // The list file only changes when a listing does. This small file says when
+  // the sources were last checked, which is the time worth showing.
+  fetch("checked.json", {cache:"no-cache"}).then(r => r.json()).then(c => {
+    if(c.checked) $("sub").textContent = CONFIG.subtitle(ALL.length, fmt(c.checked));
+  }).catch(() => {});
   const s = d.sources || {};
   $("srcline").textContent = "Last run. " + Object.keys(s).map(k => `${k} ${s[k]}`).join(" · ");
   apply();
