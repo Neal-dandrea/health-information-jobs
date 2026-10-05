@@ -422,6 +422,10 @@
 "fails": 0,
 "name": "Orlando Health"
 },
+"jibe:careers.sca.health": {
+"fails": 0,
+"name": "Beacon Orthopaedics"
+},
 "jibe:jobs.novanthealth.org": {
 "fails": 0,
 "name": "Novant Health"
@@ -657,6 +661,105 @@
 "oracle:parkview-ibyyjb.fa.ocs.oraclecloud.com/CX_1": {
 "fails": 0,
 "name": "Parkview Health"
+},
+"paylocity:9d609744-c6de-46ac-abdd-9d67a0dbef46": {
+"fails": 0,
+"name": "e4health"
+},
+"paylocity:beb98d2c-b30f-47df-adee-d9c41622f147": {
+"fails": 0,
+"name": "Child Focus",
+"strict": true
+},
+"phenom:careers.amerihealthcaritas.com/us/en": {
+"fails": 0,
+"name": "AmeriHealth Caritas"
+},
+"phenom:careers.baptisthealth.net/us/en": {
+"fails": 0,
+"name": "Baptist Health South Florida"
+},
+"phenom:careers.conduent.com/us/en": {
+"fails": 0,
+"name": "Conduent",
+"strict": true
+},
+"phenom:careers.corewellhealth.org/us/en": {
+"fails": 0,
+"name": "Priority Health"
+},
+"phenom:careers.deaconess.com/us/en": {
+"fails": 0,
+"name": "Deaconess Health"
+},
+"phenom:careers.dukehealth.org/us/en": {
+"fails": 0,
+"name": "Duke Health"
+},
+"phenom:careers.templehealth.org/us/en": {
+"fails": 0,
+"name": "Temple Health"
+},
+"phenom:careers.uabmedicine.org/us/en": {
+"fails": 0,
+"name": "UAB Medicine"
+},
+"phenom:careers.umms.org/us/en": {
+"fails": 0,
+"name": "University of Maryland Medical System"
+},
+"phenom:careers.zimmerbiomet.com/us/en": {
+"fails": 0,
+"name": "Zimmer Biomet",
+"strict": true
+},
+"phenom:jobs.bswhealth.com/us/en": {
+"fails": 0,
+"name": "Baylor Scott & White Health"
+},
+"phenom:www.hhccareers.org/us/en": {
+"fails": 0,
+"name": "Hartford HealthCare"
+},
+"radancy:careers.enhabit.com": {
+"fails": 0,
+"name": "Enhabit",
+"strict": true
+},
+"radancy:careers.memorialcare.org": {
+"fails": 0,
+"name": "MemorialCare"
+},
+"radancy:careers.unitedhealthgroup.com": {
+"fails": 0,
+"name": "Change Healthcare"
+},
+"radancy:jobs.hackensackmeridianhealth.org": {
+"fails": 0,
+"name": "Hackensack Meridian Health"
+},
+"radancy:jobs.scionhealth.com": {
+"fails": 0,
+"name": "ScionHealth / Kindred"
+},
+"radancy:www.commonspirit.careers": {
+"fails": 0,
+"name": "CommonSpirit Health"
+},
+"radancy:www.kaiserpermanentejobs.org": {
+"fails": 0,
+"name": "Kaiser Permanente",
+"strict": true
+},
+"rmk:careers.essilorluxottica.com": {
+"fails": 0,
+"name": "EssilorLuxottica",
+"strict": true
+},
+"rmk:jobs.gainwelltechnologies.com": {
+"fails": 0,
+"name": "Gainwell Technologies",
+"strict": true
 },
 "smartrecruiters:Eurofins": {
 "fails": 0,

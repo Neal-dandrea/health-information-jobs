@@ -10,16 +10,6 @@
   "platform": "iCIMS"
  },
  {
-  "name": "UnitedHealth Group / Optum",
-  "url": "https://careers.unitedhealthgroup.com/",
-  "platform": "Taleo"
- },
- {
-  "name": "Change Healthcare",
-  "url": "https://careers.unitedhealthgroup.com/",
-  "platform": "Taleo"
- },
- {
   "name": "FinThrive",
   "url": "https://finthrive.com/careers",
   "platform": "Dayforce"
@@ -28,16 +18,6 @@
   "name": "Epic Systems",
   "url": "https://careers.epic.com/",
   "platform": "Avature"
- },
- {
-  "name": "CommonSpirit Health",
-  "url": "https://www.commonspirit.careers/",
-  "platform": "iCIMS"
- },
- {
-  "name": "Kaiser Permanente",
-  "url": "https://www.kaiserpermanentejobs.org/",
-  "platform": "Avature / Taleo"
  },
  {
   "name": "Nym Health",
@@ -73,11 +53,6 @@
   "name": "Mayfield Brain & Spine",
   "url": "https://mayfieldclinic.hrmdirect.com/employment/job-openings.php?search=true",
   "platform": "HRMDirect / ClearCompany"
- },
- {
-  "name": "Beacon Orthopaedics",
-  "url": "https://careers.sca.health/",
-  "platform": "SCA Health careers site"
  },
  {
   "name": "HealthSource of Ohio",
@@ -140,16 +115,6 @@
   "platform": "Taleo"
  },
  {
-  "name": "Gainwell Technologies",
-  "url": "https://jobs.gainwelltechnologies.com/",
-  "platform": "SuccessFactors"
- },
- {
-  "name": "Conduent",
-  "url": "https://careers.conduent.com/",
-  "platform": "Phenom-only"
- },
- {
   "name": "Maximus",
   "url": "https://maximus.avature.net/careers/Job-Search_US",
   "platform": "Avature"
@@ -188,11 +153,6 @@
   "name": "Pena4",
   "url": "https://www.pena4.com/careers/",
   "platform": "not found"
- },
- {
-  "name": "e4health",
-  "url": "https://recruiting.paylocity.com/recruiting/jobs/All/9d609744-c6de-46ac-abdd-9d67a0dbef46/e4health",
-  "platform": "Paylocity"
  },
  {
   "name": "KIWI-TEK",
@@ -306,17 +266,6 @@
   "platform": "SuccessFactors"
  },
  {
-  "name": "Baylor Scott & White Health",
-  "url": "https://jobs.bswhealth.com/us/en",
-  "platform": "Phenom over Taleo"
- },
- {
-  "name": "Duke Health",
-  "url": "https://careers.dukehealth.org/us/en",
-  "platform": "Phenom",
-  "note": "Underlying ATS not exposed"
- },
- {
   "name": "Summa Health",
   "url": "https://www.summahealth.org/careers",
   "platform": "Infor"
@@ -340,11 +289,6 @@
   "name": "UCLA Health",
   "url": "https://www.uclahealthcareers.org/",
   "platform": "Avature"
- },
- {
-  "name": "ScionHealth / Kindred",
-  "url": "https://jobs.scionhealth.com/",
-  "platform": "Taleo"
  },
  {
   "name": "LHC Group",
@@ -425,11 +369,6 @@
   "platform": "unknown"
  },
  {
-  "name": "Enhabit",
-  "url": "https://careers.enhabit.com/",
-  "platform": "Radancy TalentBrew"
- },
- {
   "name": "Aveanna Healthcare",
   "url": "https://jobs.aveanna.com/jobs/",
   "platform": "custom over Workday",
@@ -446,11 +385,6 @@
   "platform": "unknown"
  },
  {
-  "name": "Hackensack Meridian Health",
-  "url": "https://jobs.hackensackmeridianhealth.org/",
-  "platform": "Radancy TalentBrew over iCIMS"
- },
- {
   "name": "NYU Langone",
   "url": "https://jobs.nyulangone.org/",
   "platform": "unknown"
@@ -459,11 +393,6 @@
   "name": "WellSpan",
   "url": "https://www.joinwellspan.org/",
   "platform": "unknown"
- },
- {
-  "name": "Temple Health",
-  "url": "https://careers.templehealth.org/us/en",
-  "platform": "Phenom over Taleo"
  },
  {
   "name": "Main Line Health",
@@ -486,16 +415,6 @@
   "platform": "Infor"
  },
  {
-  "name": "Baptist Health South Florida",
-  "url": "https://careers.baptisthealth.net/us/en",
-  "platform": "Phenom over Taleo"
- },
- {
-  "name": "MemorialCare",
-  "url": "https://careers.memorialcare.org/",
-  "platform": "Taleo"
- },
- {
   "name": "Hoag",
   "url": "https://careers.hoag.org/",
   "platform": "SuccessFactors"
@@ -504,30 +423,6 @@
   "name": "St. Luke's Health System",
   "url": "https://stlukesonline.org/en/about/careers/",
   "platform": "Avature"
- },
- {
-  "name": "Hartford HealthCare",
-  "url": "https://www.hhccareers.org/us/en",
-  "platform": "Phenom",
-  "note": "Underlying ATS not exposed"
- },
- {
-  "name": "University of Maryland Medical System",
-  "url": "https://careers.umms.org/us/en",
-  "platform": "Phenom",
-  "note": "Underlying ATS not exposed"
- },
- {
-  "name": "UAB Medicine",
-  "url": "https://careers.uabmedicine.org/us/en",
-  "platform": "Phenom",
-  "note": "Underlying ATS not exposed"
- },
- {
-  "name": "Deaconess Health",
-  "url": "https://careers.deaconess.com/us/en",
-  "platform": "Phenom",
-  "note": "Underlying ATS not exposed"
  },
  {
   "name": "Independence Blue Cross",
@@ -560,11 +455,6 @@
   "platform": "ADP"
  },
  {
-  "name": "AmeriHealth Caritas",
-  "url": "https://careers.amerihealthcaritas.com/us/en",
-  "platform": "Phenom over Taleo"
- },
- {
   "name": "UCare",
   "url": "https://myjobs.adp.com/ucarecareers/cx",
   "platform": "ADP"
@@ -579,12 +469,6 @@
   "url": "https://www.mvphealthcare.com/careers",
   "platform": "Workday",
   "note": "workday:mvphealthcare/wd5/mvphealthcare exists but returned 0 jobs today; recheck later"
- },
- {
-  "name": "Priority Health",
-  "url": "https://careers.corewellhealth.org/us/en",
-  "platform": "Workday (Corewell)",
-  "note": "Posts through Corewell Health, which is captured"
  },
  {
   "name": "Curative",
@@ -652,11 +536,6 @@
   "name": "NorthKey Community Care",
   "url": "https://www.northkey.org/careers/",
   "platform": "JazzHR"
- },
- {
-  "name": "Child Focus",
-  "url": "https://recruiting.paylocity.com/recruiting/jobs/All/beb98d2c-b30f-47df-adee-d9c41622f147/Child-Focus-Inc",
-  "platform": "Paylocity"
  },
  {
   "name": "Bluegrass Care Navigators",
@@ -1109,16 +988,6 @@
   "url": "https://aprecia.com/careers",
   "platform": "unknown",
   "note": "429 to curl"
- },
- {
-  "name": "EssilorLuxottica",
-  "url": "https://careers.essilorluxottica.com/",
-  "platform": "SuccessFactors"
- },
- {
-  "name": "Zimmer Biomet",
-  "url": "https://careers.zimmerbiomet.com/us/en",
-  "platform": "Phenom over SuccessFactors"
  },
  {
   "name": "BioReference",

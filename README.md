@@ -46,6 +46,13 @@ Each employer's own job feed is read on every run. The supported platforms
 are Workday, Oracle Cloud, iCIMS, Eightfold, UKG, Greenhouse, Lever, Ashby and
 SmartRecruiters.
 
+Many employers and platforms publish no feed at all. For a number of them, the
+request their own careers page makes when an ordinary visitor opens it was
+worked out and is used here, with no login. That covers the platforms in
+`platforms.py`: Radancy, Phenom, Taleo, Avature, SAP SuccessFactors, Paylocity,
+Rippling, BambooHR, Jobvite, JazzHR and several more. None of these is a
+published feed, so any of them can stop working without notice.
+
 **The Muse.** A general job board with a public feed, read for its healthcare
 and office categories in Cincinnati and remote.
 

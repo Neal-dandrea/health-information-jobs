@@ -19,6 +19,7 @@ import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 from typing import Callable, Dict, List, Optional, Tuple
 
+import platforms
 import roles
 
 TODAY = dt.date.today()
@@ -375,7 +376,20 @@ def ukg(token, company, fetch, listing, anyloc=False, max_jobs: int = 2000):
     return out
 
 
+# Search words for platforms that only answer a search. Each is tried in turn.
+SEARCH_WORDS = ["health information", "reimbursement", "compliance", "quality",
+                "revenue cycle", "project manager", "program", "clinical documentation",
+                "patient access"]
+
+
+def _generic(reader):
+    """Wrap a reader from platforms.py, which serves both boards, for this one."""
+    return lambda token, company, fetch, listing, anyloc=False: reader(
+        token, company, fetch, listing, roles.relevant, SEARCH_WORDS)
+
+
 READERS: Dict[str, Callable] = {
+    **{name: _generic(fn) for name, fn in platforms.READERS.items()},
     "greenhouse": greenhouse, "lever": lever, "ashby": ashby,
     "smartrecruiters": smartrecruiters, "workday": workday, "oracle": oracle,
     "icims": icims, "jibe": jibe, "eightfold": eightfold, "ukg": ukg,
@@ -476,6 +490,9 @@ def collect(companies: Dict[str, dict], fetch, listing, workers: int = 8,
                     locs = [x if _HAS_STATE.search(x) or roles.REMOTE.search(x)
                             or roles.VAGUE.match(x) else f"{x}, {entry['state']}"
                             for x in locs]
+                # Some employers say "Remote" only in the title.
+                if roles.REMOTE.search(r["title"]) and not any(roles.REMOTE.search(x) for x in locs):
+                    locs.append("Remote")
                 # An employer with one home area that posts "OH, United States".
                 if entry.get("home") and all(_STATE_ONLY.match(x) for x in locs):
                     locs = [entry["home"]]

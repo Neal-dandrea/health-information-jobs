@@ -237,7 +237,7 @@ _DAYTON_TOWNS = ("Dayton|Kettering|Beavercreek|Miamisburg|Centerville|Fairborn|"
 NEARBY = re.compile(rf"\b(?:{_DAYTON_TOWNS})\b[^;|]{{0,25}}{_OH}|"
                     rf"{_OH}[^;|]{{0,6}}\b(?:{_DAYTON_TOWNS})\b", re.I)
 REMOTE = re.compile(r"\bremote\b|work from home|work.at.home|\bWFH\b|virtual|telecommut|"
-                    r"\banywhere\b|home.based|nationwide", re.I)
+                    r"\banywhere\b|home.based|nationwide|\bany city\b", re.I)
 # A location that hides the detail, such as "3 Locations". These are looked up.
 VAGUE = re.compile(r"^\s*(\d+\s+locations?|multiple( locations)?|various|see (job )?description)?\s*$",
                    re.I)
