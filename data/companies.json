@@ -1,332 +1,1582 @@
 {
+"ashby:abridge": {
+"fails": 0,
+"name": "Abridge"
+},
+"ashby:adonis": {
+"fails": 0,
+"name": "Adonis"
+},
 "ashby:akasa": {
+"fails": 0,
 "name": "Akasa"
 },
+"ashby:ambiencehealthcare": {
+"fails": 0,
+"name": "Ambience Healthcare"
+},
+"ashby:anglehealth": {
+"fails": 0,
+"name": "Angle Health"
+},
+"ashby:candidhealth": {
+"fails": 0,
+"name": "Candid Health"
+},
 "ashby:cedar": {
+"fails": 0,
 "name": "Cedar"
 },
+"ashby:centivo": {
+"fails": 0,
+"name": "Centivo"
+},
+"ashby:certifyos": {
+"fails": 0,
+"name": "CertifyOS"
+},
+"ashby:chartis": {
+"fails": 0,
+"name": "The Chartis Group",
+"strict": true
+},
 "ashby:codametrix": {
+"fails": 0,
 "name": "CodaMetrix"
 },
+"ashby:commure": {
+"fails": 0,
+"name": "Commure"
+},
+"ashby:gravie": {
+"fails": 0,
+"name": "Gravie"
+},
+"ashby:headway": {
+"fails": 0,
+"name": "Headway"
+},
+"ashby:infinitus": {
+"fails": 0,
+"name": "Infinitus Systems"
+},
 "ashby:inovalon": {
+"fails": 0,
 "name": "Inovalon"
 },
+"ashby:nabla": {
+"fails": 0,
+"name": "Nabla"
+},
+"ashby:notable": {
+"fails": 0,
+"name": "Notable"
+},
+"ashby:openloophealth": {
+"fails": 0,
+"name": "OpenLoop Health"
+},
+"ashby:pearlhealth": {
+"fails": 0,
+"name": "Pearl Health"
+},
+"ashby:regard": {
+"fails": 0,
+"name": "Regard"
+},
+"ashby:revecore": {
+"fails": 0,
+"name": "Revecore"
+},
+"ashby:tennr": {
+"fails": 0,
+"name": "Tennr"
+},
+"ashby:virtahealth": {
+"fails": 0,
+"name": "Virta Health"
+},
+"ashby:wheel": {
+"fails": 0,
+"name": "Wheel"
+},
+"eightfold:bostonscientific.eightfold.ai|bostonscientific.com": {
+"fails": 0,
+"name": "Boston Scientific",
+"strict": true
+},
 "eightfold:premierhealth.eightfold.ai|premierhealth.com": {
+"fails": 0,
 "name": "Premier Health"
 },
+"greenhouse:americaninstitutesforresearch": {
+"fails": 0,
+"name": "American Institutes for Research",
+"strict": true
+},
+"greenhouse:amwell": {
+"fails": 0,
+"name": "Amwell"
+},
+"greenhouse:atricure": {
+"fails": 0,
+"home": "Mason, OH",
+"name": "AtriCure",
+"strict": true
+},
+"greenhouse:bayada": {
+"fails": 0,
+"name": "BAYADA Home Health Care"
+},
+"greenhouse:bluestone": {
+"fails": 0,
+"name": "Bluestone Physician Services"
+},
+"greenhouse:carrotfertility": {
+"fails": 0,
+"name": "Carrot Fertility"
+},
 "greenhouse:cloverhealth": {
+"fails": 0,
 "name": "Clover Health"
 },
+"greenhouse:coherehealth": {
+"fails": 0,
+"name": "Cohere Health"
+},
+"greenhouse:collectivehealth": {
+"fails": 0,
+"name": "Collective Health"
+},
 "greenhouse:datavant2": {
+"fails": 0,
 "name": "Datavant"
 },
+"greenhouse:definitivehc": {
+"fails": 0,
+"name": "Definitive Healthcare"
+},
+"greenhouse:doximity": {
+"fails": 0,
+"name": "Doximity",
+"strict": true
+},
+"greenhouse:flatironhealth": {
+"fails": 0,
+"name": "Flatiron Health"
+},
+"greenhouse:flumehealth": {
+"fails": 0,
+"name": "Flume Health"
+},
+"greenhouse:garnerhealth": {
+"fails": 0,
+"name": "Garner Health"
+},
+"greenhouse:healthjoy": {
+"fails": 0,
+"name": "HealthJoy"
+},
+"greenhouse:healthverity": {
+"fails": 0,
+"name": "HealthVerity"
+},
+"greenhouse:honor": {
+"fails": 0,
+"name": "Honor"
+},
+"greenhouse:intersystems": {
+"fails": 0,
+"name": "InterSystems",
+"strict": true
+},
+"greenhouse:komodohealth": {
+"fails": 0,
+"name": "Komodo Health"
+},
+"greenhouse:lumahealth": {
+"fails": 0,
+"name": "Luma Health"
+},
+"greenhouse:mavenclinic": {
+"fails": 0,
+"name": "Maven Clinic"
+},
+"greenhouse:natera": {
+"fails": 0,
+"name": "Natera",
+"strict": true
+},
 "greenhouse:neuehealth": {
+"fails": 0,
 "name": "NeueHealth"
 },
+"greenhouse:omadahealth": {
+"fails": 0,
+"name": "Omada Health"
+},
 "greenhouse:oscar": {
+"fails": 0,
 "name": "Oscar Health"
 },
+"greenhouse:oshihealth": {
+"fails": 0,
+"name": "Oshi Health"
+},
+"greenhouse:otterbein": {
+"fails": 0,
+"home": "Lebanon, OH",
+"name": "Otterbein SeniorLife"
+},
+"greenhouse:papa": {
+"fails": 0,
+"name": "Papa"
+},
+"greenhouse:patientpoint": {
+"fails": 0,
+"home": "Cincinnati, OH",
+"name": "PatientPoint",
+"strict": true
+},
+"greenhouse:qgenda": {
+"fails": 0,
+"name": "QGenda"
+},
+"greenhouse:rightwayhealthcare": {
+"fails": 0,
+"name": "Rightway"
+},
+"greenhouse:sidecarhealth": {
+"fails": 0,
+"name": "Sidecar Health"
+},
+"greenhouse:smarterdx": {
+"fails": 0,
+"name": "SmarterDx"
+},
+"greenhouse:smithrx": {
+"fails": 0,
+"name": "SmithRx"
+},
+"greenhouse:strivehealth": {
+"fails": 0,
+"name": "Strive Health"
+},
+"greenhouse:suki": {
+"fails": 0,
+"name": "Suki"
+},
+"greenhouse:swordhealth": {
+"fails": 0,
+"name": "Sword Health"
+},
+"greenhouse:talkspace": {
+"fails": 0,
+"name": "Talkspace"
+},
+"greenhouse:truveta": {
+"fails": 0,
+"name": "Truveta"
+},
 "greenhouse:uasi": {
+"fails": 0,
 "name": "UASI"
 },
+"greenhouse:uniteus": {
+"fails": 0,
+"name": "Unite Us"
+},
+"greenhouse:zocdoc": {
+"fails": 0,
+"name": "Zocdoc"
+},
+"icims:careers-acadiahealthcare": {
+"fails": 0,
+"name": "Acadia Healthcare"
+},
+"icims:careers-ardenthealth": {
+"fails": 0,
+"name": "Ardent Health"
+},
+"icims:careers-athletico": {
+"fails": 0,
+"name": "Athletico Physical Therapy"
+},
 "icims:careers-brightspring": {
+"fails": 0,
 "name": "BrightSpring Health Services"
 },
+"icims:careers-brightviewhealth": {
+"fails": 0,
+"home": "Cincinnati, OH",
+"name": "BrightView Health"
+},
+"icims:careers-capbluecross": {
+"fails": 0,
+"name": "Capital Blue Cross"
+},
+"icims:careers-chestnut": {
+"fails": 0,
+"name": "Chestnut Health Systems"
+},
 "icims:careers-cotiviti": {
+"fails": 0,
 "name": "Cotiviti"
 },
+"icims:careers-devereux": {
+"fails": 0,
+"name": "Devereux Advanced Behavioral Health"
+},
+"icims:careers-gentivahs": {
+"fails": 0,
+"name": "Gentiva"
+},
+"icims:careers-groupsrecovertogether": {
+"fails": 0,
+"name": "Groups Recover Together"
+},
 "icims:careers-healthedge": {
+"fails": 0,
 "name": "HealthEdge"
 },
 "icims:careers-ketteringhealth": {
+"fails": 0,
 "name": "Kettering Health",
 "state": "OH"
 },
+"icims:careers-lhs": {
+"fails": 0,
+"name": "Legacy Health"
+},
+"icims:careers-meridianbioscience": {
+"fails": 0,
+"home": "Cincinnati, OH",
+"name": "Meridian Bioscience",
+"strict": true
+},
 "icims:careers-mrocorp": {
+"fails": 0,
 "name": "MRO Corp"
 },
+"icims:careers-navitus": {
+"fails": 0,
+"name": "Navitus Health Solutions"
+},
+"icims:careers-primehealthcare": {
+"fails": 0,
+"name": "Prime Healthcare"
+},
+"icims:careers-sound": {
+"fails": 0,
+"name": "Sound Physicians"
+},
+"icims:careers-symplr": {
+"fails": 0,
+"name": "symplr"
+},
+"icims:careers-usap": {
+"fails": 0,
+"name": "U.S. Anesthesia Partners"
+},
 "icims:careers-velocityclinical": {
+"fails": 0,
 "name": "Velocity Clinical Research"
 },
 "icims:careers-ventrahealth": {
+"fails": 0,
 "name": "Ventra Health"
 },
 "icims:careers-wcgclinical": {
+"fails": 0,
 "name": "WCG Clinical"
 },
+"icims:ehccareers-emory": {
+"fails": 0,
+"name": "Emory Healthcare"
+},
+"icims:jobs-fchp": {
+"fails": 0,
+"name": "Fallon Health"
+},
+"jibe:careers.accentcare.com": {
+"fails": 0,
+"name": "AccentCare"
+},
+"jibe:careers.acentra.com": {
+"fails": 0,
+"name": "Acentra Health"
+},
+"jibe:careers.amedisys.com": {
+"fails": 0,
+"name": "Amedisys"
+},
+"jibe:careers.medstarhealth.org": {
+"fails": 0,
+"name": "MedStar Health"
+},
+"jibe:careers.mountsinai.org": {
+"fails": 0,
+"name": "Mount Sinai Health System"
+},
+"jibe:careers.orlandohealth.com": {
+"fails": 0,
+"name": "Orlando Health"
+},
+"jibe:jobs.novanthealth.org": {
+"fails": 0,
+"name": "Novant Health"
+},
+"jibe:jobs.uhsinc.com": {
+"fails": 0,
+"name": "Universal Health Services"
+},
+"jibe:www.bjccareers.org": {
+"fails": 0,
+"name": "BJC HealthCare"
+},
+"jibe:www.osfcareers.org": {
+"fails": 0,
+"name": "OSF HealthCare"
+},
 "lever:aledade": {
+"fails": 0,
 "name": "Aledade"
 },
 "lever:arcadia": {
+"fails": 0,
 "name": "Arcadia"
 },
 "lever:clarifyhealth": {
+"fails": 0,
 "name": "Clarify Health"
 },
+"lever:curai": {
+"fails": 0,
+"name": "Curai Health"
+},
+"lever:h1": {
+"fails": 0,
+"name": "H1"
+},
+"lever:hsag": {
+"fails": 0,
+"name": "Health Services Advisory Group"
+},
+"lever:includedhealth": {
+"fails": 0,
+"name": "Included Health"
+},
+"lever:lyrahealth": {
+"fails": 0,
+"name": "Lyra Health"
+},
+"lever:nomihealth": {
+"fails": 0,
+"name": "Nomi Health"
+},
+"lever:pointclickcare": {
+"fails": 0,
+"name": "PointClickCare"
+},
+"lever:porter": {
+"fails": 0,
+"name": "Porter"
+},
+"lever:redoxengine": {
+"fails": 0,
+"name": "Redox"
+},
+"lever:ro": {
+"fails": 0,
+"name": "Ro"
+},
+"lever:sanabenefits": {
+"fails": 0,
+"name": "Sana Benefits"
+},
+"lever:telligen": {
+"fails": 0,
+"name": "Telligen"
+},
 "lever:veeva": {
+"fails": 0,
 "name": "Veeva Systems",
 "strict": true
 },
+"lever:verifiable": {
+"fails": 0,
+"name": "Verifiable"
+},
+"lever:zushealth": {
+"fails": 0,
+"name": "Zus Health"
+},
+"oracle:ecge.fa.us2.oraclecloud.com/CX_1003": {
+"fails": 0,
+"name": "Blue Shield of California"
+},
+"oracle:ecvz.fa.us2.oraclecloud.com/CX_1": {
+"fails": 0,
+"name": "Adventist Health"
+},
 "oracle:eeho.fa.us2.oraclecloud.com/CX_45001": {
+"fails": 0,
 "name": "Oracle",
 "strict": true
 },
+"oracle:eevd.fa.us6.oraclecloud.com/CX_2": {
+"fails": 0,
+"name": "Hearst Health"
+},
+"oracle:eevd.fa.us6.oraclecloud.com/CX_5": {
+"fails": 0,
+"name": "Homecare Homebase"
+},
+"oracle:egpy.fa.us2.oraclecloud.com/CX_3001": {
+"fails": 0,
+"name": "Abt Global",
+"strict": true
+},
+"oracle:eimy.fa.us6.oraclecloud.com/CX_1": {
+"fails": 0,
+"name": "UW Health"
+},
+"oracle:ejep.fa.us2.oraclecloud.com/CX_1": {
+"fails": 0,
+"name": "Delta Dental of California"
+},
 "oracle:ejko.fa.us2.oraclecloud.com/CX_3": {
+"fails": 0,
 "name": "Blue Cross Blue Shield of Michigan"
 },
 "oracle:ejrz.fa.us2.oraclecloud.com/CX_5001": {
+"fails": 0,
 "name": "VITAS Healthcare"
 },
+"oracle:ekgn.fa.us6.oraclecloud.com/CX_2001": {
+"fails": 0,
+"name": "Myriad Genetics",
+"strict": true
+},
+"oracle:elar.fa.us2.oraclecloud.com/CX_1": {
+"fails": 0,
+"name": "Inova Health"
+},
 "oracle:eluq.fa.us2.oraclecloud.com/CX_2001": {
+"fails": 0,
 "name": "Kroger",
 "strict": true
 },
 "oracle:eodr.fa.us2.oraclecloud.com/CX_1001": {
+"fails": 0,
 "name": "Tenet Healthcare"
 },
 "oracle:eodr.fa.us2.oraclecloud.com/CX_2001": {
+"fails": 0,
 "name": "Conifer Health Solutions"
 },
 "oracle:eord.fa.us2.oraclecloud.com/CX_1001": {
+"fails": 0,
 "name": "Adena Health"
 },
+"oracle:eppr.fa.us2.oraclecloud.com/CX_2": {
+"fails": 0,
+"name": "Northwell Health"
+},
 "oracle:eswt.fa.us6.oraclecloud.com/CX_1001": {
+"fails": 0,
 "home": "Cincinnati, OH",
 "local": true,
 "name": "UC Health"
 },
+"oracle:evac.fa.us2.oraclecloud.com/CX_1": {
+"fails": 0,
+"name": "Providence"
+},
 "oracle:fa-equm-saasfaprod1.fa.ocs.oraclecloud.com/CX_1001": {
+"fails": 0,
 "name": "Omega Healthcare"
 },
+"oracle:fa-etnf-saasfaprod1.fa.ocs.oraclecloud.com/CX_1001": {
+"fails": 0,
+"name": "UChicago Medicine"
+},
+"oracle:fa-etnv-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
+"fails": 0,
+"name": "HealthPartners"
+},
 "oracle:fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
+"fails": 0,
 "name": "GuideWell"
 },
 "oracle:fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/CX_1001": {
+"fails": 0,
 "name": "Florida Blue"
 },
 "oracle:fa-etxt-saasfaprod1.fa.ocs.oraclecloud.com/CX_5": {
+"fails": 0,
 "home": "Cincinnati, OH",
 "local": true,
 "name": "The Christ Hospital"
 },
 "oracle:fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
+"fails": 0,
 "name": "Mayo Clinic"
 },
 "oracle:fa-evly-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
+"fails": 0,
 "home": "Cincinnati, OH",
 "local": true,
 "name": "TriHealth"
 },
 "oracle:fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/CX_2": {
+"fails": 0,
 "name": "EXL",
 "strict": true
 },
 "oracle:hckd.fa.us2.oraclecloud.com/CX_1": {
+"fails": 0,
 "name": "Molina Healthcare"
 },
+"oracle:hdkk.fa.us6.oraclecloud.com/CX_2001": {
+"fails": 0,
+"name": "Cedars-Sinai"
+},
 "oracle:hdox.fa.us6.oraclecloud.com/CX_1": {
+"fails": 0,
 "name": "Quest Diagnostics"
 },
 "oracle:ibnjjb.fa.ocs.oraclecloud.com/CX_1": {
+"fails": 0,
 "name": "Lifepoint Health"
 },
 "oracle:ibpcjb.fa.ocs.oraclecloud.com/CX_1004": {
+"fails": 0,
 "name": "Ascension"
 },
+"oracle:parkview-ibyyjb.fa.ocs.oraclecloud.com/CX_1": {
+"fails": 0,
+"name": "Parkview Health"
+},
+"smartrecruiters:Eurofins": {
+"fails": 0,
+"name": "Eurofins",
+"strict": true
+},
 "smartrecruiters:Experian": {
+"fails": 0,
 "name": "Experian",
 "strict": true
 },
+"smartrecruiters:HenryFordHealth1": {
+"fails": 0,
+"name": "Henry Ford Health"
+},
+"smartrecruiters:NorthwesternMedicine": {
+"fails": 0,
+"name": "Northwestern Medicine"
+},
 "smartrecruiters:PriviaHealth": {
+"fails": 0,
 "name": "Privia Health"
 },
+"smartrecruiters:WellmarkInc": {
+"fails": 0,
+"name": "Wellmark Blue Cross and Blue Shield"
+},
 "smartrecruiters:sutherland": {
+"fails": 0,
 "name": "Sutherland",
 "strict": true
 },
+"ukg:baptisthealth.rec.pro.ukg.net/BAP1500BHDM/5a6b1470-b5c5-4d26-a171-11ad94efcba8": {
+"fails": 0,
+"name": "Baptist Health Deaconess Madisonville"
+},
 "ukg:medmutual.rec.pro.ukg.net/MED1500MMOO/ef821115-21e9-4a27-9b98-50f8e2f05f30": {
+"fails": 0,
 "name": "Medical Mutual of Ohio"
 },
 "ukg:mmhealth.rec.pro.ukg.net/MAR1052MGMH/8cc2d18e-f33a-4496-825e-4b5c69e3cf1d": {
+"fails": 0,
 "name": "Margaret Mary Health"
 },
 "ukg:recruiting.ultipro.com/ADV1023AVR/6051d363-03fe-4650-945e-f836306a8388": {
+"fails": 0,
 "name": "Advarra"
 },
+"ukg:recruiting.ultipro.com/CAR1038/a2cb2439-e7a8-4744-1acc-2ee745a1bfeb": {
+"fails": 0,
+"home": "Loveland, OH",
+"name": "Carespring"
+},
+"ukg:recruiting2.ultipro.com/MED1007MHP/ffa5492f-9175-4dab-891d-a6a5d6dced2f": {
+"fails": 0,
+"name": "Medica"
+},
+"ukg:recruiting2.ultipro.com/MES1007MELA/3c5aaf31-804f-4321-b6ae-700d06097849": {
+"fails": 0,
+"name": "Mesa Labs",
+"strict": true
+},
+"ukg:recruiting2.ultipro.com/WIS1003/e6da0c90-f987-63dc-99a9-fb8c9014f57e": {
+"fails": 0,
+"name": "WPS Health Solutions"
+},
+"ukg:schneckmed.rec.pro.ukg.net/JAC1502SCKM/0ecf6482-01c9-4568-bec5-8ea8e3f534a3": {
+"fails": 0,
+"home": "Seymour, IN",
+"name": "Schneck Medical Center"
+},
+"workday:aah/wd5/External": {
+"fails": 0,
+"name": "Advocate Health"
+},
+"workday:abbott/wd5/abbottcareers": {
+"fails": 0,
+"name": "Abbott",
+"strict": true
+},
+"workday:adventhealth/wd12/AH_External_Career_Site": {
+"fails": 0,
+"name": "AdventHealth"
+},
 "workday:agilonhealth/wd1/External": {
+"fails": 0,
 "name": "agilon health"
 },
+"workday:aha/wd501/AHA": {
+"fails": 0,
+"name": "American Hospital Association"
+},
+"workday:albanymed/wd5/Albany_Med": {
+"fails": 0,
+"name": "Albany Med Health System"
+},
 "workday:alignmenthealthcare/wd12/ahc_external": {
+"fails": 0,
 "name": "Alignment Health"
 },
+"workday:allina/wd5/External": {
+"fails": 0,
+"name": "Allina Health"
+},
+"workday:altru/wd503/careers": {
+"fails": 0,
+"name": "Altru Health System"
+},
+"workday:arkbluecross/wd1/ABCBS_External_Careers": {
+"fails": 0,
+"name": "Arkansas Blue Cross and Blue Shield"
+},
 "workday:athenahealth/wd1/External": {
+"fails": 0,
 "name": "athenahealth"
 },
+"workday:availity/wd1/Availity_Careers_US": {
+"fails": 0,
+"name": "Availity"
+},
+"workday:avera/wd5/avera-careers": {
+"fails": 0,
+"name": "Avera Health"
+},
+"workday:bakertilly/wd5/BTCareers": {
+"fails": 0,
+"name": "Baker Tilly",
+"strict": true
+},
+"workday:bannerhealth/wd108/Careers": {
+"fails": 0,
+"name": "Banner Health"
+},
+"workday:baptistjax/wd1/External_Careers": {
+"fails": 0,
+"name": "Baptist Health"
+},
 "workday:baxter/wd1/baxter": {
+"fails": 0,
 "name": "Baxter",
 "strict": true
 },
+"workday:baystatehealth/wd12/External_Careers": {
+"fails": 0,
+"name": "Baystate Health"
+},
+"workday:bcbsaz/wd1/BCBSAZCareers": {
+"fails": 0,
+"name": "Blue Cross Blue Shield of Arizona"
+},
+"workday:bcbskc/wd1/BCBS_External_Career_Site": {
+"fails": 0,
+"name": "Blue Cross and Blue Shield of Kansas City"
+},
+"workday:bcbsks/wd1/External": {
+"fails": 0,
+"name": "Blue Cross and Blue Shield of Kansas"
+},
+"workday:bcbsla/wd1/External": {
+"fails": 0,
+"name": "Blue Cross and Blue Shield of Louisiana"
+},
+"workday:bcbsma/wd5/BCBSMA": {
+"fails": 0,
+"name": "Blue Cross Blue Shield of Massachusetts"
+},
+"workday:bcbsmn/wd5/bluecrossmn": {
+"fails": 0,
+"name": "Blue Cross and Blue Shield of Minnesota"
+},
+"workday:bcbsms/wd5/BCBSMS": {
+"fails": 0,
+"name": "Blue Cross & Blue Shield of Mississippi"
+},
+"workday:bcbsnc/wd5/BCBSNC": {
+"fails": 0,
+"name": "Blue Cross and Blue Shield of North Carolina"
+},
+"workday:bcbsri/wd1/BCBSRICareers": {
+"fails": 0,
+"name": "Blue Cross & Blue Shield of Rhode Island"
+},
+"workday:bcbst/wd1/External": {
+"fails": 0,
+"name": "BlueCross BlueShield of Tennessee"
+},
+"workday:bcbswy/wd1/careers": {
+"fails": 0,
+"name": "Blue Cross Blue Shield of Wyoming"
+},
+"workday:bcidaho/wd5/BCI": {
+"fails": 0,
+"name": "Blue Cross of Idaho"
+},
+"workday:bdx/wd1/EXTERNAL_CAREER_SITE_USA": {
+"fails": 0,
+"name": "BD",
+"strict": true
+},
 "workday:bhs/wd1/careers": {
+"fails": 0,
 "name": "Baptist Health"
 },
+"workday:bilh/wd1/External": {
+"fails": 0,
+"name": "Beth Israel Lahey Health"
+},
+"workday:bmc/wd1/BMC": {
+"fails": 0,
+"name": "Boston Medical Center"
+},
+"workday:brownhealth/wd12/External_Careers": {
+"fails": 0,
+"name": "Brown University Health"
+},
+"workday:cambiahealth/wd504/External": {
+"fails": 0,
+"name": "Cambia Health Solutions"
+},
 "workday:cardinalhealth/wd1/EXT": {
+"fails": 0,
 "name": "Cardinal Health",
 "strict": true
 },
 "workday:caresource/wd1/CareSource": {
+"fails": 0,
 "name": "CareSource"
 },
+"workday:carilionclinic/wd12/External_Careers": {
+"fails": 0,
+"name": "Carilion Clinic"
+},
+"workday:catalent/wd1/External": {
+"fails": 0,
+"name": "Catalent",
+"strict": true
+},
 "workday:ccf/wd1/ClevelandClinicCareers": {
+"fails": 0,
 "name": "Cleveland Clinic"
 },
 "workday:centene/wd5/Centene_External": {
+"fails": 0,
 "name": "Centene"
 },
 "workday:chenmed/wd1/ChenMed": {
+"fails": 0,
 "name": "ChenMed"
 },
+"workday:childrensnational/wd108/CN_Careers": {
+"fails": 0,
+"name": "Children's National Hospital"
+},
+"workday:choa/wd12/externalcareers": {
+"fails": 0,
+"name": "Children's Healthcare of Atlanta"
+},
+"workday:christianacare/wd5/CCHS": {
+"fails": 0,
+"name": "ChristianaCare"
+},
 "workday:cigna/wd5/cignacareers": {
+"fails": 0,
 "name": "Cigna Group"
 },
 "workday:cincinnatichildrens/wd5/careersatcincinnatichildrens": {
+"fails": 0,
 "home": "Cincinnati, OH",
 "local": true,
 "name": "Cincinnati Children's"
 },
+"workday:cityblockhealth/wd1/CityblockExternalCareerSite": {
+"fails": 0,
+"name": "Cityblock Health"
+},
+"workday:cookchildrens/wd1/Cook_Childrens_Careers": {
+"fails": 0,
+"name": "Cook Children's"
+},
 "workday:corrohealth/wd1/Corro": {
+"fails": 0,
 "name": "CorroHealth"
 },
+"workday:covenanthealth/wd12/CovenantHealthCareers": {
+"fails": 0,
+"name": "Covenant Health"
+},
+"workday:coxhealth/wd5/CoxHealth_External": {
+"fails": 0,
+"name": "CoxHealth"
+},
 "workday:cpsi/wd1/CPSI": {
+"fails": 0,
 "name": "TruBridge"
 },
+"workday:crowe/wd12/External_Careers": {
+"fails": 0,
+"name": "Crowe",
+"strict": true
+},
 "workday:cvshealth/wd1/CVS_Health_Careers": {
+"fails": 0,
 "name": "CVS Health",
 "strict": true
 },
 "workday:davita/wd1/DKC_External": {
+"fails": 0,
 "name": "DaVita"
 },
 "workday:daytonchildrens/wd1/dayton_childrens_career_site": {
+"fails": 0,
 "name": "Dayton Children's Hospital",
 "state": "OH"
 },
+"workday:denverhealth/wd1/DHHA-Main": {
+"fails": 0,
+"name": "Denver Health"
+},
 "workday:devoted/wd1/Devoted": {
+"fails": 0,
 "name": "Devoted Health"
 },
 "workday:easyservice/wd5/BonSecoursCareers": {
+"fails": 0,
 "name": "Bon Secours"
 },
 "workday:easyservice/wd5/BonSecoursMercyHealthCareers": {
+"fails": 0,
 "name": "Bon Secours Mercy Health"
 },
 "workday:easyservice/wd5/MercyHealthCareers": {
+"fails": 0,
 "name": "Mercy Health"
 },
 "workday:elevancehealth/wd1/ANT": {
+"fails": 0,
 "name": "Elevance Health"
 },
 "workday:ensemblehp/wd5/ensemblehealthpartnerscareers": {
+"fails": 0,
 "name": "Ensemble Health Partners"
 },
+"workday:essentiahealth/wd1/Essentia_Health": {
+"fails": 0,
+"name": "Essentia Health"
+},
 "workday:evolent/wd1/External": {
+"fails": 0,
 "name": "Evolent"
 },
+"workday:franciscanalliance/wd5/FA_External_Career_Site": {
+"fails": 0,
+"name": "Franciscan Health"
+},
 "workday:freseniusmedicalcare/wd3/fme": {
+"fails": 0,
 "name": "Fresenius Medical Care"
 },
+"workday:gbmc/wd1/GBMC": {
+"fails": 0,
+"name": "GBMC HealthCare"
+},
 "workday:gehc/wd5/GEHC_ExternalSite": {
+"fails": 0,
 "name": "GE HealthCare",
 "strict": true
 },
+"workday:geisinger/wd5/GeisingerExternal": {
+"fails": 0,
+"name": "Geisinger"
+},
+"workday:genesishcs/wd1/GenesisHCS": {
+"fails": 0,
+"home": "Zanesville, OH",
+"name": "Genesis HealthCare System"
+},
+"workday:gohealthuc/wd12/External": {
+"fails": 0,
+"name": "GoHealth Urgent Care"
+},
 "workday:guidehouse/wd1/External": {
+"fails": 0,
 "name": "Guidehouse",
 "strict": true
 },
 "workday:hcsc/wd1/HCSC_External": {
+"fails": 0,
 "name": "Health Care Service Corporation"
 },
 "workday:healthcare/wd1/Search": {
+"fails": 0,
 "name": "Solventum",
 "strict": true
 },
 "workday:healthcatalyst/wd5/healthcatalystcareers": {
+"fails": 0,
 "name": "Health Catalyst"
 },
+"workday:healthfirst/wd1/healthfirst": {
+"fails": 0,
+"name": "Healthfirst"
+},
+"workday:henryschein/wd1/External_Careers": {
+"fails": 0,
+"name": "Henry Schein",
+"strict": true
+},
 "workday:highmarkhealth/wd1/highmark": {
+"fails": 0,
 "name": "Highmark Health"
 },
+"workday:honorhealth/wd12/HonorHealth_careers": {
+"fails": 0,
+"name": "HonorHealth"
+},
+"workday:houstonmethodist/wd12/GTI": {
+"fails": 0,
+"name": "Houston Methodist"
+},
+"workday:hshs/wd1/hshscareers": {
+"fails": 0,
+"name": "Hospital Sisters Health System"
+},
 "workday:humana/wd5/Humana_External_Career_Site": {
+"fails": 0,
 "name": "Humana"
 },
+"workday:huron/wd1/huroncareers": {
+"fails": 0,
+"name": "Huron Consulting Group",
+"strict": true
+},
+"workday:imh/wd108/IntermountainCareers": {
+"fails": 0,
+"name": "Intermountain Health"
+},
+"workday:impactadvisors/wd501/impactadvisors": {
+"fails": 0,
+"name": "Impact Advisors",
+"strict": true
+},
 "workday:javararesearch/wd12/External_Career_Site": {
+"fails": 0,
 "name": "Javara"
 },
+"workday:jeffersonhealth/wd5/ThomasJeffersonExternal": {
+"fails": 0,
+"name": "Jefferson Health"
+},
 "workday:jj/wd5/JJ": {
+"fails": 0,
 "name": "Johnson & Johnson",
 "strict": true
 },
+"workday:jointcommission/wd1/JC": {
+"fails": 0,
+"name": "The Joint Commission"
+},
+"workday:kaweahhealth/wd1/Careers": {
+"fails": 0,
+"name": "Kaweah Health"
+},
 "workday:labcorp/wd1/external": {
+"fails": 0,
 "name": "Labcorp",
 "strict": true
 },
+"workday:lcmchealth/wd1/LCMCHealth": {
+"fails": 0,
+"name": "LCMC Health"
+},
+"workday:lthc/wd1/ExcellusBCBSCareers": {
+"fails": 0,
+"name": "Excellus BlueCross BlueShield"
+},
+"workday:lthc/wd1/UniveraHealthcareCareers": {
+"fails": 0,
+"name": "Univera Healthcare"
+},
+"workday:lumeris/wd1/LC": {
+"fails": 0,
+"name": "Lumeris"
+},
+"workday:luriechildrens/wd1/externalportal": {
+"fails": 0,
+"name": "Lurie Children's"
+},
+"workday:lvhn/wd1/LVHN": {
+"fails": 0,
+"name": "Lehigh Valley Health Network"
+},
+"workday:magellanhealth/wd5/magellan_health_careers": {
+"fails": 0,
+"name": "Magellan Health"
+},
+"workday:massgeneralbrigham/wd1/MGBExternal": {
+"fails": 0,
+"name": "Mass General Brigham"
+},
 "workday:mckesson/wd3/External_Careers": {
+"fails": 0,
 "name": "McKesson",
 "strict": true
 },
+"workday:medimpact/wd5/MedImpact": {
+"fails": 0,
+"name": "MedImpact"
+},
+"workday:medline/wd5/Medline": {
+"fails": 0,
+"name": "Medline",
+"strict": true
+},
+"workday:medtronic/wd1/MedtronicCareers": {
+"fails": 0,
+"name": "Medtronic",
+"strict": true
+},
+"workday:memorialhealth/wd108/Memorial_Health_External_Career_Site": {
+"fails": 0,
+"name": "Memorial Health"
+},
+"workday:memorialhermann/wd5/external": {
+"fails": 0,
+"name": "Memorial Hermann"
+},
+"workday:mercy/wd1/mercycareers": {
+"fails": 0,
+"name": "Mercy"
+},
+"workday:methodisthealth/wd5/MLH": {
+"fails": 0,
+"name": "Methodist Le Bonheur Healthcare"
+},
+"workday:methodisthealthsystem/wd1/MHS_Careers": {
+"fails": 0,
+"name": "Methodist Health System"
+},
+"workday:modmed/wd501/ModMed12": {
+"fails": 0,
+"name": "ModMed"
+},
+"workday:moffitt/wd108/Moffitt": {
+"fails": 0,
+"name": "Moffitt Cancer Center"
+},
+"workday:montefiore/wd12/MMC": {
+"fails": 0,
+"name": "Montefiore Medical Center"
+},
+"workday:multicare/wd1/multicare": {
+"fails": 0,
+"name": "MultiCare Health System"
+},
+"workday:musc/wd1/MUSC": {
+"fails": 0,
+"name": "MUSC Health"
+},
 "workday:myhrabc/wd5/Global": {
+"fails": 0,
 "name": "Cencora",
 "strict": true
 },
 "workday:nationwidechildrens/wd5/NCHCareers": {
+"fails": 0,
 "name": "Nationwide Children's Hospital"
 },
+"workday:nebraskablue/wd1/BCBSNE": {
+"fails": 0,
+"name": "Blue Cross and Blue Shield of Nebraska"
+},
+"workday:nebraskamed/wd5/NM": {
+"fails": 0,
+"name": "Nebraska Medicine"
+},
+"workday:nextgen/wd5/NextGen_Careers": {
+"fails": 0,
+"name": "NextGen Healthcare"
+},
+"workday:nghs/wd1/External": {
+"fails": 0,
+"name": "Northeast Georgia Health System"
+},
+"workday:nmhs/wd108/NMHS": {
+"fails": 0,
+"name": "North Mississippi Health Services"
+},
+"workday:nordic/wd1/Nordic": {
+"fails": 0,
+"name": "Nordic Consulting",
+"strict": true
+},
+"workday:nshs/wd1/ns-eeh": {
+"fails": 0,
+"name": "Endeavor Health"
+},
+"workday:ntst/wd1/Careers": {
+"fails": 0,
+"name": "Netsmart"
+},
+"workday:nyp/wd1/nypcareers": {
+"fails": 0,
+"name": "NewYork-Presbyterian"
+},
+"workday:ochsner/wd1/Ochsner": {
+"fails": 0,
+"name": "Ochsner Health"
+},
 "workday:ohiohealth/wd5/OhioHealthJobs": {
+"fails": 0,
 "name": "OhioHealth"
 },
+"workday:onehealthineers/wd3/SHSJB": {
+"fails": 0,
+"name": "Siemens Healthineers",
+"strict": true
+},
 "workday:osu/wd1/OSUCareers": {
+"fails": 0,
 "name": "The Ohio State University",
 "strict": true
 },
+"workday:ourhrconnect/wd501/CGSAdmin": {
+"fails": 0,
+"name": "CGS Administrators"
+},
+"workday:ourhrconnect/wd501/PGBA": {
+"fails": 0,
+"name": "PGBA"
+},
+"workday:ourhrconnect/wd501/PalmettoGBA": {
+"fails": 0,
+"name": "Palmetto GBA"
+},
+"workday:ourhrconnect/wd501/SCBlues": {
+"fails": 0,
+"name": "BlueCross BlueShield of South Carolina"
+},
+"workday:owensborohealth/wd1/OwensboroHealth": {
+"fails": 0,
+"name": "Owensboro Health"
+},
+"workday:owensminor/wd1/OMCareers": {
+"fails": 0,
+"name": "Owens & Minor",
+"strict": true
+},
 "workday:oxfordcorp/wd108/Oxford_Careers": {
+"fails": 0,
 "name": "Oxford Global Resources",
 "strict": true
 },
+"workday:philips/wd3/jobs-and-careers": {
+"fails": 0,
+"name": "Philips",
+"strict": true
+},
+"workday:phoebehealth/wd503/phoebehealth": {
+"fails": 0,
+"name": "Phoebe Putney Health System"
+},
+"workday:phreesia/wd1/Phreesia": {
+"fails": 0,
+"name": "Phreesia"
+},
+"workday:point32health/wd5/THP": {
+"fails": 0,
+"name": "Point32Health"
+},
+"workday:premera/wd5/Premera": {
+"fails": 0,
+"name": "Premera Blue Cross"
+},
 "workday:premierinc/wd1/External_Professional": {
+"fails": 0,
 "name": "Premier Inc"
 },
 "workday:pressganey/wd1/Careers": {
+"fails": 0,
 "name": "Press Ganey"
 },
+"workday:primetherapeutics/wd1/PrimeTherapeuticsCareers": {
+"fails": 0,
+"name": "Prime Therapeutics"
+},
+"workday:prismahealth/wd5/PrismaHealthCorporate": {
+"fails": 0,
+"name": "Prisma Health"
+},
+"workday:promedica/wd12/External_Careers": {
+"fails": 0,
+"name": "ProMedica"
+},
 "workday:r1rcm/wd1/R1RCM": {
+"fails": 0,
 "name": "R1 RCM"
 },
+"workday:reidhealth/wd12/External_Careers": {
+"fails": 0,
+"home": "Richmond, IN",
+"name": "Reid Health"
+},
+"workday:resmed/wd3/Brightree_External_Careers": {
+"fails": 0,
+"name": "Brightree"
+},
+"workday:resmed/wd3/MatrixCare_External_Careers": {
+"fails": 0,
+"name": "MatrixCare"
+},
+"workday:rhsc/wd5/Delta_Dental_of_Michigan": {
+"fails": 0,
+"name": "Delta Dental of Michigan, Ohio and Indiana"
+},
+"workday:rochester/wd5/UR_Staff": {
+"fails": 0,
+"name": "University of Rochester Medical Center"
+},
+"workday:roswellpark/wd5/ExternalCareers": {
+"fails": 0,
+"name": "Roswell Park Comprehensive Cancer Center"
+},
+"workday:sagility/wd1/SagilityUSA": {
+"fails": 0,
+"name": "Sagility"
+},
+"workday:saintfrancis/wd115/External": {
+"fails": 0,
+"name": "Saint Francis Health System"
+},
+"workday:saintlukes/wd1/saintlukeshealthcareers": {
+"fails": 0,
+"name": "Saint Luke's Health System"
+},
+"workday:sanford/wd5/SanfordHealth": {
+"fails": 0,
+"name": "Sanford Health"
+},
 "workday:savista/wd1/Savista": {
+"fails": 0,
 "name": "Savista"
 },
+"workday:scanhealthplan/wd108/scancareers": {
+"fails": 0,
+"name": "SCAN Health Plan"
+},
+"workday:sentara/wd1/SCS": {
+"fails": 0,
+"name": "Sentara Health"
+},
 "workday:sharecare/wd1/Sharecare_Careers": {
+"fails": 0,
 "name": "Sharecare"
 },
+"workday:sharp/wd1/External": {
+"fails": 0,
+"name": "Sharp HealthCare"
+},
 "workday:shm/wd5/Summit_CityMD": {
+"fails": 0,
 "name": "VillageMD"
 },
+"workday:shrinerschildrens/wd12/Shriners": {
+"fails": 0,
+"name": "Shriners Children's"
+},
+"workday:silvercross/wd5/SilverCrossCareers": {
+"fails": 0,
+"name": "Silver Cross Hospital"
+},
+"workday:spectrumhealth/wd5/CorewellHealthCareers": {
+"fails": 0,
+"name": "Corewell Health"
+},
+"workday:ssmh/wd115/ssmhealth": {
+"fails": 0,
+"name": "SSM Health"
+},
+"workday:stanfordmedicine/wd115/SHC_External_Career_Site": {
+"fails": 0,
+"name": "Stanford Health Care"
+},
 "workday:stelizabeth/wd115/StElizabethExternalCareerSite": {
+"fails": 0,
 "home": "Edgewood, KY",
 "local": true,
 "name": "St. Elizabeth Healthcare"
 },
+"workday:stjude/wd1/stjude": {
+"fails": 0,
+"name": "St. Jude Children's Research Hospital"
+},
+"workday:stormontvail/wd1/SVH": {
+"fails": 0,
+"name": "Stormont Vail Health"
+},
+"workday:stryker/wd1/StrykerCareers": {
+"fails": 0,
+"name": "Stryker",
+"strict": true
+},
+"workday:sutterhealth/wd1/SH": {
+"fails": 0,
+"name": "Sutter Health"
+},
+"workday:tegria/wd12/EXT": {
+"fails": 0,
+"name": "Tegria",
+"strict": true
+},
+"workday:teladoc/wd503/teladochealth_is_hiring": {
+"fails": 0,
+"name": "Teladoc Health"
+},
+"workday:tempus/wd5/Tempus_Careers": {
+"fails": 0,
+"name": "Tempus",
+"strict": true
+},
+"workday:thedacare/wd5/ThedaCare_Career_Site1": {
+"fails": 0,
+"name": "ThedaCare"
+},
+"workday:tidelandshealth/wd12/Tidelands": {
+"fails": 0,
+"name": "Tidelands Health"
+},
+"workday:trinityhealth/wd1/Jobs": {
+"fails": 0,
+"name": "Trinity Health"
+},
+"workday:tuftsmedicine/wd1/Jobs": {
+"fails": 0,
+"name": "Tufts Medicine"
+},
+"workday:umchealthsystem/wd1/External": {
+"fails": 0,
+"name": "UMC Health System"
+},
 "workday:univofky/wd108/UKKD": {
+"fails": 0,
 "name": "UK King's Daughters"
 },
+"workday:univofky/wd108/UKSC": {
+"fails": 0,
+"home": "Morehead, KY",
+"name": "UK St. Claire"
+},
+"workday:univofky/wd108/UKSS": {
+"fails": 0,
+"home": "Lexington, KY",
+"name": "UK HealthCare Shared Services"
+},
+"workday:uoflhealth/wd1/UofLHealthCareers": {
+"fails": 0,
+"name": "UofL Health"
+},
+"workday:valleychildrens/wd12/VCH_External": {
+"fails": 0,
+"name": "Valley Children's Healthcare"
+},
+"workday:valleyhealth/wd12/Valley_Health_System_Careers_": {
+"fails": 0,
+"name": "Valley Health System"
+},
+"workday:vcuhealth/wd1/VCUHealth_careers": {
+"fails": 0,
+"name": "VCU Health"
+},
 "workday:veradigm/wd12/VR": {
+"fails": 0,
 "name": "Veradigm"
 },
+"workday:verily/wd1/Verily_Careers": {
+"fails": 0,
+"name": "Verily",
+"strict": true
+},
+"workday:virtua/wd1/Virtua_Health_External_Career_Site": {
+"fails": 0,
+"name": "Virtua Health"
+},
 "workday:vizient/wd1/Vizient_Careers": {
+"fails": 0,
 "name": "Vizient"
 },
+"workday:vsp/wd1/VSPVisionCareers": {
+"fails": 0,
+"name": "VSP Vision"
+},
+"workday:vumc/wd1/vumccareers": {
+"fails": 0,
+"name": "Vanderbilt University Medical Center"
+},
 "workday:waystar/wd1/Waystar": {
+"fails": 0,
 "name": "Waystar"
 },
+"workday:wellsky/wd1/WellSkyCareers": {
+"fails": 0,
+"name": "WellSky"
+},
+"workday:wellstar/wd1/wellstarcareers": {
+"fails": 0,
+"name": "Wellstar Health System"
+},
+"workday:wvumedicine/wd1/PEAK": {
+"fails": 0,
+"name": "Peak Health"
+},
+"workday:wvumedicine/wd1/UHA": {
+"fails": 0,
+"name": "WVU Medicine University Health Associates"
+},
+"workday:wvumedicine/wd1/WVUH": {
+"fails": 0,
+"name": "WVU Medicine"
+},
 "workday:zelis/wd115/ZelisCareers": {
+"fails": 0,
 "name": "Zelis"
 }
 }

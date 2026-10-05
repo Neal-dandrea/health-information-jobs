@@ -79,7 +79,10 @@ def ashby(token, company, fetch, listing, anyloc=False):
     return out
 
 
-def smartrecruiters(token, company, fetch, listing, anyloc=False, max_pages: int = 10):
+def smartrecruiters(token, company, fetch, listing, anyloc=False, max_pages: int = 10,
+                    light=False):
+    if light:
+        max_pages = 2
     out = []
     for page in range(max_pages):
         doc = json.loads(fetch("https://api.smartrecruiters.com/v1/companies/"
@@ -117,14 +120,19 @@ def _workday_posted(text: str) -> Optional[str]:
 # Workday's search box works well on some sites and is ignored on others, so the
 # reader walks the whole job list when it is small enough and falls back to a
 # set of searches when it is not.
-WORKDAY_WALK_LIMIT = 2500
+WORKDAY_WALK_LIMIT = 600
 WORKDAY_SEARCHES = ["health information", "coding", "clinical documentation",
                     "revenue cycle", "reimbursement", "medical records",
                     "patient access", "clinical research", "compliance",
                     "data quality", "remote", "Cincinnati"]
 
 
-def workday(token, company, fetch, listing, anyloc=False):
+# For an employer about which little is known, a few searches stand in for
+# walking its whole job list.
+LIGHT_SEARCHES = ["revenue cycle", "health information", "reimbursement", "healthcare compliance"]
+
+
+def workday(token, company, fetch, listing, anyloc=False, light=False):
     tenant, wd, site = token.split("/")
     base = f"https://{tenant}.{wd}.myworkdayjobs.com"
     url = f"{base}/wday/cxs/{tenant}/{site}/jobs"
@@ -145,6 +153,10 @@ def workday(token, company, fetch, listing, anyloc=False):
                 out.append(listing("careers", company, j["title"], f"{base}/{site}{path}",
                                    location=loc, posted=_workday_posted(j.get("postedOn"))))
 
+    if light:
+        for search in LIGHT_SEARCHES:
+            take(page(search, 0).get("jobPostings") or [])
+        return out
     first = page("", 0)
     total = int(first.get("total") or 0)
     take(first.get("jobPostings") or [])
@@ -153,7 +165,7 @@ def workday(token, company, fetch, listing, anyloc=False):
             take(page("", offset).get("jobPostings") or [])
     else:
         for search in WORKDAY_SEARCHES:
-            for offset in range(0, 100, 20):
+            for offset in range(0, 40, 20):      # two pages of each search
                 doc = page(search, offset)
                 posts = doc.get("jobPostings") or []
                 take(posts)
@@ -162,15 +174,18 @@ def workday(token, company, fetch, listing, anyloc=False):
     return out
 
 
-def oracle(token, company, fetch, listing, anyloc=False, max_jobs: int = 3000):
+def oracle(token, company, fetch, listing, anyloc=False, max_jobs: int = 3000, light=False):
     """Oracle Cloud career sites. The identifier is host/site."""
     host, site = token.split("/")
     out, offset = [], 0
+    keyword = ""
+    if light:
+        keyword, max_jobs = "keyword=%22health%22,", 200
     while offset < max_jobs:
         doc = json.loads(fetch(
             f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
             f"?onlyData=true&expand=requisitionList.secondaryLocations"
-            f"&finder=findReqs;siteNumber={site},limit=100,offset={offset},"
+            f"&finder=findReqs;siteNumber={site},{keyword}limit=100,offset={offset},"
             f"sortBy=POSTING_DATES_DESC"))
         item = (doc.get("items") or [{}])[0]
         rows = item.get("requisitionList") or []
@@ -199,11 +214,14 @@ _ICIMS_PAGES = re.compile(r"Page \d+ of (\d+)")
 _ICIMS_DATE = re.compile(r'Posted Date</span>\s*<span[^>]*title="(\d{1,2})/(\d{1,2})/(\d{4})')
 
 
-def icims(token, company, fetch, listing, anyloc=False, max_pages: int = 80):
+def icims(token, company, fetch, listing, anyloc=False, max_pages: int = 80, light=False):
     """iCIMS career sites. The identifier is the subdomain. The job list is a
     web page, twenty postings at a time, so this reads the page itself."""
     import html as _html
     base = f"https://{token}.icims.com/jobs/search?ss=1&in_iframe=1&pr="
+    if light:
+        base = f"https://{token}.icims.com/jobs/search?ss=1&searchKeyword=health&in_iframe=1&pr="
+        max_pages = 3
     out, pages, page = [], 1, 0
     while page < min(pages, max_pages):
         text = fetch(base + str(page)).decode("utf-8", errors="replace")
@@ -368,6 +386,9 @@ _HAS_STATE = re.compile(r"\b[A-Z]{2}\b|Ohio|Kentucky|Indiana|United States", re.
 _STATE_ONLY = re.compile(r"^\s*(OH|KY|Ohio|Kentucky)?,?\s*(United States|USA|US)?\s*$", re.I)
 
 
+LIGHT_READERS = {"workday", "icims", "oracle", "smartrecruiters"}
+
+
 def careers_url(key: str) -> str:
     """A page a person can open for a registry entry."""
     platform, token = key.split(":", 1)
@@ -419,7 +440,7 @@ def collect(companies: Dict[str, dict], fetch, listing, workers: int = 16,
     return rows, failures
 
 
-def collect(companies: Dict[str, dict], fetch, listing, workers: int = 4,
+def collect(companies: Dict[str, dict], fetch, listing, workers: int = 8,
             progress=None) -> Tuple[List[dict], Dict[str, str]]:
     """Read every employer in the registry. Returns (listings, failures).
 
@@ -436,7 +457,13 @@ def collect(companies: Dict[str, dict], fetch, listing, workers: int = 4,
         platform, token = key.split(":", 1)
         try:
             entry = companies[key]
-            rows = READERS[platform](token, entry["name"], fetch, listing)
+            if entry.get("scope") == "health" and platform in LIGHT_READERS:
+                rows = READERS[platform](token, entry["name"], fetch, listing, light=True)
+            else:
+                rows = READERS[platform](token, entry["name"], fetch, listing)
+            if entry.get("scope") == "health":
+                # Found by the wide survey, so only plainly healthcare titles count.
+                rows = [r for r in rows if roles.relevant_health(r["title"])]
             if entry.get("strict"):
                 # Not purely a healthcare employer, so generic titles do not count.
                 rows = [r for r in rows if roles.relevant(r["title"], broad_ok=False)]

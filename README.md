@@ -52,6 +52,15 @@ and office categories in Cincinnati and remote.
 Employers whose career sites use other platforms, such as Taleo,
 SuccessFactors or Avature, are not read yet.
 
+## The "Check by hand" tab
+
+Some employers run their careers pages on their own software, or on a platform
+there is no reader for, so their openings cannot be pulled in. They are logged
+on a second tab with a link to the place to look. The list comes from
+`data/manual.json`, which is written by hand, plus any employer in
+`data/companies.json` whose feed has stopped answering. The code is in
+`manual.py`.
+
 ## The match score
 
 Each listing carries a score from 0 to 100 that compares the posting with the
@@ -101,6 +110,21 @@ clearance rules, a statement that the employer will not sponsor a visa,
 graduation years, and named credentials. These are facts about the posting. They
 show as tags and drive the experience filter. Nothing about the reader is stored
 or compared, and the patterns can miss or misread a requirement.
+
+## Finding more employers
+
+`data/candidates.json` holds tens of thousands of company career sites gathered
+from public lists. Reading all of them on every run would be slow and would
+lean on those sites for no reason, since most never post a fitting healthcare job. So
+`survey.py` reads each candidate once in a while, and a site that has a
+fitting healthcare job open at that moment is added to `data/companies.json`, which
+is what the regular run reads. A scheduled job surveys one seventh of the
+candidates each night, so every candidate is looked at once a week.
+
+The candidate list was put together from the links in public internship and
+new-graduate job boards and from two open datasets of career site addresses:
+[kalil0321/ats-scrapers](https://github.com/kalil0321/ats-scrapers) (MIT) and
+[datascry/openroles](https://github.com/datascry/openroles) (CC BY-SA 4.0).
 
 ## Running it yourself
 

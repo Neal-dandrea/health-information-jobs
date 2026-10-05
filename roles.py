@@ -92,6 +92,22 @@ ENTRY = re.compile(r"associate|assistant|coordinator|representative|\bI\b|\b1\b|
                    r"entry|junior|\bjr\b|trainee|new grad|apprentice|clerk", re.I)
 
 
+# Titles that could only be a healthcare job. Used for employers found by the
+# wide survey, about which nothing else is known: a "Compliance Analyst" there
+# may be at a bank, but a "Revenue Cycle Analyst" is not.
+HEALTH = re.compile(
+    r"health ?care|\bhealth\b|hospital|medical|clinical|patient|provider|payer|"
+    r"medicare|medicaid|\bHIMS?\b|\bCDI\b|\bHIPAA\b|\bEpic\b|\bEHR\b|\bEMR\b|"
+    r"revenue (cycle|integrity)|reimbursement|denials?\b|charge ?master|\bCDM\b|"
+    r"prior authori|credentialing|managed care|utilization|pharmac|340B|"
+    r"(cancer|tumor|trauma) regist", re.I)
+
+
+def relevant_health(title: str) -> bool:
+    """A fitting title that also names healthcare outright."""
+    return relevant(title, broad_ok=False) and bool(HEALTH.search(title or ""))
+
+
 def relevant(title: str, broad_ok: bool = True) -> bool:
     title = title or ""
     if EXCLUDE.search(title):
