@@ -1027,6 +1027,13 @@
 "fails": 0,
 "name": "Unite Us"
 },
+"greenhouse:veramed": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Veramed",
+"scope": "health"
+},
 "greenhouse:zocdoc": {
 "fails": 0,
 "name": "Zocdoc"
@@ -2364,6 +2371,13 @@
 "fails": 0,
 "name": "Cardinal Health",
 "strict": true
+},
+"workday:cardinalhealth/wd1/navista": {
+"added": "2026-10-05",
+"fails": 0,
+"from": "survey",
+"name": "Cardinalhealth",
+"scope": "health"
 },
 "workday:caresource/wd1/CareSource": {
 "fails": 0,
