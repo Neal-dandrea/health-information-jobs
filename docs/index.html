@@ -200,6 +200,8 @@
          wording with examples of entry-level and senior postings, and the role is kept when it reads as entry
          level. Those roles carry the tag "Reads as entry level". This is a judgement from wording, so check the
          posting.</p>
+      <p>A role that names a medical coding credential, such as CCS or CPC, is left out unless it also accepts RHIA
+         or RHIT.</p>
       <p>A date is the day the employer says the role was posted, or the day it was first seen here when the
          employer gives none. <a href="listings.csv">Download the full list as CSV</a>.</p>
       <p id="srcline"></p>
@@ -211,7 +213,7 @@
 <script>
 /* ── what differs between boards ─────────────────────────────────────────── */
 const CONFIG = {
-  storageKey: "hjl-filters-4",
+  storageKey: "hjl-filters-5",
   tracks: ["Compliance and Quality","Project and Program","Revenue Cycle","Health Information","Data and Analytics","Clinical Documentation","Clinical Research","Patient Services"],
   showFit: false,
   blank: {areas:[], level:""},
@@ -221,7 +223,7 @@ const CONFIG = {
     {id:"level",label:"Level",value:"early",options:[["early","Hide senior roles"],["entry","Entry level only"],["","Any level"]]},
     {id:"age",label:"Posted within",value:"30",options:[["","Posted any time"],["1","Last 24 hours"],["3","Last 3 days"],["7","Last 7 days"],["30","Last 30 days"]]},
     {id:"exp",label:"Experience asked",options:[["","Asks 3 years or less"],["2","Asks 2 years or less"],["1","Asks 1 year or less"]]},
-    {id:"cred",label:"Credential",options:[["","Any credential asked"],["RHIA","Names RHIA"],["nocode","Hide roles naming CCS or CPC"],["norn","Hide roles naming RN"]]},
+    {id:"cred",label:"Credential",options:[["","Any credential asked"],["RHIA","Names RHIA"],["norn","Hide roles naming RN"]]},
     {id:"scoreby",label:"Score by",needs:"sem",value:"avg",options:[["avg","Score by both"],["match","Score by keywords"],["sem","Score by meaning"]]},
     {id:"minmatch",label:"Minimum score",needs:"match",options:[["","Any match score"],["40","Score 40 and up"],["50","Score 50 and up"],["60","Score 60 and up"],["70","Score 70 and up"]]}
   ],
@@ -233,7 +235,6 @@ const CONFIG = {
     const creds = (r.req || {}).creds || [];
     if(s.cred === "RHIA" && !creds.includes("RHIA")) return false;
     if(s.cred === "norn" && creds.includes("RN")) return false;
-    if(s.cred === "nocode" && (creds.includes("CCS") || creds.includes("CPC"))) return false;
     return true;
   },
   tags: r => {

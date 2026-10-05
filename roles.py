@@ -117,6 +117,18 @@ LEAN_FLOOR = -0.02
 LEAN_SENIOR = -0.05
 
 
+# Medical coding credentials, which the person this list is for does not hold.
+# A posting that names one is dropped, unless it also accepts RHIA or RHIT,
+# as in "RHIA, RHIT or CCS required".
+CODING_CREDENTIALS = {"CCS", "CPC", "CCA", "COC", "CIC", "CRC"}
+ACCEPTED_INSTEAD = {"RHIA", "RHIT"}
+
+
+def credential_fit(creds) -> bool:
+    creds = set(creds or [])
+    return not (creds & CODING_CREDENTIALS) or bool(creds & ACCEPTED_INSTEAD)
+
+
 def experience_fit(years, lean, title: str):
     """(keep, why) for one posting.
 

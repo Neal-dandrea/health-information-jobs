@@ -29,6 +29,9 @@ role is kept when it reads as entry level. On postings that do state years, that
 comparison separated "two years or less" from "five years or more" about nine
 times in ten. Both rules are in `roles.py` (`experience_fit`).
 
+A role that names a medical coding credential, such as CCS or CPC, is left out
+unless it also accepts RHIA or RHIT (`credential_fit`).
+
 Licensed clinical roles (nursing, pharmacy, therapy and the like), medical
 coding roles, engineering roles, executive roles and student roles are left out. Contract research
 organisations are also left out as employers, by choice. All of this is decided in

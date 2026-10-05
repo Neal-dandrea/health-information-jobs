@@ -69,7 +69,8 @@ _NO_SPONSOR = re.compile(
 _GRAD = re.compile(r"(graduat\w+|degree|class of|completion)[^.]{0,80}?\b(20[2-3]\d)\b"
                    r"(?:[^.]{0,25}?\b(20[2-3]\d)\b)?", re.I)
 _CREDS = [("RHIA", r"\bRHIA\b"), ("RHIT", r"\bRHIT\b"), ("CCS", r"\bCCS(-P)?\b"),
-          ("CPC", r"\bCPC\b"), ("CCA", r"\bCCA\b"), ("CDIP", r"\bCDIP\b"),
+          ("CPC", r"\bCPC(-[A-Z])?\b"), ("CCA", r"\bCCA\b"), ("COC", r"\bCOC\b"),
+          ("CIC", r"\bCIC\b"), ("CRC", r"\bCRC\b(?! press)"), ("CDIP", r"\bCDIP\b"),
           ("CCDS", r"\bCCDS\b"), ("CTR", r"\bCTR\b|\bODS\b"), ("RN", r"\bRN\b"),
           ("CRCR", r"\bCRCR\b"), ("CHDA", r"\bCHDA\b"), ("CCRP", r"\bCCRP\b|\bCCRC\b|\bCCRA\b")]
 _CRED_PATS = [(name, re.compile(pat)) for name, pat in _CREDS]

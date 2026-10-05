@@ -592,11 +592,12 @@ def main() -> int:
     for r in listings:
         ok, why = roles.experience_fit((r.get("req") or {}).get("years"),
                                        r.pop("entry_lean", None), r["title"])
-        if ok:
+        # A role that needs a coding credential and takes no other is out too.
+        if ok and roles.credential_fit((r.get("req") or {}).get("creds")):
             r["exp_note"] = why
             fitting.append(r)
     report["experience"] = (f"{len(fitting)} of {in_range} roles ask for "
-                            f"{roles.MAX_YEARS} years or less")
+                            f"{roles.MAX_YEARS} years or less and no coding credential")
     print(f"  {'experience':14s} {report['experience']}", flush=True)
     listings = fitting
 
