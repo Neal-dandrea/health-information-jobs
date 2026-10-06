@@ -1217,7 +1217,7 @@
 "strict": true
 },
 "icims:ehccareers-emory": {
-"fails": 0,
+"fails": 1,
 "name": "Emory Healthcare"
 },
 "icims:general-careers-curanahealth": {
