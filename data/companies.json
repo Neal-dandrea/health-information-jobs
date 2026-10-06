@@ -1015,6 +1015,13 @@
 "fails": 0,
 "name": "Talkspace"
 },
+"greenhouse:tghseniorcenter": {
+"added": "2026-10-06",
+"fails": 0,
+"from": "survey",
+"name": "Tghseniorcenter",
+"scope": "health"
+},
 "greenhouse:truveta": {
 "fails": 0,
 "name": "Truveta"
@@ -1026,6 +1033,13 @@
 "greenhouse:uniteus": {
 "fails": 0,
 "name": "Unite Us"
+},
+"greenhouse:veracyte": {
+"added": "2026-10-06",
+"fails": 0,
+"from": "survey",
+"name": "Veracyte",
+"scope": "health"
 },
 "greenhouse:veramed": {
 "added": "2026-10-05",
@@ -2728,6 +2742,13 @@
 "name": "Johnson & Johnson",
 "strict": true
 },
+"workday:jj/wd5/displacedemployees": {
+"added": "2026-10-06",
+"fails": 0,
+"from": "survey",
+"name": "Jj",
+"scope": "health"
+},
 "workday:jointcommission/wd1/JC": {
 "fails": 0,
 "name": "The Joint Commission"
@@ -3074,6 +3095,13 @@
 "workday:r1rcm/wd1/R1RCM": {
 "fails": 0,
 "name": "R1 RCM"
+},
+"workday:regeneron/wd1/Careers": {
+"added": "2026-10-06",
+"fails": 0,
+"from": "survey",
+"name": "Regeneron Pharmaceuticals",
+"scope": "health"
 },
 "workday:reidhealth/wd12/External_Careers": {
 "fails": 0,
