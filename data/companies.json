@@ -516,7 +516,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 0,
+"fails": 1,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -1409,7 +1409,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -1904,11 +1904,11 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 0,
+"fails": 1,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 0,
+"fails": 1,
 "name": "Kaiser Permanente",
 "strict": true
 },
@@ -3248,7 +3248,7 @@
 "name": "St. Jude Children's Research Hospital"
 },
 "workday:stormontvail/wd1/SVH": {
-"fails": 0,
+"fails": 1,
 "name": "Stormont Vail Health"
 },
 "workday:stryker/wd1/StrykerCareers": {
@@ -3257,7 +3257,7 @@
 "strict": true
 },
 "workday:sutterhealth/wd1/SH": {
-"fails": 0,
+"fails": 1,
 "name": "Sutter Health"
 },
 "workday:taskus/wd1/careers": {
