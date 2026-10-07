@@ -616,6 +616,13 @@
 "fails": 0,
 "name": "Collective Health"
 },
+"greenhouse:compasshealthcenter": {
+"added": "2026-10-07",
+"fails": 0,
+"from": "survey",
+"name": "Compass Health Center",
+"scope": "health"
+},
 "greenhouse:connectionshealthsolutions": {
 "added": "2026-10-05",
 "fails": 0,
@@ -1015,11 +1022,32 @@
 "fails": 0,
 "name": "Talkspace"
 },
+"greenhouse:telixus": {
+"added": "2026-10-07",
+"fails": 0,
+"from": "survey",
+"name": "Telixus",
+"scope": "health"
+},
 "greenhouse:tghseniorcenter": {
 "added": "2026-10-06",
 "fails": 0,
 "from": "survey",
 "name": "Tghseniorcenter",
+"scope": "health"
+},
+"greenhouse:thewilshiregroup": {
+"added": "2026-10-07",
+"fails": 0,
+"from": "survey",
+"name": "The Wilshire Group",
+"scope": "health"
+},
+"greenhouse:trellahealth": {
+"added": "2026-10-07",
+"fails": 0,
+"from": "survey",
+"name": "Trella Health",
 "scope": "health"
 },
 "greenhouse:truveta": {
@@ -1391,6 +1419,13 @@
 "lever:h1": {
 "fails": 0,
 "name": "H1"
+},
+"lever:heartbeathealth": {
+"added": "2026-10-07",
+"fails": 0,
+"from": "survey",
+"name": "Heartbeat Health",
+"scope": "health"
 },
 "lever:hhaexchange": {
 "added": "2026-10-05",
@@ -2160,6 +2195,20 @@
 "from": "careers page",
 "name": "Meduit"
 },
+"ukg:recruiting.ultipro.com/NEC1002NCO/ae716500-5e52-4cd8-a968-50ed46cc651c": {
+"added": "2026-10-07",
+"fails": 0,
+"from": "survey",
+"name": "Recruiting.Ultipro.Com",
+"scope": "health"
+},
+"ukg:recruiting.ultipro.com/NEW1028NDBH/0ef86aac-4b07-4f64-be80-2cccdb63cf41": {
+"added": "2026-10-07",
+"fails": 0,
+"from": "survey",
+"name": "Recruiting.Ultipro.Com",
+"scope": "health"
+},
 "ukg:recruiting2.ultipro.com/MED1007MHP/ffa5492f-9175-4dab-891d-a6a5d6dced2f": {
 "fails": 0,
 "name": "Medica"
@@ -2531,6 +2580,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Devoted",
+"scope": "health"
+},
+"workday:driscoll/wd1/DHS": {
+"added": "2026-10-07",
+"fails": 0,
+"from": "survey",
+"name": "Driscoll",
 "scope": "health"
 },
 "workday:easyservice/wd5/BonSecoursCareers": {
