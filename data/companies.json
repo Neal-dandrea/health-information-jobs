@@ -516,7 +516,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 0,
+"fails": 1,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -1297,7 +1297,7 @@
 "name": "MedStar Health"
 },
 "jibe:careers.mountsinai.org": {
-"fails": 1,
+"fails": 0,
 "name": "Mount Sinai Health System"
 },
 "jibe:careers.orlandohealth.com": {
@@ -1313,7 +1313,7 @@
 "name": "Novant Health"
 },
 "jibe:jobs.uhsinc.com": {
-"fails": 1,
+"fails": 0,
 "name": "Universal Health Services"
 },
 "jibe:www.bjccareers.org": {
@@ -1321,7 +1321,7 @@
 "name": "BJC HealthCare"
 },
 "jibe:www.osfcareers.org": {
-"fails": 1,
+"fails": 0,
 "name": "OSF HealthCare"
 },
 "jobvite:ashcompanies": {
@@ -2647,7 +2647,7 @@
 "name": "Fresenius Medical Care"
 },
 "workday:gbmc/wd1/GBMC": {
-"fails": 0,
+"fails": 1,
 "name": "GBMC HealthCare"
 },
 "workday:gehc/wd5/GEHC_ExternalSite": {
