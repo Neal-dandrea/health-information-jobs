@@ -758,6 +758,13 @@
 "fails": 0,
 "name": "Honor"
 },
+"greenhouse:imaginepediatrics": {
+"added": "2026-10-08",
+"fails": 0,
+"from": "survey",
+"name": "Imagine Pediatrics",
+"scope": "health"
+},
 "greenhouse:indigenouspactpbcinc": {
 "added": "2026-10-05",
 "fails": 0,
@@ -1058,9 +1065,30 @@
 "fails": 0,
 "name": "UASI"
 },
+"greenhouse:umojabiopharma": {
+"added": "2026-10-08",
+"fails": 0,
+"from": "survey",
+"name": "Umojabiopharma",
+"scope": "health"
+},
 "greenhouse:uniteus": {
 "fails": 0,
 "name": "Unite Us"
+},
+"greenhouse:urpt": {
+"added": "2026-10-08",
+"fails": 0,
+"from": "survey",
+"name": "Urpt",
+"scope": "health"
+},
+"greenhouse:usenourish": {
+"added": "2026-10-08",
+"fails": 0,
+"from": "survey",
+"name": "Nourish",
+"scope": "health"
 },
 "greenhouse:veracyte": {
 "added": "2026-10-06",
@@ -1208,6 +1236,13 @@
 "name": "NeuroPsychiatric Hospitals",
 "scope": "health"
 },
+"icims:careers-ohsu": {
+"added": "2026-10-08",
+"fails": 0,
+"from": "survey",
+"name": "Ohsu",
+"scope": "health"
+},
 "icims:careers-primehealthcare": {
 "fails": 0,
 "name": "Prime Healthcare"
@@ -1247,6 +1282,13 @@
 "icims:ehccareers-emory": {
 "fails": 0,
 "name": "Emory Healthcare"
+},
+"icims:externalcareers-ohsu": {
+"added": "2026-10-08",
+"fails": 0,
+"from": "survey",
+"name": "Oregon Health & Science University",
+"scope": "health"
 },
 "icims:general-careers-curanahealth": {
 "added": "2026-10-05",
@@ -1655,6 +1697,13 @@
 "oracle:eodr.fa.us2.oraclecloud.com/CX_2001": {
 "fails": 0,
 "name": "Conifer Health Solutions"
+},
+"oracle:eohh.fa.us2.oraclecloud.com/CX": {
+"added": "2026-10-08",
+"fails": 0,
+"from": "survey",
+"name": "Eohh",
+"scope": "health"
 },
 "oracle:eord.fa.us2.oraclecloud.com/CX_1001": {
 "fails": 0,
@@ -2204,6 +2253,13 @@
 },
 "ukg:recruiting.ultipro.com/NEW1028NDBH/0ef86aac-4b07-4f64-be80-2cccdb63cf41": {
 "added": "2026-10-07",
+"fails": 0,
+"from": "survey",
+"name": "Recruiting.Ultipro.Com",
+"scope": "health"
+},
+"ukg:recruiting.ultipro.com/SPH1000SPH/02436283-3813-424c-8564-250b38d25a1f": {
+"added": "2026-10-08",
 "fails": 0,
 "from": "survey",
 "name": "Recruiting.Ultipro.Com",
@@ -3091,6 +3147,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Pennant Group",
+"scope": "health"
+},
+"workday:pfizer/wd1/internaljobs": {
+"added": "2026-10-08",
+"fails": 0,
+"from": "survey",
+"name": "Pfizer",
 "scope": "health"
 },
 "workday:philips/wd3/internal-job-postings-list-for-philips-contingent-workers": {
