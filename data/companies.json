@@ -516,7 +516,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 1,
+"fails": 0,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -1992,7 +1992,7 @@
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 0,
+"fails": 1,
 "name": "Kaiser Permanente",
 "strict": true
 },
@@ -2703,7 +2703,7 @@
 "name": "Fresenius Medical Care"
 },
 "workday:gbmc/wd1/GBMC": {
-"fails": 1,
+"fails": 0,
 "name": "GBMC HealthCare"
 },
 "workday:gehc/wd5/GEHC_ExternalSite": {
@@ -2782,7 +2782,7 @@
 "name": "Healthfirst"
 },
 "workday:henryschein/wd1/External_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Henry Schein",
 "strict": true
 },
