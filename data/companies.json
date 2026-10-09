@@ -1076,6 +1076,13 @@
 "fails": 0,
 "name": "Unite Us"
 },
+"greenhouse:unlockhealth": {
+"added": "2026-10-09",
+"fails": 0,
+"from": "survey",
+"name": "Unlock Health",
+"scope": "health"
+},
 "greenhouse:urpt": {
 "added": "2026-10-08",
 "fails": 0,
@@ -1102,6 +1109,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Veramed",
+"scope": "health"
+},
+"greenhouse:webchartnow": {
+"added": "2026-10-09",
+"fails": 0,
+"from": "survey",
+"name": "WebChart",
 "scope": "health"
 },
 "greenhouse:zocdoc": {
@@ -1682,6 +1696,13 @@
 "fails": 0,
 "name": "Kroger",
 "strict": true
+},
+"oracle:eney.fa.us2.oraclecloud.com/CX_1001": {
+"added": "2026-10-09",
+"fails": 0,
+"from": "survey",
+"name": "Eney",
+"scope": "health"
 },
 "oracle:eodr.fa.us2.oraclecloud.com/CX_1": {
 "added": "2026-10-05",
@@ -2347,6 +2368,13 @@
 "fails": 0,
 "name": "Altru Health System"
 },
+"workday:amgen/wd1/careers": {
+"added": "2026-10-09",
+"fails": 0,
+"from": "survey",
+"name": "Amgen",
+"scope": "health"
+},
 "workday:aoncology/wd12/aoncology_careers": {
 "added": "2026-10-05",
 "fails": 0,
@@ -2705,6 +2733,13 @@
 "workday:gbmc/wd1/GBMC": {
 "fails": 0,
 "name": "GBMC HealthCare"
+},
+"workday:gdit/wd5/external_career_site": {
+"added": "2026-10-09",
+"fails": 0,
+"from": "survey",
+"name": "General Dynamics Information Technology",
+"scope": "health"
 },
 "workday:gehc/wd5/GEHC_ExternalSite": {
 "fails": 0,
