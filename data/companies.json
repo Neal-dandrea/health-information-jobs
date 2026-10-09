@@ -1992,7 +1992,7 @@
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 1,
+"fails": 0,
 "name": "Kaiser Permanente",
 "strict": true
 },
@@ -2782,7 +2782,7 @@
 "name": "Healthfirst"
 },
 "workday:henryschein/wd1/External_Careers": {
-"fails": 1,
+"fails": 0,
 "name": "Henry Schein",
 "strict": true
 },
