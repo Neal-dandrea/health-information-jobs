@@ -900,6 +900,13 @@
 "name": "Ora",
 "scope": "health"
 },
+"greenhouse:oruka": {
+"added": "2026-10-10",
+"fails": 0,
+"from": "survey",
+"name": "Oruka",
+"scope": "health"
+},
 "greenhouse:oscar": {
 "fails": 0,
 "name": "Oscar Health"
@@ -2530,6 +2537,13 @@
 "fails": 0,
 "name": "CareSource"
 },
+"workday:caresource/wd1/caresource": {
+"added": "2026-10-10",
+"fails": 0,
+"from": "survey",
+"name": "Caresource",
+"scope": "health"
+},
 "workday:carilionclinic/wd12/External_Careers": {
 "fails": 0,
 "name": "Carilion Clinic"
@@ -2761,6 +2775,13 @@
 "fails": 0,
 "home": "Zanesville, OH",
 "name": "Genesis HealthCare System"
+},
+"workday:ghc/wd1/GHG_Careers": {
+"added": "2026-10-10",
+"fails": 0,
+"from": "survey",
+"name": "Kaplan, Inc (GHG Careers)",
+"scope": "health"
 },
 "workday:gmh/wd12/External_Careers": {
 "added": "2026-10-05",
