@@ -393,6 +393,13 @@
 "name": "Terac",
 "scope": "health"
 },
+"ashby:versemedical": {
+"added": "2026-10-11",
+"fails": 0,
+"from": "survey",
+"name": "Verse Medical",
+"scope": "health"
+},
 "ashby:vertanical": {
 "added": "2026-10-05",
 "fails": 0,
@@ -1028,6 +1035,13 @@
 "fails": 0,
 "name": "Suki"
 },
+"greenhouse:summittherapeutics": {
+"added": "2026-10-11",
+"fails": 0,
+"from": "survey",
+"name": "Summit Therapeutics",
+"scope": "health"
+},
 "greenhouse:swordhealth": {
 "fails": 0,
 "name": "Sword Health"
@@ -1123,6 +1137,13 @@
 "fails": 0,
 "from": "survey",
 "name": "WebChart",
+"scope": "health"
+},
+"greenhouse:workithealth": {
+"added": "2026-10-11",
+"fails": 0,
+"from": "survey",
+"name": "Workithealth",
 "scope": "health"
 },
 "greenhouse:zocdoc": {
@@ -2393,6 +2414,13 @@
 "fails": 0,
 "name": "Arkansas Blue Cross and Blue Shield"
 },
+"workday:ashealthnet/wd1/ashn": {
+"added": "2026-10-11",
+"fails": 0,
+"from": "survey",
+"name": "Ashealthnet",
+"scope": "health"
+},
 "workday:athenahealth/wd1/External": {
 "fails": 0,
 "name": "athenahealth"
@@ -2646,6 +2674,13 @@
 "fails": 0,
 "name": "TruBridge"
 },
+"workday:crossoverhealth/wd1/careers": {
+"added": "2026-10-11",
+"fails": 0,
+"from": "survey",
+"name": "Crossover Health",
+"scope": "health"
+},
 "workday:crowe/wd12/External_Careers": {
 "fails": 0,
 "name": "Crowe",
@@ -2747,6 +2782,13 @@
 "workday:gbmc/wd1/GBMC": {
 "fails": 0,
 "name": "GBMC HealthCare"
+},
+"workday:gdit/wd5/GDIT_Empl_Ref": {
+"added": "2026-10-11",
+"fails": 0,
+"from": "survey",
+"name": "Gdit",
+"scope": "health"
 },
 "workday:gdit/wd5/external_career_site": {
 "added": "2026-10-09",
