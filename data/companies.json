@@ -523,7 +523,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 0,
+"fails": 1,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -1868,7 +1868,7 @@
 },
 "oracle:hdkk.fa.us6.oraclecloud.com/CX_1": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Cedars-Sinai",
 "scope": "health"
@@ -2687,7 +2687,7 @@
 "strict": true
 },
 "workday:cvshealth/wd1/CVS_Health_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "CVS Health",
 "strict": true
 },
@@ -2973,7 +2973,7 @@
 "strict": true
 },
 "workday:lcmchealth/wd1/LCMCHealth": {
-"fails": 0,
+"fails": 1,
 "name": "LCMC Health"
 },
 "workday:lifestance/wd5/careers": {
@@ -2984,7 +2984,7 @@
 "scope": "health"
 },
 "workday:lthc/wd1/ExcellusBCBSCareers": {
-"fails": 0,
+"fails": 1,
 "name": "Excellus BlueCross BlueShield"
 },
 "workday:lthc/wd1/UniveraHealthcareCareers": {
