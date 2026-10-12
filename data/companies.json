@@ -1868,7 +1868,7 @@
 },
 "oracle:hdkk.fa.us6.oraclecloud.com/CX_1": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Cedars-Sinai",
 "scope": "health"
