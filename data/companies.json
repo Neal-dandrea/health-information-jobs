@@ -411,6 +411,13 @@
 "fails": 0,
 "name": "Virta Health"
 },
+"ashby:voize": {
+"added": "2026-10-12",
+"fails": 0,
+"from": "survey",
+"name": "Voize",
+"scope": "health"
+},
 "ashby:vynca": {
 "added": "2026-10-05",
 "fails": 0,
@@ -798,6 +805,13 @@
 "name": "Interwell Health",
 "scope": "health"
 },
+"greenhouse:invivyd": {
+"added": "2026-10-12",
+"fails": 0,
+"from": "survey",
+"name": "Invivyd",
+"scope": "health"
+},
 "greenhouse:iterativehealth": {
 "added": "2026-10-05",
 "fails": 0,
@@ -950,6 +964,13 @@
 "home": "Cincinnati, OH",
 "name": "PatientPoint",
 "strict": true
+},
+"greenhouse:pelago": {
+"added": "2026-10-12",
+"fails": 0,
+"from": "survey",
+"name": "Pelago",
+"scope": "health"
 },
 "greenhouse:peptilogics": {
 "added": "2026-10-05",
@@ -1498,6 +1519,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Eastern Research Group",
+"scope": "health"
+},
+"lever:getfivestar": {
+"added": "2026-10-12",
+"fails": 0,
+"from": "survey",
+"name": "Five Star Solutions",
 "scope": "health"
 },
 "lever:h1": {
@@ -2190,6 +2218,13 @@
 "fails": 0,
 "name": "Sutherland",
 "strict": true
+},
+"smartrecruiters:viviohealth": {
+"added": "2026-10-12",
+"fails": 0,
+"from": "survey",
+"name": "VIVIO Health",
+"scope": "health"
 },
 "smartrecruiters:whitecollars": {
 "added": "2026-10-05",
@@ -3245,6 +3280,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Pennant Group",
+"scope": "health"
+},
+"workday:pfizer/wd1/PfizerCareers": {
+"added": "2026-10-12",
+"fails": 0,
+"from": "survey",
+"name": "Pfizer",
 "scope": "health"
 },
 "workday:pfizer/wd1/internaljobs": {
