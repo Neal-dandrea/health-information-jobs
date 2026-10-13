@@ -530,7 +530,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 0,
+"fails": 1,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -2040,7 +2040,7 @@
 "name": "Baylor Scott & White Health"
 },
 "phenom:www.hhccareers.org/us/en": {
-"fails": 0,
+"fails": 1,
 "name": "Hartford HealthCare"
 },
 "radancy:careers.enhabit.com": {
@@ -3645,7 +3645,7 @@
 "name": "WellSky"
 },
 "workday:wellstar/wd1/wellstarcareers": {
-"fails": 0,
+"fails": 1,
 "name": "Wellstar Health System"
 },
 "workday:wvumedicine/wd1/PEAK": {
