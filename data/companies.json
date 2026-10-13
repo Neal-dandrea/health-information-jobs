@@ -132,6 +132,13 @@
 "name": "Finni Health",
 "scope": "health"
 },
+"ashby:fira-health": {
+"added": "2026-10-13",
+"fails": 0,
+"from": "survey",
+"name": "Adaptive Home Health",
+"scope": "health"
+},
 "ashby:flaglerhealth": {
 "added": "2026-10-05",
 "fails": 0,
@@ -685,6 +692,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Deliveroo",
+"scope": "health"
+},
+"greenhouse:divergehealth": {
+"added": "2026-10-13",
+"fails": 0,
+"from": "survey",
+"name": "Divergehealth",
 "scope": "health"
 },
 "greenhouse:doximity": {
@@ -3011,6 +3025,13 @@
 "fails": 0,
 "name": "LCMC Health"
 },
+"workday:lcmchealth/wd1/lcmchealth": {
+"added": "2026-10-13",
+"fails": 0,
+"from": "survey",
+"name": "Lcmchealth",
+"scope": "health"
+},
 "workday:lifestance/wd5/careers": {
 "added": "2026-10-05",
 "fails": 0,
@@ -3427,6 +3448,13 @@
 "workday:savista/wd1/Savista": {
 "fails": 0,
 "name": "Savista"
+},
+"workday:savista/wd1/savista": {
+"added": "2026-10-13",
+"fails": 0,
+"from": "survey",
+"name": "Savista",
+"scope": "health"
 },
 "workday:scanhealthplan/wd108/scancareers": {
 "fails": 0,
