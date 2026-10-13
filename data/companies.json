@@ -530,7 +530,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 1,
+"fails": 0,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -2722,7 +2722,7 @@
 "strict": true
 },
 "workday:cvshealth/wd1/CVS_Health_Careers": {
-"fails": 1,
+"fails": 0,
 "name": "CVS Health",
 "strict": true
 },
@@ -3008,7 +3008,7 @@
 "strict": true
 },
 "workday:lcmchealth/wd1/LCMCHealth": {
-"fails": 1,
+"fails": 0,
 "name": "LCMC Health"
 },
 "workday:lifestance/wd5/careers": {
@@ -3019,7 +3019,7 @@
 "scope": "health"
 },
 "workday:lthc/wd1/ExcellusBCBSCareers": {
-"fails": 1,
+"fails": 0,
 "name": "Excellus BlueCross BlueShield"
 },
 "workday:lthc/wd1/UniveraHealthcareCareers": {
