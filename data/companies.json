@@ -625,6 +625,13 @@
 "name": "Charliehealthbehavioralhealthoperations",
 "scope": "health"
 },
+"greenhouse:clinchoice": {
+"added": "2026-10-14",
+"fails": 0,
+"from": "survey",
+"name": "Clinchoice",
+"scope": "health"
+},
 "greenhouse:cloverhealth": {
 "fails": 0,
 "name": "Clover Health"
@@ -711,6 +718,13 @@
 "fails": 0,
 "from": "survey",
 "name": "eClinical Solutions",
+"scope": "health"
+},
+"greenhouse:edgewoodpartnersinsurancecenter": {
+"added": "2026-10-14",
+"fails": 0,
+"from": "survey",
+"name": "EPIC Insurance Brokers & Consultants",
 "scope": "health"
 },
 "greenhouse:erc8585757pathlight53t353": {
@@ -2187,6 +2201,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Vetoquinol",
+"scope": "health"
+},
+"smartrecruiters:Wavestone1": {
+"added": "2026-10-14",
+"fails": 0,
+"from": "survey",
+"name": "Wavestone",
 "scope": "health"
 },
 "smartrecruiters:WellmarkInc": {
