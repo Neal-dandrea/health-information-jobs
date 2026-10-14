@@ -537,7 +537,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 1,
+"fails": 0,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -1584,7 +1584,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -2093,7 +2093,7 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 0,
+"fails": 1,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
@@ -2513,7 +2513,7 @@
 "name": "Banner Health"
 },
 "workday:baptistjax/wd1/External_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Baptist Health"
 },
 "workday:baxter/wd1/baxter": {
