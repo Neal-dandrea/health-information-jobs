@@ -537,7 +537,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 0,
+"fails": 1,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -3560,7 +3560,7 @@
 "strict": true
 },
 "workday:teladoc/wd503/teladochealth_is_hiring": {
-"fails": 1,
+"fails": 0,
 "name": "Teladoc Health"
 },
 "workday:tempus/wd5/Tempus_Careers": {
@@ -3681,7 +3681,7 @@
 "name": "Peak Health"
 },
 "workday:wvumedicine/wd1/UHA": {
-"fails": 1,
+"fails": 0,
 "name": "WVU Medicine University Health Associates"
 },
 "workday:wvumedicine/wd1/WVUH": {
