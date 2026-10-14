@@ -1584,7 +1584,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -2047,7 +2047,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 0,
+"fails": 1,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2093,7 +2093,7 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 1,
+"fails": 0,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
@@ -2513,7 +2513,7 @@
 "name": "Banner Health"
 },
 "workday:baptistjax/wd1/External_Careers": {
-"fails": 1,
+"fails": 0,
 "name": "Baptist Health"
 },
 "workday:baxter/wd1/baxter": {
@@ -3394,7 +3394,7 @@
 "name": "ProMedica"
 },
 "workday:r1rcm/wd1/R1RCM": {
-"fails": 0,
+"fails": 1,
 "name": "R1 RCM"
 },
 "workday:regeneron/wd1/Careers": {
