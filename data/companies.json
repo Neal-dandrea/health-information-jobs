@@ -1598,7 +1598,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -1720,7 +1720,7 @@
 "name": "Adventist Health"
 },
 "oracle:eeho.fa.us2.oraclecloud.com/CX_45001": {
-"fails": 0,
+"fails": 1,
 "name": "Oracle",
 "strict": true
 },
@@ -2061,7 +2061,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 3,
+"fails": 4,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -3131,7 +3131,7 @@
 "strict": true
 },
 "workday:medtronic/wd1/MedtronicCareers": {
-"fails": 0,
+"fails": 1,
 "name": "Medtronic",
 "strict": true
 },
@@ -3231,7 +3231,7 @@
 "scope": "health"
 },
 "workday:nghs/wd1/External": {
-"fails": 0,
+"fails": 1,
 "name": "Northeast Georgia Health System"
 },
 "workday:nghs/wd1/external": {
