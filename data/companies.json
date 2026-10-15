@@ -2047,7 +2047,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 1,
+"fails": 2,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -3394,7 +3394,7 @@
 "name": "ProMedica"
 },
 "workday:r1rcm/wd1/R1RCM": {
-"fails": 1,
+"fails": 0,
 "name": "R1 RCM"
 },
 "workday:regeneron/wd1/Careers": {
