@@ -821,6 +821,13 @@
 "name": "Inspire Medical Systems",
 "scope": "health"
 },
+"greenhouse:instridehealth": {
+"added": "2026-10-15",
+"fails": 0,
+"from": "survey",
+"name": "InStride Health",
+"scope": "health"
+},
 "greenhouse:intersystems": {
 "fails": 0,
 "name": "InterSystems",
@@ -1533,6 +1540,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Distro",
+"scope": "health"
+},
+"lever:dozee": {
+"added": "2026-10-15",
+"fails": 0,
+"from": "survey",
+"name": "Dozee",
 "scope": "health"
 },
 "lever:enablecomp": {
@@ -2804,6 +2818,13 @@
 "fails": 0,
 "name": "Mercy Health"
 },
+"workday:easyservice/wd5/mercyhealthcareers": {
+"added": "2026-10-15",
+"fails": 0,
+"from": "survey",
+"name": "Easyservice",
+"scope": "health"
+},
 "workday:elevancehealth/wd1/ANT": {
 "fails": 0,
 "name": "Elevance Health"
@@ -3397,6 +3418,13 @@
 "fails": 0,
 "name": "R1 RCM"
 },
+"workday:rackspace/wd1/External": {
+"added": "2026-10-15",
+"fails": 0,
+"from": "survey",
+"name": "Rackspace",
+"scope": "health"
+},
 "workday:regeneron/wd1/Careers": {
 "added": "2026-10-06",
 "fails": 0,
@@ -3420,6 +3448,13 @@
 "workday:rhsc/wd5/Delta_Dental_of_Michigan": {
 "fails": 0,
 "name": "Delta Dental of Michigan, Ohio and Indiana"
+},
+"workday:roche/wd3/ROG-A2O-GENE": {
+"added": "2026-10-15",
+"fails": 0,
+"from": "survey",
+"name": "Genentech",
+"scope": "health"
 },
 "workday:rochester/wd5/UR_Staff": {
 "fails": 0,
