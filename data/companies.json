@@ -2061,7 +2061,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 6,
+"fails": 7,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2905,7 +2905,7 @@
 "scope": "health"
 },
 "workday:genesishcs/wd1/GenesisHCS": {
-"fails": 1,
+"fails": 0,
 "home": "Zanesville, OH",
 "name": "Genesis HealthCare System"
 },
@@ -3106,7 +3106,7 @@
 "name": "Magellan Health"
 },
 "workday:massgeneralbrigham/wd1/MGBExternal": {
-"fails": 0,
+"fails": 1,
 "name": "Mass General Brigham"
 },
 "workday:mckesson/wd3/External_Careers": {
@@ -3678,7 +3678,7 @@
 },
 "workday:usuro/wd1/nju_careers": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Usuro",
 "scope": "health"
