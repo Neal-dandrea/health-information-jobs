@@ -922,6 +922,13 @@
 "name": "Medsien",
 "scope": "health"
 },
+"greenhouse:metroveincenters": {
+"added": "2026-10-16",
+"fails": 0,
+"from": "survey",
+"name": "Metroveincenters",
+"scope": "health"
+},
 "greenhouse:midihealth": {
 "added": "2026-10-05",
 "fails": 0,
@@ -1188,6 +1195,13 @@
 "name": "Veramed",
 "scope": "health"
 },
+"greenhouse:veratherapeuticsinc": {
+"added": "2026-10-16",
+"fails": 0,
+"from": "survey",
+"name": "Vera Therapeutics, Inc.",
+"scope": "health"
+},
 "greenhouse:webchartnow": {
 "added": "2026-10-09",
 "fails": 0,
@@ -1297,6 +1311,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Maxor National Pharmacy Services, LLC",
+"scope": "health"
+},
+"icims:careers-medicalsolutions": {
+"added": "2026-10-16",
+"fails": 0,
+"from": "survey",
+"name": "Medical Solutions, LLC",
 "scope": "health"
 },
 "icims:careers-meridianbioscience": {
@@ -3119,6 +3140,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Sarah Cannon Research Institute (SCRI)",
+"scope": "health"
+},
+"workday:mckesson/wd3/ontada_careers": {
+"added": "2026-10-16",
+"fails": 0,
+"from": "survey",
+"name": "Mckesson",
 "scope": "health"
 },
 "workday:medimpact/wd5/MedImpact": {
