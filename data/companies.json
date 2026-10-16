@@ -1741,7 +1741,7 @@
 "name": "Adventist Health"
 },
 "oracle:eeho.fa.us2.oraclecloud.com/CX_45001": {
-"fails": 0,
+"fails": 1,
 "name": "Oracle",
 "strict": true
 },
@@ -1984,7 +1984,7 @@
 "name": "Lifepoint Health"
 },
 "oracle:ibpcjb.fa.ocs.oraclecloud.com/CX_1004": {
-"fails": 0,
+"fails": 1,
 "name": "Ascension"
 },
 "oracle:parkview-ibyyjb.fa.ocs.oraclecloud.com/CX_1": {
@@ -2082,7 +2082,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 8,
+"fails": 9,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
