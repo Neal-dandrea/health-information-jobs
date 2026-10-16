@@ -2061,7 +2061,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 7,
+"fails": 8,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -3106,7 +3106,7 @@
 "name": "Magellan Health"
 },
 "workday:massgeneralbrigham/wd1/MGBExternal": {
-"fails": 1,
+"fails": 0,
 "name": "Mass General Brigham"
 },
 "workday:mckesson/wd3/External_Careers": {
@@ -3678,7 +3678,7 @@
 },
 "workday:usuro/wd1/nju_careers": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Usuro",
 "scope": "health"
