@@ -2089,7 +2089,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 13,
+"fails": 14,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2139,7 +2139,7 @@
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 1,
+"fails": 0,
 "name": "Kaiser Permanente",
 "strict": true
 },
@@ -2482,7 +2482,7 @@
 "name": "agilon health"
 },
 "workday:aha/wd501/AHA": {
-"fails": 1,
+"fails": 0,
 "name": "American Hospital Association"
 },
 "workday:albanymed/wd5/Albany_Med": {
@@ -2658,7 +2658,7 @@
 "name": "Brown University Health"
 },
 "workday:cambiahealth/wd504/External": {
-"fails": 1,
+"fails": 0,
 "name": "Cambia Health Solutions"
 },
 "workday:capita/wd3/capitaglobal": {
@@ -3054,7 +3054,7 @@
 "name": "Intermountain Health"
 },
 "workday:impactadvisors/wd501/impactadvisors": {
-"fails": 1,
+"fails": 0,
 "name": "Impact Advisors",
 "strict": true
 },
@@ -3212,7 +3212,7 @@
 "name": "Methodist Health System"
 },
 "workday:modmed/wd501/ModMed12": {
-"fails": 1,
+"fails": 0,
 "name": "ModMed"
 },
 "workday:moffitt/wd108/Moffitt": {
@@ -3344,19 +3344,19 @@
 "strict": true
 },
 "workday:ourhrconnect/wd501/CGSAdmin": {
-"fails": 1,
+"fails": 0,
 "name": "CGS Administrators"
 },
 "workday:ourhrconnect/wd501/PGBA": {
-"fails": 1,
+"fails": 0,
 "name": "PGBA"
 },
 "workday:ourhrconnect/wd501/PalmettoGBA": {
-"fails": 1,
+"fails": 0,
 "name": "Palmetto GBA"
 },
 "workday:ourhrconnect/wd501/SCBlues": {
-"fails": 1,
+"fails": 0,
 "name": "BlueCross BlueShield of South Carolina"
 },
 "workday:ovationhealthcare/wd5/ovationhealthcare": {
