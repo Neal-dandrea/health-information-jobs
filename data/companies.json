@@ -97,6 +97,13 @@
 "fails": 0,
 "name": "Cedar"
 },
+"ashby:centerfield": {
+"added": "2026-10-17",
+"fails": 0,
+"from": "survey",
+"name": "Centerfield",
+"scope": "health"
+},
 "ashby:centivo": {
 "fails": 0,
 "name": "Centivo"
@@ -2654,6 +2661,13 @@
 "fails": 0,
 "name": "Cambia Health Solutions"
 },
+"workday:capita/wd3/capitaglobal": {
+"added": "2026-10-17",
+"fails": 0,
+"from": "survey",
+"name": "Capita",
+"scope": "health"
+},
 "workday:cardinalhealth/wd1/EXT": {
 "fails": 0,
 "name": "Cardinal Health",
@@ -3015,6 +3029,13 @@
 "workday:humana/wd5/Humana_External_Career_Site": {
 "fails": 0,
 "name": "Humana"
+},
+"workday:humana/wd5/humana_external_career_site": {
+"added": "2026-10-17",
+"fails": 0,
+"from": "survey",
+"name": "Humana",
+"scope": "health"
 },
 "workday:hummingbird/wd1/hummingbird": {
 "added": "2026-10-05",
