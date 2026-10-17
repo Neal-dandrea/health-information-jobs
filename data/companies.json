@@ -1741,7 +1741,7 @@
 "name": "Adventist Health"
 },
 "oracle:eeho.fa.us2.oraclecloud.com/CX_45001": {
-"fails": 1,
+"fails": 0,
 "name": "Oracle",
 "strict": true
 },
@@ -2082,7 +2082,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 11,
+"fails": 12,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
