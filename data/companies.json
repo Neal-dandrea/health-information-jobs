@@ -2000,7 +2000,7 @@
 },
 "paylocity:37a50e24-8f9e-4b6c-adb1-d21fb1a0c823": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "careers page",
 "home": "Cincinnati, OH",
 "local": true,
@@ -2008,18 +2008,18 @@
 },
 "paylocity:7935bb0d-21dc-4cf4-8c00-7c1c6639d363": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "careers page",
 "name": "Aspirion"
 },
 "paylocity:931f23ef-b8a8-44ef-8e92-4548004313bb": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "careers page",
 "name": "Hoag"
 },
 "paylocity:9d609744-c6de-46ac-abdd-9d67a0dbef46": {
-"fails": 0,
+"fails": 1,
 "name": "e4health"
 },
 "paylocity:a331754c-8be5-4f2c-8633-d5cd1edd04ca": {
@@ -2089,7 +2089,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 16,
+"fails": 17,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2139,7 +2139,7 @@
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 0,
+"fails": 1,
 "name": "Kaiser Permanente",
 "strict": true
 },
@@ -3011,7 +3011,7 @@
 "strict": true
 },
 "workday:highmarkhealth/wd1/highmark": {
-"fails": 1,
+"fails": 0,
 "name": "Highmark Health"
 },
 "workday:honorhealth/wd12/HonorHealth_careers": {
