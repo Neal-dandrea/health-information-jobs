@@ -1647,7 +1647,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -1772,7 +1772,7 @@
 "name": "Blue Shield of California"
 },
 "oracle:ecvz.fa.us2.oraclecloud.com/CX_1": {
-"fails": 0,
+"fails": 1,
 "name": "Adventist Health"
 },
 "oracle:eeho.fa.us2.oraclecloud.com/CX_45001": {
@@ -1827,7 +1827,7 @@
 "name": "Blue Cross Blue Shield of Michigan"
 },
 "oracle:ejrz.fa.us2.oraclecloud.com/CX_5001": {
-"fails": 0,
+"fails": 1,
 "name": "VITAS Healthcare"
 },
 "oracle:ekgn.fa.us6.oraclecloud.com/CX_1": {
@@ -1866,7 +1866,7 @@
 "scope": "health"
 },
 "oracle:eodr.fa.us2.oraclecloud.com/CX_1001": {
-"fails": 0,
+"fails": 1,
 "name": "Tenet Healthcare"
 },
 "oracle:eodr.fa.us2.oraclecloud.com/CX_2001": {
@@ -1942,7 +1942,7 @@
 "name": "UChicago Medicine"
 },
 "oracle:fa-etnv-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
-"fails": 0,
+"fails": 1,
 "name": "HealthPartners"
 },
 "oracle:fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
@@ -2117,7 +2117,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 24,
+"fails": 25,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2897,7 +2897,7 @@
 "name": "Ensemble Health Partners"
 },
 "workday:essentiahealth/wd1/Essentia_Health": {
-"fails": 1,
+"fails": 0,
 "name": "Essentia Health"
 },
 "workday:evolent/wd1/External": {
@@ -3243,7 +3243,7 @@
 "name": "Methodist Le Bonheur Healthcare"
 },
 "workday:methodisthealthsystem/wd1/MHS_Careers": {
-"fails": 1,
+"fails": 0,
 "name": "Methodist Health System"
 },
 "workday:modmed/wd501/ModMed12": {
