@@ -1647,7 +1647,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -2117,7 +2117,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 23,
+"fails": 24,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2570,7 +2570,7 @@
 "name": "Availity"
 },
 "workday:avera/wd5/avera-careers": {
-"fails": 1,
+"fails": 0,
 "name": "Avera Health"
 },
 "workday:bakertilly/wd5/BTCareers": {
@@ -2897,7 +2897,7 @@
 "name": "Ensemble Health Partners"
 },
 "workday:essentiahealth/wd1/Essentia_Health": {
-"fails": 0,
+"fails": 1,
 "name": "Essentia Health"
 },
 "workday:evolent/wd1/External": {
@@ -2987,7 +2987,7 @@
 "scope": "health"
 },
 "workday:gohealthuc/wd12/External": {
-"fails": 1,
+"fails": 0,
 "name": "GoHealth Urgent Care"
 },
 "workday:guardianlife/wd5/guardian-life-careers": {
@@ -2998,7 +2998,7 @@
 "scope": "health"
 },
 "workday:guidehouse/wd1/External": {
-"fails": 1,
+"fails": 0,
 "name": "Guidehouse",
 "strict": true
 },
@@ -3039,7 +3039,7 @@
 "strict": true
 },
 "workday:highmarkhealth/wd1/highmark": {
-"fails": 1,
+"fails": 0,
 "name": "Highmark Health"
 },
 "workday:honorhealth/wd12/HonorHealth_careers": {
@@ -3141,7 +3141,7 @@
 "strict": true
 },
 "workday:lcmchealth/wd1/LCMCHealth": {
-"fails": 1,
+"fails": 0,
 "name": "LCMC Health"
 },
 "workday:lcmchealth/wd1/lcmchealth": {
@@ -3171,7 +3171,7 @@
 "name": "Lumeris"
 },
 "workday:luriechildrens/wd1/externalportal": {
-"fails": 1,
+"fails": 0,
 "name": "Lurie Children's"
 },
 "workday:lvhn/wd1/LVHN": {
@@ -3243,7 +3243,7 @@
 "name": "Methodist Le Bonheur Healthcare"
 },
 "workday:methodisthealthsystem/wd1/MHS_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Methodist Health System"
 },
 "workday:modmed/wd501/ModMed12": {
@@ -3711,7 +3711,7 @@
 "name": "Teladoc Health"
 },
 "workday:tempus/wd5/Tempus_Careers": {
-"fails": 1,
+"fails": 0,
 "name": "Tempus",
 "strict": true
 },
