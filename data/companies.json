@@ -543,6 +543,13 @@
 "name": "Axle",
 "scope": "health"
 },
+"greenhouse:ayahealthcare": {
+"added": "2026-10-19",
+"fails": 0,
+"from": "survey",
+"name": "Aya Healthcare",
+"scope": "health"
+},
 "greenhouse:bayada": {
 "fails": 0,
 "name": "BAYADA Home Health Care"
@@ -732,6 +739,13 @@
 "fails": 0,
 "from": "survey",
 "name": "EPIC Insurance Brokers & Consultants",
+"scope": "health"
+},
+"greenhouse:erasca": {
+"added": "2026-10-19",
+"fails": 0,
+"from": "survey",
+"name": "Erasca",
 "scope": "health"
 },
 "greenhouse:erc8585757pathlight53t353": {
@@ -1292,6 +1306,13 @@
 "fails": 0,
 "name": "Devereux Advanced Behavioral Health"
 },
+"icims:careers-emerus": {
+"added": "2026-10-19",
+"fails": 0,
+"from": "survey",
+"name": "Emerus Holdings",
+"scope": "health"
+},
 "icims:careers-gentivahs": {
 "fails": 0,
 "name": "Gentiva"
@@ -1707,6 +1728,13 @@
 "lever:sanabenefits": {
 "fails": 0,
 "name": "Sana Benefits"
+},
+"lever:synapticure": {
+"added": "2026-10-19",
+"fails": 0,
+"from": "survey",
+"name": "SynaptiCure Inc.",
+"scope": "health"
 },
 "lever:telligen": {
 "fails": 0,
@@ -3096,6 +3124,13 @@
 "fails": 0,
 "name": "The Joint Commission"
 },
+"workday:kansashealthsystem/wd1/careers": {
+"added": "2026-10-19",
+"fails": 0,
+"from": "survey",
+"name": "The University of Kansas Hospital",
+"scope": "health"
+},
 "workday:kaweahhealth/wd1/Careers": {
 "fails": 0,
 "name": "Kaweah Health"
@@ -3406,6 +3441,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Pfizer",
+"scope": "health"
+},
+"workday:phelpshealth/wd5/Phelps": {
+"added": "2026-10-19",
+"fails": 0,
+"from": "survey",
+"name": "Phelpshealth",
 "scope": "health"
 },
 "workday:philips/wd3/internal-job-postings-list-for-philips-contingent-workers": {
