@@ -2089,7 +2089,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 22,
+"fails": 23,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2542,7 +2542,7 @@
 "name": "Availity"
 },
 "workday:avera/wd5/avera-careers": {
-"fails": 0,
+"fails": 1,
 "name": "Avera Health"
 },
 "workday:bakertilly/wd5/BTCareers": {
@@ -2959,7 +2959,7 @@
 "scope": "health"
 },
 "workday:gohealthuc/wd12/External": {
-"fails": 0,
+"fails": 1,
 "name": "GoHealth Urgent Care"
 },
 "workday:guardianlife/wd5/guardian-life-careers": {
@@ -2970,7 +2970,7 @@
 "scope": "health"
 },
 "workday:guidehouse/wd1/External": {
-"fails": 0,
+"fails": 1,
 "name": "Guidehouse",
 "strict": true
 },
@@ -3011,7 +3011,7 @@
 "strict": true
 },
 "workday:highmarkhealth/wd1/highmark": {
-"fails": 0,
+"fails": 1,
 "name": "Highmark Health"
 },
 "workday:honorhealth/wd12/HonorHealth_careers": {
@@ -3106,7 +3106,7 @@
 "strict": true
 },
 "workday:lcmchealth/wd1/LCMCHealth": {
-"fails": 0,
+"fails": 1,
 "name": "LCMC Health"
 },
 "workday:lcmchealth/wd1/lcmchealth": {
@@ -3136,7 +3136,7 @@
 "name": "Lumeris"
 },
 "workday:luriechildrens/wd1/externalportal": {
-"fails": 0,
+"fails": 1,
 "name": "Lurie Children's"
 },
 "workday:lvhn/wd1/LVHN": {
@@ -3669,7 +3669,7 @@
 "name": "Teladoc Health"
 },
 "workday:tempus/wd5/Tempus_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Tempus",
 "strict": true
 },
