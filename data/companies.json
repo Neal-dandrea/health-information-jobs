@@ -1275,7 +1275,7 @@
 "scope": "health"
 },
 "icims:careers-brightspring": {
-"fails": 1,
+"fails": 0,
 "name": "BrightSpring Health Services"
 },
 "icims:careers-brightviewhealth": {
@@ -2117,7 +2117,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 28,
+"fails": 29,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2646,7 +2646,7 @@
 "name": "Blue Cross & Blue Shield of Rhode Island"
 },
 "workday:bcbst/wd1/External": {
-"fails": 1,
+"fails": 0,
 "name": "BlueCross BlueShield of Tennessee"
 },
 "workday:bcbswy/wd1/careers": {
