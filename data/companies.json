@@ -1647,7 +1647,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -1772,7 +1772,7 @@
 "name": "Blue Shield of California"
 },
 "oracle:ecvz.fa.us2.oraclecloud.com/CX_1": {
-"fails": 1,
+"fails": 0,
 "name": "Adventist Health"
 },
 "oracle:eeho.fa.us2.oraclecloud.com/CX_45001": {
@@ -1827,7 +1827,7 @@
 "name": "Blue Cross Blue Shield of Michigan"
 },
 "oracle:ejrz.fa.us2.oraclecloud.com/CX_5001": {
-"fails": 1,
+"fails": 0,
 "name": "VITAS Healthcare"
 },
 "oracle:ekgn.fa.us6.oraclecloud.com/CX_1": {
@@ -1866,7 +1866,7 @@
 "scope": "health"
 },
 "oracle:eodr.fa.us2.oraclecloud.com/CX_1001": {
-"fails": 1,
+"fails": 0,
 "name": "Tenet Healthcare"
 },
 "oracle:eodr.fa.us2.oraclecloud.com/CX_2001": {
@@ -1942,7 +1942,7 @@
 "name": "UChicago Medicine"
 },
 "oracle:fa-etnv-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
-"fails": 1,
+"fails": 0,
 "name": "HealthPartners"
 },
 "oracle:fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
@@ -2117,7 +2117,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 25,
+"fails": 26,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2125,7 +2125,7 @@
 "name": "UAB Medicine"
 },
 "phenom:careers.umms.org/us/en": {
-"fails": 0,
+"fails": 1,
 "name": "University of Maryland Medical System"
 },
 "phenom:careers.zimmerbiomet.com/us/en": {
