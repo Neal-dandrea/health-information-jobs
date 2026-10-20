@@ -551,7 +551,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 1,
+"fails": 0,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -1275,7 +1275,7 @@
 "scope": "health"
 },
 "icims:careers-brightspring": {
-"fails": 0,
+"fails": 1,
 "name": "BrightSpring Health Services"
 },
 "icims:careers-brightviewhealth": {
@@ -2117,7 +2117,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 27,
+"fails": 28,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2125,7 +2125,7 @@
 "name": "UAB Medicine"
 },
 "phenom:careers.umms.org/us/en": {
-"fails": 2,
+"fails": 0,
 "name": "University of Maryland Medical System"
 },
 "phenom:careers.zimmerbiomet.com/us/en": {
@@ -2646,7 +2646,7 @@
 "name": "Blue Cross & Blue Shield of Rhode Island"
 },
 "workday:bcbst/wd1/External": {
-"fails": 0,
+"fails": 1,
 "name": "BlueCross BlueShield of Tennessee"
 },
 "workday:bcbswy/wd1/careers": {
@@ -2670,7 +2670,7 @@
 "scope": "health"
 },
 "workday:bhs/wd1/careers": {
-"fails": 1,
+"fails": 0,
 "name": "Baptist Health"
 },
 "workday:bilh/wd1/External": {
