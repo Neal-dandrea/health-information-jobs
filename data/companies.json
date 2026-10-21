@@ -551,7 +551,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 0,
+"fails": 1,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -1535,7 +1535,7 @@
 },
 "lever:abtaba": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Above and Beyond Therapy",
 "scope": "health"
@@ -2015,7 +2015,7 @@
 "scope": "health"
 },
 "oracle:ibnjjb.fa.ocs.oraclecloud.com/CX_1": {
-"fails": 0,
+"fails": 1,
 "name": "Lifepoint Health"
 },
 "oracle:ibpcjb.fa.ocs.oraclecloud.com/CX_1004": {
@@ -2117,7 +2117,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 30,
+"fails": 31,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2151,7 +2151,7 @@
 "name": "MemorialCare"
 },
 "radancy:careers.unitedhealthgroup.com": {
-"fails": 0,
+"fails": 1,
 "name": "UnitedHealth Group"
 },
 "radancy:jobs.hackensackmeridianhealth.org": {
