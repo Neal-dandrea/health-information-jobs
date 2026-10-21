@@ -2131,7 +2131,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 32,
+"fails": 33,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2165,7 +2165,7 @@
 "name": "MemorialCare"
 },
 "radancy:careers.unitedhealthgroup.com": {
-"fails": 2,
+"fails": 0,
 "name": "UnitedHealth Group"
 },
 "radancy:jobs.hackensackmeridianhealth.org": {
@@ -2181,7 +2181,7 @@
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 0,
+"fails": 1,
 "name": "Kaiser Permanente",
 "strict": true
 },
@@ -2570,7 +2570,7 @@
 },
 "workday:ashealthnet/wd1/ashn": {
 "added": "2026-10-11",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Ashealthnet",
 "scope": "health"
@@ -2700,7 +2700,7 @@
 "name": "Brown University Health"
 },
 "workday:cambiahealth/wd504/External": {
-"fails": 1,
+"fails": 0,
 "name": "Cambia Health Solutions"
 },
 "workday:capita/wd3/capitaglobal": {
@@ -2717,7 +2717,7 @@
 },
 "workday:cardinalhealth/wd1/navista": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Cardinalhealth",
 "scope": "health"
@@ -3265,7 +3265,7 @@
 "name": "ModMed"
 },
 "workday:moffitt/wd108/Moffitt": {
-"fails": 1,
+"fails": 0,
 "name": "Moffitt Cancer Center"
 },
 "workday:montefiore/wd12/MMC": {
@@ -3361,7 +3361,7 @@
 "name": "NewYork-Presbyterian"
 },
 "workday:ochsner/wd1/Ochsner": {
-"fails": 1,
+"fails": 0,
 "name": "Ochsner Health"
 },
 "workday:ohiohealth/wd5/OhioHealthJobs": {
