@@ -1056,6 +1056,13 @@
 "name": "Praxis Precision Medicines, Inc.",
 "scope": "health"
 },
+"greenhouse:prenuvo": {
+"added": "2026-10-21",
+"fails": 0,
+"from": "survey",
+"name": "Prenuvo",
+"scope": "health"
+},
 "greenhouse:prospectus": {
 "added": "2026-10-05",
 "fails": 0,
@@ -1845,6 +1852,13 @@
 "oracle:elar.fa.us2.oraclecloud.com/CX_1": {
 "fails": 0,
 "name": "Inova Health"
+},
+"oracle:elfw.fa.us2.oraclecloud.com/CX_1": {
+"added": "2026-10-21",
+"fails": 0,
+"from": "survey",
+"name": "Guthrie Careers",
+"scope": "health"
 },
 "oracle:eluq.fa.us2.oraclecloud.com/CX_2001": {
 "fails": 0,
