@@ -2546,6 +2546,13 @@
 "fails": 0,
 "name": "Allina Health"
 },
+"workday:altaishealthsolutions/wd108/External": {
+"added": "2026-10-22",
+"fails": 0,
+"from": "survey",
+"name": "Altaishealthsolutions",
+"scope": "health"
+},
 "workday:altru/wd503/careers": {
 "fails": 0,
 "name": "Altru Health System"
@@ -3518,6 +3525,13 @@
 "workday:promedica/wd12/External_Careers": {
 "fails": 0,
 "name": "ProMedica"
+},
+"workday:promedica/wd12/external_careers": {
+"added": "2026-10-22",
+"fails": 0,
+"from": "survey",
+"name": "Promedica",
+"scope": "health"
 },
 "workday:r1rcm/wd1/R1RCM": {
 "fails": 0,
