@@ -551,7 +551,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 1,
+"fails": 0,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -1446,7 +1446,7 @@
 },
 "icims:general-careers-curanahealth": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Curana Health, Inc.",
 "scope": "health"
@@ -1654,7 +1654,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 2,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -1729,7 +1729,7 @@
 "name": "Redox"
 },
 "lever:ro": {
-"fails": 0,
+"fails": 1,
 "name": "Ro"
 },
 "lever:sanabenefits": {
@@ -2106,7 +2106,7 @@
 "name": "NCQA"
 },
 "phenom:careers.amerihealthcaritas.com/us/en": {
-"fails": 0,
+"fails": 1,
 "name": "AmeriHealth Caritas"
 },
 "phenom:careers.baptisthealth.net/us/en": {
@@ -2131,7 +2131,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 35,
+"fails": 36,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -3060,7 +3060,7 @@
 "strict": true
 },
 "workday:highmarkhealth/wd1/highmark": {
-"fails": 0,
+"fails": 1,
 "name": "Highmark Health"
 },
 "workday:honorhealth/wd12/HonorHealth_careers": {
