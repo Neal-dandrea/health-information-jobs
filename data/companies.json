@@ -551,7 +551,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 0,
+"fails": 1,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -1654,7 +1654,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -2131,7 +2131,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 34,
+"fails": 35,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
