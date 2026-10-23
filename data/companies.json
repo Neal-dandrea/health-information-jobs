@@ -551,7 +551,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 0,
+"fails": 1,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -717,7 +717,7 @@
 },
 "greenhouse:divergehealth": {
 "added": "2026-10-13",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Divergehealth",
 "scope": "health"
@@ -2011,7 +2011,7 @@
 },
 "oracle:fa-ewkd-saasfaprod1.fa.ocs.oraclecloud.com/cx_1": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "University of South Florida",
 "scope": "health"
@@ -2152,7 +2152,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 40,
+"fails": 41,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2198,7 +2198,7 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 0,
+"fails": 1,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
@@ -2629,7 +2629,7 @@
 "name": "Baptist Health"
 },
 "workday:baxter/wd1/baxter": {
-"fails": 0,
+"fails": 1,
 "name": "Baxter",
 "strict": true
 },
@@ -2639,7 +2639,7 @@
 },
 "workday:bbinsurance/wd1/careers": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Brown & Brown Insurance",
 "scope": "health"
@@ -3634,7 +3634,7 @@
 "name": "Saint Francis Health System"
 },
 "workday:saintlukes/wd1/saintlukeshealthcareers": {
-"fails": 1,
+"fails": 0,
 "name": "Saint Luke's Health System"
 },
 "workday:sanford/wd5/SanfordHealth": {
