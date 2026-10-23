@@ -551,7 +551,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 0,
+"fails": 1,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -2131,7 +2131,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 38,
+"fails": 39,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2608,7 +2608,7 @@
 "name": "Baptist Health"
 },
 "workday:baxter/wd1/baxter": {
-"fails": 0,
+"fails": 1,
 "name": "Baxter",
 "strict": true
 },
