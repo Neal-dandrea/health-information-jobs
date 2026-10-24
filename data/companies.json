@@ -1675,7 +1675,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 2,
+"fails": 0,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -1731,7 +1731,7 @@
 "scope": "health"
 },
 "lever:pointclickcare": {
-"fails": 1,
+"fails": 0,
 "name": "PointClickCare"
 },
 "lever:porter": {
@@ -2084,7 +2084,7 @@
 },
 "paylocity:37a50e24-8f9e-4b6c-adb1-d21fb1a0c823": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "careers page",
 "home": "Cincinnati, OH",
 "local": true,
@@ -2092,23 +2092,23 @@
 },
 "paylocity:7935bb0d-21dc-4cf4-8c00-7c1c6639d363": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "careers page",
 "name": "Aspirion"
 },
 "paylocity:931f23ef-b8a8-44ef-8e92-4548004313bb": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "careers page",
 "name": "Hoag"
 },
 "paylocity:9d609744-c6de-46ac-abdd-9d67a0dbef46": {
-"fails": 0,
+"fails": 1,
 "name": "e4health"
 },
 "paylocity:a331754c-8be5-4f2c-8633-d5cd1edd04ca": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "careers page",
 "home": "Hamilton, OH",
 "local": true,
@@ -2116,7 +2116,7 @@
 },
 "paylocity:bb0d9fba-4d0f-457f-be46-1efe14a5676c": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "careers page",
 "home": "Edgewood, KY",
 "local": true,
@@ -2124,26 +2124,26 @@
 },
 "paylocity:bdabdac8-ae8f-4877-8c9b-5b5cc193aab0": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "careers page",
 "home": "Cincinnati, OH",
 "local": true,
 "name": "Bayley"
 },
 "paylocity:beb98d2c-b30f-47df-adee-d9c41622f147": {
-"fails": 0,
+"fails": 1,
 "name": "Child Focus",
 "strict": true
 },
 "paylocity:c1f24677-c655-47f5-a7f4-a1e1945e46cb": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "careers page",
 "name": "Currance"
 },
 "paylocity:e17d268e-1abe-4e11-8fa8-bc9215bce4c0": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "careers page",
 "name": "NCQA"
 },
@@ -2173,7 +2173,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 45,
+"fails": 46,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
