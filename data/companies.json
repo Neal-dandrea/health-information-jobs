@@ -164,6 +164,13 @@
 "fails": 0,
 "name": "Gravie"
 },
+"ashby:handspring": {
+"added": "2026-10-24",
+"fails": 0,
+"from": "survey",
+"name": "Handspring",
+"scope": "health"
+},
 "ashby:headway": {
 "fails": 0,
 "name": "Headway"
@@ -910,6 +917,13 @@
 "greenhouse:lumahealth": {
 "fails": 0,
 "name": "Luma Health"
+},
+"greenhouse:lumimeds": {
+"added": "2026-10-24",
+"fails": 0,
+"from": "survey",
+"name": "Lumimeds",
+"scope": "health"
 },
 "greenhouse:machinifyinc": {
 "added": "2026-10-05",
@@ -2034,6 +2048,13 @@
 "oracle:hdox.fa.us6.oraclecloud.com/CX_1": {
 "fails": 0,
 "name": "Quest Diagnostics"
+},
+"oracle:iadyup.fa.ocs.oraclecloud.com/CX_1": {
+"added": "2026-10-24",
+"fails": 0,
+"from": "survey",
+"name": "Trillium Health Partners",
+"scope": "health"
 },
 "oracle:iadyup.fa.ocs.oraclecloud.com/CX_4001": {
 "added": "2026-10-23",
