@@ -2152,7 +2152,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 42,
+"fails": 43,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2634,7 +2634,7 @@
 "strict": true
 },
 "workday:baystatehealth/wd12/External_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Baystate Health"
 },
 "workday:bbinsurance/wd1/careers": {
@@ -2724,7 +2724,7 @@
 "name": "Boston Medical Center"
 },
 "workday:brownhealth/wd12/External_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Brown University Health"
 },
 "workday:cambiahealth/wd504/External": {
@@ -2762,12 +2762,12 @@
 "scope": "health"
 },
 "workday:carilionclinic/wd12/External_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Carilion Clinic"
 },
 "workday:carislifesciences/wd12/cls": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Caris",
 "scope": "health"
@@ -2801,7 +2801,7 @@
 "name": "Children's National Hospital"
 },
 "workday:choa/wd12/externalcareers": {
-"fails": 0,
+"fails": 1,
 "name": "Children's Healthcare of Atlanta"
 },
 "workday:christianacare/wd5/CCHS": {
@@ -2852,7 +2852,7 @@
 "scope": "health"
 },
 "workday:covenanthealth/wd12/CovenantHealthCareers": {
-"fails": 0,
+"fails": 1,
 "name": "Covenant Health"
 },
 "workday:coxhealth/wd5/CoxHealth_External": {
@@ -2871,7 +2871,7 @@
 "scope": "health"
 },
 "workday:crowe/wd12/External_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Crowe",
 "strict": true
 },
@@ -3029,7 +3029,7 @@
 "scope": "health"
 },
 "workday:gohealthuc/wd12/External": {
-"fails": 0,
+"fails": 1,
 "name": "GoHealth Urgent Care"
 },
 "workday:guardianlife/wd5/guardian-life-careers": {
