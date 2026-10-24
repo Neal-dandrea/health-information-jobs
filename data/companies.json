@@ -551,7 +551,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 1,
+"fails": 0,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -717,7 +717,7 @@
 },
 "greenhouse:divergehealth": {
 "added": "2026-10-13",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Divergehealth",
 "scope": "health"
@@ -2152,7 +2152,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 41,
+"fails": 42,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2198,7 +2198,7 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 1,
+"fails": 0,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
@@ -2629,7 +2629,7 @@
 "name": "Baptist Health"
 },
 "workday:baxter/wd1/baxter": {
-"fails": 1,
+"fails": 0,
 "name": "Baxter",
 "strict": true
 },
