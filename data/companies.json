@@ -347,6 +347,13 @@
 "fails": 0,
 "name": "Revecore"
 },
+"ashby:rula": {
+"added": "2026-10-25",
+"fails": 0,
+"from": "survey",
+"name": "Rula",
+"scope": "health"
+},
 "ashby:sailorhealth": {
 "added": "2026-10-05",
 "fails": 0,
@@ -1656,6 +1663,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Heartbeat Health",
+"scope": "health"
+},
+"lever:heyjane": {
+"added": "2026-10-25",
+"fails": 0,
+"from": "survey",
+"name": "Hey Jane",
 "scope": "health"
 },
 "lever:hhaexchange": {
