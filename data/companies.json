@@ -1689,7 +1689,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -2187,7 +2187,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 51,
+"fails": 52,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
