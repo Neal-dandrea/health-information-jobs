@@ -1655,7 +1655,7 @@
 "scope": "health"
 },
 "lever:h1": {
-"fails": 1,
+"fails": 0,
 "name": "H1"
 },
 "lever:heartbeathealth": {
@@ -1689,7 +1689,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -2187,7 +2187,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 50,
+"fails": 51,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2237,7 +2237,7 @@
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 1,
+"fails": 0,
 "name": "Kaiser Permanente",
 "strict": true
 },
