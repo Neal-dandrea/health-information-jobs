@@ -132,6 +132,13 @@
 "fails": 0,
 "name": "Commure"
 },
+"ashby:felix": {
+"added": "2026-10-26",
+"fails": 0,
+"from": "survey",
+"name": "Felix",
+"scope": "health"
+},
 "ashby:finni-health": {
 "added": "2026-10-05",
 "fails": 0,
@@ -323,6 +330,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Prompt",
+"scope": "health"
+},
+"ashby:protege": {
+"added": "2026-10-26",
+"fails": 0,
+"from": "survey",
+"name": "Protege",
 "scope": "health"
 },
 "ashby:raintree-systems": {
@@ -663,6 +677,13 @@
 "greenhouse:cloverhealth": {
 "fails": 0,
 "name": "Clover Health"
+},
+"greenhouse:cogstateinc": {
+"added": "2026-10-26",
+"fails": 0,
+"from": "survey",
+"name": "Cogstate",
+"scope": "health"
 },
 "greenhouse:coherehealth": {
 "fails": 0,
@@ -1138,6 +1159,13 @@
 "fails": 0,
 "name": "Sidecar Health"
 },
+"greenhouse:skinclique": {
+"added": "2026-10-26",
+"fails": 0,
+"from": "survey",
+"name": "Skin Clique",
+"scope": "health"
+},
 "greenhouse:smarterdx": {
 "fails": 0,
 "name": "SmarterDx"
@@ -1149,6 +1177,13 @@
 "greenhouse:strivehealth": {
 "fails": 0,
 "name": "Strive Health"
+},
+"greenhouse:studycontractors": {
+"added": "2026-10-26",
+"fails": 0,
+"from": "survey",
+"name": "Study.com C",
+"scope": "health"
 },
 "greenhouse:suki": {
 "fails": 0,
@@ -2075,6 +2110,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Iadyup",
+"scope": "health"
+},
+"oracle:ibcjqy.fa.ocs.oraclecloud.com/jobsmymlc": {
+"added": "2026-10-26",
+"fails": 0,
+"from": "survey",
+"name": "Ibcjqy",
 "scope": "health"
 },
 "oracle:iblyjb.fa.ocs.oraclecloud.com/cytel": {
@@ -3054,6 +3096,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Kaplan, Inc (GHG Careers)",
+"scope": "health"
+},
+"workday:gilead/wd1/kitepharmacareers": {
+"added": "2026-10-26",
+"fails": 0,
+"from": "survey",
+"name": "Kite Pharma",
 "scope": "health"
 },
 "workday:gmh/wd12/External_Careers": {
