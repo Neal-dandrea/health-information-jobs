@@ -1832,7 +1832,7 @@
 "scope": "health"
 },
 "lever:veeva": {
-"fails": 0,
+"fails": 1,
 "name": "Veeva Systems",
 "strict": true
 },
@@ -2229,7 +2229,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 54,
+"fails": 55,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2275,7 +2275,7 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 1,
+"fails": 0,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
@@ -2702,7 +2702,7 @@
 "name": "Banner Health"
 },
 "workday:baptistjax/wd1/External_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Baptist Health"
 },
 "workday:baxter/wd1/baxter": {
@@ -3274,7 +3274,7 @@
 "strict": true
 },
 "workday:lcmchealth/wd1/LCMCHealth": {
-"fails": 0,
+"fails": 1,
 "name": "LCMC Health"
 },
 "workday:lcmchealth/wd1/lcmchealth": {
