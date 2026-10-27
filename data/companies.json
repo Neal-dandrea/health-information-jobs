@@ -528,6 +528,13 @@
 "name": "Advancedmd",
 "scope": "health"
 },
+"greenhouse:aegisventures": {
+"added": "2026-10-27",
+"fails": 0,
+"from": "survey",
+"name": "Aegis Ventures",
+"scope": "health"
+},
 "greenhouse:akerotherapeutics": {
 "added": "2026-10-05",
 "fails": 0,
@@ -951,6 +958,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Lumimeds",
+"scope": "health"
+},
+"greenhouse:luxinfusion": {
+"added": "2026-10-27",
+"fails": 0,
+"from": "survey",
+"name": "Luxinfusion",
 "scope": "health"
 },
 "greenhouse:machinifyinc": {
