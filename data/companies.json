@@ -1656,7 +1656,7 @@
 },
 "lever:distro": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Distro",
 "scope": "health"
@@ -1860,7 +1860,7 @@
 "name": "Adventist Health"
 },
 "oracle:eeho.fa.us2.oraclecloud.com/CX_45001": {
-"fails": 1,
+"fails": 0,
 "name": "Oracle",
 "strict": true
 },
@@ -2229,7 +2229,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 57,
+"fails": 58,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2275,11 +2275,11 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 2,
+"fails": 0,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 0,
+"fails": 1,
 "name": "Kaiser Permanente",
 "strict": true
 },
@@ -3124,7 +3124,7 @@
 "scope": "health"
 },
 "workday:guidehouse/wd1/External": {
-"fails": 0,
+"fails": 1,
 "name": "Guidehouse",
 "strict": true
 },
@@ -3146,7 +3146,7 @@
 },
 "workday:healthcare/wd1/search": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Solventum",
 "scope": "health"
@@ -3376,7 +3376,7 @@
 "name": "Methodist Le Bonheur Healthcare"
 },
 "workday:methodisthealthsystem/wd1/MHS_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Methodist Health System"
 },
 "workday:modmed/wd501/ModMed12": {
