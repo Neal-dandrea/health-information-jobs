@@ -586,7 +586,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 0,
+"fails": 1,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -1670,7 +1670,7 @@
 },
 "lever:distro": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 2,
 "from": "survey",
 "name": "Distro",
 "scope": "health"
@@ -1738,7 +1738,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -2243,7 +2243,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 58,
+"fails": 59,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2293,7 +2293,7 @@
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 1,
+"fails": 2,
 "name": "Kaiser Permanente",
 "strict": true
 },
@@ -3138,7 +3138,7 @@
 "scope": "health"
 },
 "workday:guidehouse/wd1/External": {
-"fails": 1,
+"fails": 0,
 "name": "Guidehouse",
 "strict": true
 },
@@ -3160,7 +3160,7 @@
 },
 "workday:healthcare/wd1/search": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Solventum",
 "scope": "health"
@@ -3279,7 +3279,7 @@
 "scope": "health"
 },
 "workday:kaweahhealth/wd1/Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Kaweah Health"
 },
 "workday:labcorp/wd1/external": {
@@ -3390,7 +3390,7 @@
 "name": "Methodist Le Bonheur Healthcare"
 },
 "workday:methodisthealthsystem/wd1/MHS_Careers": {
-"fails": 1,
+"fails": 0,
 "name": "Methodist Health System"
 },
 "workday:modmed/wd501/ModMed12": {
@@ -3899,7 +3899,7 @@
 "scope": "health"
 },
 "workday:trinityhealth/wd1/Jobs": {
-"fails": 0,
+"fails": 1,
 "name": "Trinity Health"
 },
 "workday:tuftsmedicine/wd1/Jobs": {
@@ -3944,7 +3944,7 @@
 "name": "Valley Health System"
 },
 "workday:vcuhealth/wd1/VCUHealth_careers": {
-"fails": 0,
+"fails": 1,
 "name": "VCU Health"
 },
 "workday:veradigm/wd12/VR": {
@@ -3993,7 +3993,7 @@
 "name": "WVU Medicine University Health Associates"
 },
 "workday:wvumedicine/wd1/WVUH": {
-"fails": 0,
+"fails": 1,
 "name": "WVU Medicine"
 },
 "workday:xerispharma/wd503/xerispharmaceuticalscareers": {
