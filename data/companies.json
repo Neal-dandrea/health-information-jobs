@@ -586,7 +586,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 0,
+"fails": 1,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -2243,7 +2243,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 61,
+"fails": 62,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2626,7 +2626,7 @@
 },
 "workday:adventisthealthcare/wd1/adventisthealthcarecareers": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Adventisthealthcare",
 "scope": "health"
@@ -2716,7 +2716,7 @@
 "name": "Banner Health"
 },
 "workday:baptistjax/wd1/External_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Baptist Health"
 },
 "workday:baxter/wd1/baxter": {
@@ -2972,7 +2972,7 @@
 "strict": true
 },
 "workday:davita/wd1/DKC_External": {
-"fails": 1,
+"fails": 0,
 "name": "DaVita"
 },
 "workday:daytonchildrens/wd1/dayton_childrens_career_site": {
