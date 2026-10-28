@@ -1626,7 +1626,7 @@
 },
 "lever:Trend-Health-Partners": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Trend Health Partners",
 "scope": "health"
@@ -1752,7 +1752,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -2257,7 +2257,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 63,
+"fails": 64,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2303,11 +2303,11 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 1,
+"fails": 0,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 0,
+"fails": 1,
 "name": "Kaiser Permanente",
 "strict": true
 },
@@ -2685,7 +2685,7 @@
 },
 "workday:amgen/wd1/careers": {
 "added": "2026-10-09",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Amgen",
 "scope": "health"
@@ -3336,7 +3336,7 @@
 "name": "Lurie Children's"
 },
 "workday:lvhn/wd1/LVHN": {
-"fails": 1,
+"fails": 0,
 "name": "Lehigh Valley Health Network"
 },
 "workday:magellanhealth/wd5/magellan_health_careers": {
@@ -3835,7 +3835,7 @@
 "scope": "health"
 },
 "workday:spectrumhealth/wd5/CorewellHealthCareers": {
-"fails": 1,
+"fails": 0,
 "name": "Corewell Health"
 },
 "workday:ssmh/wd115/ssmhealth": {
