@@ -2243,7 +2243,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 60,
+"fails": 61,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2277,7 +2277,7 @@
 "name": "MemorialCare"
 },
 "radancy:careers.unitedhealthgroup.com": {
-"fails": 1,
+"fails": 0,
 "name": "UnitedHealth Group"
 },
 "radancy:jobs.hackensackmeridianhealth.org": {
@@ -2293,7 +2293,7 @@
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 3,
+"fails": 0,
 "name": "Kaiser Permanente",
 "strict": true
 },
@@ -2972,7 +2972,7 @@
 "strict": true
 },
 "workday:davita/wd1/DKC_External": {
-"fails": 0,
+"fails": 1,
 "name": "DaVita"
 },
 "workday:daytonchildrens/wd1/dayton_childrens_career_site": {
