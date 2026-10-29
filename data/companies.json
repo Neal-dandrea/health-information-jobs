@@ -1626,7 +1626,7 @@
 },
 "lever:Trend-Health-Partners": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Trend Health Partners",
 "scope": "health"
@@ -2257,7 +2257,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 64,
+"fails": 65,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2307,7 +2307,7 @@
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 1,
+"fails": 0,
 "name": "Kaiser Permanente",
 "strict": true
 },
