@@ -1443,7 +1443,7 @@
 "state": "OH"
 },
 "icims:careers-lhs": {
-"fails": 0,
+"fails": 1,
 "name": "Legacy Health"
 },
 "icims:careers-maxor": {
@@ -1836,7 +1836,7 @@
 "scope": "health"
 },
 "lever:pointclickcare": {
-"fails": 1,
+"fails": 0,
 "name": "PointClickCare"
 },
 "lever:porter": {
@@ -2285,7 +2285,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 66,
+"fails": 67,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -3344,7 +3344,7 @@
 "strict": true
 },
 "workday:lcmchealth/wd1/LCMCHealth": {
-"fails": 1,
+"fails": 0,
 "name": "LCMC Health"
 },
 "workday:lcmchealth/wd1/lcmchealth": {
@@ -3454,7 +3454,7 @@
 "name": "ModMed"
 },
 "workday:moffitt/wd108/Moffitt": {
-"fails": 1,
+"fails": 0,
 "name": "Moffitt Cancer Center"
 },
 "workday:montefiore/wd12/MMC": {
@@ -3839,7 +3839,7 @@
 "scope": "health"
 },
 "workday:sentara/wd1/SCS": {
-"fails": 1,
+"fails": 0,
 "name": "Sentara Health"
 },
 "workday:sharecare/wd1/Sharecare_Careers": {
