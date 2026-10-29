@@ -811,6 +811,13 @@
 "name": "ERC Pathlight",
 "scope": "health"
 },
+"greenhouse:evio": {
+"added": "2026-10-29",
+"fails": 0,
+"from": "survey",
+"name": "Evio",
+"scope": "health"
+},
 "greenhouse:fay": {
 "added": "2026-10-05",
 "fails": 0,
@@ -1138,6 +1145,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Prenuvo",
+"scope": "health"
+},
+"greenhouse:prolificacademicltd": {
+"added": "2026-10-29",
+"fails": 0,
+"from": "survey",
+"name": "Prolific",
 "scope": "health"
 },
 "greenhouse:prospectus": {
@@ -1710,6 +1724,13 @@
 "name": "Eastern Research Group",
 "scope": "health"
 },
+"lever:foodsmart": {
+"added": "2026-10-29",
+"fails": 0,
+"from": "survey",
+"name": "Foodsmart",
+"scope": "health"
+},
 "lever:getfivestar": {
 "added": "2026-10-12",
 "fails": 0,
@@ -1745,6 +1766,13 @@
 "lever:hsag": {
 "fails": 0,
 "name": "Health Services Advisory Group"
+},
+"lever:imo-online": {
+"added": "2026-10-29",
+"fails": 0,
+"from": "survey",
+"name": "IMO Health",
+"scope": "health"
 },
 "lever:includedhealth": {
 "fails": 0,
@@ -2781,6 +2809,13 @@
 "fails": 0,
 "name": "Blue Cross and Blue Shield of North Carolina"
 },
+"workday:bcbsnc/wd5/bcbsnc": {
+"added": "2026-10-29",
+"fails": 0,
+"from": "survey",
+"name": "Blue Cross and Blue Shield of North Carolina",
+"scope": "health"
+},
 "workday:bcbsnj/wd5/hc": {
 "added": "2026-10-05",
 "fails": 0,
@@ -3161,6 +3196,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Guidehouse",
+"scope": "health"
+},
+"workday:harriscomputer/wd3/gbs": {
+"added": "2026-10-29",
+"fails": 0,
+"from": "survey",
+"name": "Harriscomputer",
 "scope": "health"
 },
 "workday:hcsc/wd1/HCSC_External": {
