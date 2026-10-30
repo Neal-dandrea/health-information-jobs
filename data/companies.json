@@ -593,7 +593,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 1,
+"fails": 2,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -1705,7 +1705,7 @@
 },
 "lever:distro": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Distro",
 "scope": "health"
@@ -1794,7 +1794,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -1891,7 +1891,7 @@
 "scope": "health"
 },
 "lever:telligen": {
-"fails": 0,
+"fails": 1,
 "name": "Telligen"
 },
 "lever:tendo": {
@@ -1930,7 +1930,7 @@
 "name": "Adventist Health"
 },
 "oracle:eeho.fa.us2.oraclecloud.com/CX_45001": {
-"fails": 0,
+"fails": 1,
 "name": "Oracle",
 "strict": true
 },
@@ -2299,7 +2299,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 69,
+"fails": 70,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2349,7 +2349,7 @@
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 1,
+"fails": 0,
 "name": "Kaiser Permanente",
 "strict": true
 },
@@ -3201,7 +3201,7 @@
 "scope": "health"
 },
 "workday:guidehouse/wd1/External": {
-"fails": 0,
+"fails": 1,
 "name": "Guidehouse",
 "strict": true
 },
@@ -3312,7 +3312,7 @@
 },
 "workday:ivyrehab/wd5/Ivy_Rehab": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Ivyrehab",
 "scope": "health"
@@ -3476,7 +3476,7 @@
 "name": "Montefiore Medical Center"
 },
 "workday:multicare/wd1/multicare": {
-"fails": 1,
+"fails": 0,
 "name": "MultiCare Health System"
 },
 "workday:musc/wd1/MUSC": {
