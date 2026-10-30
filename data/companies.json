@@ -735,6 +735,13 @@
 "name": "Counterpart Health",
 "scope": "health"
 },
+"greenhouse:crowellmoring": {
+"added": "2026-10-30",
+"fails": 0,
+"from": "survey",
+"name": "Crowell & Moring",
+"scope": "health"
+},
 "greenhouse:datavant2": {
 "fails": 0,
 "name": "Datavant"
@@ -1722,6 +1729,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Eastern Research Group",
+"scope": "health"
+},
+"lever:florence": {
+"added": "2026-10-30",
+"fails": 0,
+"from": "survey",
+"name": "Florence Health",
 "scope": "health"
 },
 "lever:foodsmart": {
