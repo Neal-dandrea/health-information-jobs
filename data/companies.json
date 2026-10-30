@@ -1443,7 +1443,7 @@
 "state": "OH"
 },
 "icims:careers-lhs": {
-"fails": 1,
+"fails": 0,
 "name": "Legacy Health"
 },
 "icims:careers-maxor": {
@@ -2285,7 +2285,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 67,
+"fails": 68,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -3839,7 +3839,7 @@
 "scope": "health"
 },
 "workday:sentara/wd1/SCS": {
-"fails": 0,
+"fails": 1,
 "name": "Sentara Health"
 },
 "workday:sharecare/wd1/Sharecare_Careers": {
