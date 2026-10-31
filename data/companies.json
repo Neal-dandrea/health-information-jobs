@@ -1585,7 +1585,7 @@
 "scope": "health"
 },
 "icims:jobs-fchp": {
-"fails": 1,
+"fails": 0,
 "name": "Fallon Health"
 },
 "icims:uscareers-lumanity": {
@@ -2320,7 +2320,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 72,
+"fails": 73,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -3340,7 +3340,7 @@
 },
 "workday:ivyrehab/wd5/Ivy_Rehab": {
 "added": "2026-10-05",
-"fails": 3,
+"fails": 4,
 "from": "survey",
 "name": "Ivyrehab",
 "scope": "health"
