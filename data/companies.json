@@ -1102,6 +1102,13 @@
 "home": "Lebanon, OH",
 "name": "Otterbein SeniorLife"
 },
+"greenhouse:ovatient": {
+"added": "2026-11-01",
+"fails": 0,
+"from": "survey",
+"name": "Ovatient",
+"scope": "health"
+},
 "greenhouse:papa": {
 "fails": 0,
 "name": "Papa"
@@ -1523,9 +1530,23 @@
 "name": "Ohsu",
 "scope": "health"
 },
+"icims:careers-plansys": {
+"added": "2026-11-01",
+"fails": 0,
+"from": "survey",
+"name": "Planned Systems International",
+"scope": "health"
+},
 "icims:careers-primehealthcare": {
 "fails": 0,
 "name": "Prime Healthcare"
+},
+"icims:careers-pro-spheretek": {
+"added": "2026-11-01",
+"fails": 0,
+"from": "survey",
+"name": "Pro Spheretek",
+"scope": "health"
 },
 "icims:careers-prosphere": {
 "added": "2026-10-31",
@@ -3883,6 +3904,13 @@
 "workday:sentara/wd1/SCS": {
 "fails": 0,
 "name": "Sentara Health"
+},
+"workday:sfmc/wd1/sfhs": {
+"added": "2026-11-01",
+"fails": 0,
+"from": "survey",
+"name": "Sfmc",
+"scope": "health"
 },
 "workday:sharecare/wd1/Sharecare_Careers": {
 "fails": 0,
