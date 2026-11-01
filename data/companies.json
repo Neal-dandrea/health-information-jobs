@@ -1650,7 +1650,7 @@
 "name": "BJC HealthCare"
 },
 "jibe:www.osfcareers.org": {
-"fails": 0,
+"fails": 1,
 "name": "OSF HealthCare"
 },
 "jobvite:ashcompanies": {
@@ -1768,7 +1768,7 @@
 },
 "lever:getfivestar": {
 "added": "2026-10-12",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Five Star Solutions",
 "scope": "health"
@@ -1815,7 +1815,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -2320,7 +2320,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 74,
+"fails": 75,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -3340,7 +3340,7 @@
 },
 "workday:ivyrehab/wd5/Ivy_Rehab": {
 "added": "2026-10-05",
-"fails": 5,
+"fails": 6,
 "from": "survey",
 "name": "Ivyrehab",
 "scope": "health"
