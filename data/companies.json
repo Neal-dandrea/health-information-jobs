@@ -1925,6 +1925,13 @@
 "fails": 0,
 "name": "Sana Benefits"
 },
+"lever:skillcloudhcm": {
+"added": "2026-11-02",
+"fails": 0,
+"from": "survey",
+"name": "Skillcloud HCM Solutions",
+"scope": "health"
+},
 "lever:synapticure": {
 "added": "2026-10-19",
 "fails": 0,
