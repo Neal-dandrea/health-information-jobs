@@ -1588,7 +1588,7 @@
 "strict": true
 },
 "icims:ehccareers-emory": {
-"fails": 0,
+"fails": 1,
 "name": "Emory Healthcare"
 },
 "icims:externalcareers-ohsu": {
@@ -2341,7 +2341,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 78,
+"fails": 79,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2935,7 +2935,7 @@
 "scope": "health"
 },
 "workday:cardinalhealth/wd1/EXT": {
-"fails": 0,
+"fails": 1,
 "name": "Cardinal Health",
 "strict": true
 },
@@ -3081,7 +3081,7 @@
 "name": "DaVita"
 },
 "workday:daytonchildrens/wd1/dayton_childrens_career_site": {
-"fails": 0,
+"fails": 1,
 "name": "Dayton Children's Hospital",
 "state": "OH"
 },
@@ -3361,7 +3361,7 @@
 },
 "workday:ivyrehab/wd5/Ivy_Rehab": {
 "added": "2026-10-05",
-"fails": 9,
+"fails": 10,
 "from": "survey",
 "name": "Ivyrehab",
 "scope": "health"
@@ -3429,7 +3429,7 @@
 "name": "Excellus BlueCross BlueShield"
 },
 "workday:lthc/wd1/UniveraHealthcareCareers": {
-"fails": 0,
+"fails": 1,
 "name": "Univera Healthcare"
 },
 "workday:lumeris/wd1/LC": {
@@ -4111,7 +4111,7 @@
 "name": "Wellstar Health System"
 },
 "workday:wvumedicine/wd1/PEAK": {
-"fails": 0,
+"fails": 1,
 "name": "Peak Health"
 },
 "workday:wvumedicine/wd1/UHA": {
