@@ -82,6 +82,13 @@
 "name": "Big Leap Health",
 "scope": "health"
 },
+"ashby:bravehealth": {
+"added": "2026-11-03",
+"fails": 0,
+"from": "survey",
+"name": "Brave Health",
+"scope": "health"
+},
 "ashby:camber": {
 "added": "2026-10-05",
 "fails": 0,
@@ -1924,6 +1931,13 @@
 "lever:sanabenefits": {
 "fails": 0,
 "name": "Sana Benefits"
+},
+"lever:simonmed": {
+"added": "2026-11-03",
+"fails": 0,
+"from": "survey",
+"name": "SimonMed Imaging",
+"scope": "health"
 },
 "lever:skillcloudhcm": {
 "added": "2026-11-02",
