@@ -607,7 +607,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 1,
+"fails": 0,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -1613,7 +1613,7 @@
 "scope": "health"
 },
 "icims:jobs-fchp": {
-"fails": 0,
+"fails": 1,
 "name": "Fallon Health"
 },
 "icims:uscareers-lumanity": {
@@ -1736,7 +1736,7 @@
 },
 "lever:coalfire": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Coalfire",
 "scope": "health"
@@ -2362,7 +2362,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 81,
+"fails": 82,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2408,7 +2408,7 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 1,
+"fails": 0,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
@@ -3515,7 +3515,7 @@
 "name": "Memorial Hermann"
 },
 "workday:mercy/wd1/mercycareers": {
-"fails": 1,
+"fails": 0,
 "name": "Mercy"
 },
 "workday:merit/wd503/Merit": {
@@ -4050,7 +4050,7 @@
 "name": "Trinity Health"
 },
 "workday:tuftsmedicine/wd1/Jobs": {
-"fails": 1,
+"fails": 0,
 "name": "Tufts Medicine"
 },
 "workday:umchealthsystem/wd1/External": {
@@ -4140,7 +4140,7 @@
 "name": "WVU Medicine University Health Associates"
 },
 "workday:wvumedicine/wd1/WVUH": {
-"fails": 1,
+"fails": 0,
 "name": "WVU Medicine"
 },
 "workday:xerispharma/wd503/xerispharmaceuticalscareers": {
