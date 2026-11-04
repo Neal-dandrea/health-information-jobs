@@ -467,6 +467,13 @@
 "fails": 0,
 "name": "Virta Health"
 },
+"ashby:vitalize": {
+"added": "2026-11-04",
+"fails": 0,
+"from": "survey",
+"name": "Vitalize",
+"scope": "health"
+},
 "ashby:voize": {
 "added": "2026-10-12",
 "fails": 0,
@@ -2461,6 +2468,13 @@
 "name": "Boulanger",
 "scope": "health"
 },
+"smartrecruiters:DecipheraPharmaceuticals1": {
+"added": "2026-11-04",
+"fails": 0,
+"from": "survey",
+"name": "Deciphera Pharmaceuticals",
+"scope": "health"
+},
 "smartrecruiters:Eurofins": {
 "fails": 0,
 "name": "Eurofins",
@@ -3532,6 +3546,13 @@
 "workday:methodisthealthsystem/wd1/MHS_Careers": {
 "fails": 1,
 "name": "Methodist Health System"
+},
+"workday:modivcare/wd1/careers": {
+"added": "2026-11-04",
+"fails": 0,
+"from": "survey",
+"name": "Modivcare",
+"scope": "health"
 },
 "workday:modmed/wd501/ModMed12": {
 "fails": 0,
