@@ -1613,7 +1613,7 @@
 "scope": "health"
 },
 "icims:jobs-fchp": {
-"fails": 1,
+"fails": 0,
 "name": "Fallon Health"
 },
 "icims:uscareers-lumanity": {
@@ -1736,7 +1736,7 @@
 },
 "lever:coalfire": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Coalfire",
 "scope": "health"
@@ -1965,7 +1965,7 @@
 "scope": "health"
 },
 "lever:veeva": {
-"fails": 0,
+"fails": 1,
 "name": "Veeva Systems",
 "strict": true
 },
@@ -2362,7 +2362,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 82,
+"fails": 83,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -3530,7 +3530,7 @@
 "name": "Methodist Le Bonheur Healthcare"
 },
 "workday:methodisthealthsystem/wd1/MHS_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Methodist Health System"
 },
 "workday:modmed/wd501/ModMed12": {
@@ -4104,7 +4104,7 @@
 "strict": true
 },
 "workday:virtua/wd1/Virtua_Health_External_Career_Site": {
-"fails": 0,
+"fails": 1,
 "name": "Virtua Health"
 },
 "workday:vizient/wd1/Vizient_Careers": {
