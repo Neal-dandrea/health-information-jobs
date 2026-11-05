@@ -1602,7 +1602,7 @@
 "strict": true
 },
 "icims:ehccareers-emory": {
-"fails": 1,
+"fails": 0,
 "name": "Emory Healthcare"
 },
 "icims:externalcareers-ohsu": {
@@ -1732,7 +1732,7 @@
 },
 "lever:assist-world": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Assist World",
 "scope": "health"
@@ -1761,14 +1761,14 @@
 },
 "lever:distro": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Distro",
 "scope": "health"
 },
 "lever:dozee": {
 "added": "2026-10-15",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Dozee",
 "scope": "health"
@@ -2369,7 +2369,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 84,
+"fails": 85,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -3651,7 +3651,7 @@
 "name": "Netsmart"
 },
 "workday:nyp/wd1/nypcareers": {
-"fails": 1,
+"fails": 0,
 "name": "NewYork-Presbyterian"
 },
 "workday:ochsner/wd1/Ochsner": {
