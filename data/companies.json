@@ -1703,7 +1703,7 @@
 },
 "lever:ClinicalHealthNetworkForTransformation": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Clinical Health Network For Transformation",
 "scope": "health"
@@ -2383,7 +2383,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 85,
+"fails": 86,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -3637,7 +3637,7 @@
 "scope": "health"
 },
 "workday:nghs/wd1/External": {
-"fails": 0,
+"fails": 1,
 "name": "Northeast Georgia Health System"
 },
 "workday:nghs/wd1/external": {
@@ -3969,7 +3969,7 @@
 "scope": "health"
 },
 "workday:sharecare/wd1/Sharecare_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Sharecare"
 },
 "workday:sharp/wd1/External": {
@@ -4139,7 +4139,7 @@
 "strict": true
 },
 "workday:virtua/wd1/Virtua_Health_External_Career_Site": {
-"fails": 0,
+"fails": 1,
 "name": "Virtua Health"
 },
 "workday:vizient/wd1/Vizient_Careers": {
