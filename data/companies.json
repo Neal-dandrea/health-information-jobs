@@ -1609,7 +1609,7 @@
 "strict": true
 },
 "icims:ehccareers-emory": {
-"fails": 1,
+"fails": 0,
 "name": "Emory Healthcare"
 },
 "icims:externalcareers-ohsu": {
@@ -2383,7 +2383,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 88,
+"fails": 89,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2417,7 +2417,7 @@
 "name": "MemorialCare"
 },
 "radancy:careers.unitedhealthgroup.com": {
-"fails": 0,
+"fails": 1,
 "name": "UnitedHealth Group"
 },
 "radancy:jobs.hackensackmeridianhealth.org": {
@@ -2429,7 +2429,7 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 0,
+"fails": 1,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
