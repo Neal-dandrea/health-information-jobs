@@ -1703,7 +1703,7 @@
 },
 "lever:ClinicalHealthNetworkForTransformation": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Clinical Health Network For Transformation",
 "scope": "health"
@@ -2383,7 +2383,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 86,
+"fails": 87,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2417,7 +2417,7 @@
 "name": "MemorialCare"
 },
 "radancy:careers.unitedhealthgroup.com": {
-"fails": 0,
+"fails": 1,
 "name": "UnitedHealth Group"
 },
 "radancy:jobs.hackensackmeridianhealth.org": {
@@ -2433,7 +2433,7 @@
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 0,
+"fails": 1,
 "name": "Kaiser Permanente",
 "strict": true
 },
@@ -3637,7 +3637,7 @@
 "scope": "health"
 },
 "workday:nghs/wd1/External": {
-"fails": 1,
+"fails": 0,
 "name": "Northeast Georgia Health System"
 },
 "workday:nghs/wd1/external": {
@@ -3969,7 +3969,7 @@
 "scope": "health"
 },
 "workday:sharecare/wd1/Sharecare_Careers": {
-"fails": 1,
+"fails": 0,
 "name": "Sharecare"
 },
 "workday:sharp/wd1/External": {
@@ -4139,7 +4139,7 @@
 "strict": true
 },
 "workday:virtua/wd1/Virtua_Health_External_Career_Site": {
-"fails": 1,
+"fails": 0,
 "name": "Virtua Health"
 },
 "workday:vizient/wd1/Vizient_Careers": {
