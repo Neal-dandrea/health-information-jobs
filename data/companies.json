@@ -431,6 +431,13 @@
 "name": "Sprinter Health",
 "scope": "health"
 },
+"ashby:talkiatry": {
+"added": "2026-11-06",
+"fails": 0,
+"from": "survey",
+"name": "Talkiatry",
+"scope": "health"
+},
 "ashby:tavahealth": {
 "added": "2026-10-05",
 "fails": 0,
@@ -479,6 +486,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Vitalize",
+"scope": "health"
+},
+"ashby:viz.ai": {
+"added": "2026-11-06",
+"fails": 0,
+"from": "survey",
+"name": "Viz.Ai",
 "scope": "health"
 },
 "ashby:voize": {
@@ -1626,6 +1640,13 @@
 "name": "Curana Health, Inc.",
 "scope": "health"
 },
+"icims:internal-libertymutual": {
+"added": "2026-11-06",
+"fails": 0,
+"from": "survey",
+"name": "Liberty Mutual",
+"scope": "health"
+},
 "icims:jobs-fchp": {
 "fails": 0,
 "name": "Fallon Health"
@@ -2569,6 +2590,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Guidehealth",
+"scope": "health"
+},
+"smartrecruiters:henryfordhealth1": {
+"added": "2026-11-06",
+"fails": 0,
+"from": "survey",
+"name": "Henryfordhealth1",
 "scope": "health"
 },
 "smartrecruiters:johnsnowlabs": {
