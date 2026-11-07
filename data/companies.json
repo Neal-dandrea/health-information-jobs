@@ -1885,7 +1885,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -1971,12 +1971,12 @@
 "name": "Ro"
 },
 "lever:sanabenefits": {
-"fails": 1,
+"fails": 0,
 "name": "Sana Benefits"
 },
 "lever:simonmed": {
 "added": "2026-11-03",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "SimonMed Imaging",
 "scope": "health"
@@ -1990,7 +1990,7 @@
 },
 "lever:synapticure": {
 "added": "2026-10-19",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "SynaptiCure Inc.",
 "scope": "health"
@@ -2404,7 +2404,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 90,
+"fails": 91,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2874,7 +2874,7 @@
 "name": "athenahealth"
 },
 "workday:availity/wd1/Availity_Careers_US": {
-"fails": 1,
+"fails": 0,
 "name": "Availity"
 },
 "workday:avera/wd5/avera-careers": {
@@ -3718,7 +3718,7 @@
 },
 "workday:orthoclinical/wd1/Search": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "careers page",
 "name": "QuidelOrtho",
 "strict": true
@@ -3863,7 +3863,7 @@
 "scope": "health"
 },
 "workday:r1rcm/wd1/R1RCM": {
-"fails": 1,
+"fails": 0,
 "name": "R1 RCM"
 },
 "workday:rackspace/wd1/External": {
@@ -4154,7 +4154,7 @@
 "name": "Valley Health System"
 },
 "workday:vcuhealth/wd1/VCUHealth_careers": {
-"fails": 1,
+"fails": 0,
 "name": "VCU Health"
 },
 "workday:veradigm/wd12/VR": {
