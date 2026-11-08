@@ -238,6 +238,13 @@
 "name": "Iambic Therapeutics",
 "scope": "health"
 },
+"ashby:immunic-therapeutics": {
+"added": "2026-11-08",
+"fails": 0,
+"from": "survey",
+"name": "Immunic Therapeutics",
+"scope": "health"
+},
 "ashby:infinitus": {
 "fails": 0,
 "name": "Infinitus Systems"
@@ -245,6 +252,13 @@
 "ashby:inovalon": {
 "fails": 0,
 "name": "Inovalon"
+},
+"ashby:junction": {
+"added": "2026-11-08",
+"fails": 0,
+"from": "survey",
+"name": "Junction",
+"scope": "health"
 },
 "ashby:knownwell": {
 "added": "2026-10-05",
@@ -2482,6 +2496,13 @@
 "local": true,
 "name": "University of Cincinnati"
 },
+"smartrecruiters:ASSYSTEM": {
+"added": "2026-11-08",
+"fails": 0,
+"from": "survey",
+"name": "Assystem",
+"scope": "health"
+},
 "smartrecruiters:AbbVie": {
 "added": "2026-10-05",
 "fails": 0,
@@ -3094,6 +3115,13 @@
 "workday:cityblockhealth/wd1/CityblockExternalCareerSite": {
 "fails": 0,
 "name": "Cityblock Health"
+},
+"workday:clarioclinical/wd1/clarioclinical_careers": {
+"added": "2026-11-08",
+"fails": 0,
+"from": "survey",
+"name": "Clairo",
+"scope": "health"
 },
 "workday:cni/wd503/CNI": {
 "added": "2026-10-05",
