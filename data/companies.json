@@ -4070,6 +4070,13 @@
 "fails": 0,
 "name": "Stanford Health Care"
 },
+"workday:stcharles/wd1/External": {
+"added": "2026-11-09",
+"fails": 0,
+"from": "survey",
+"name": "St. Charles Health System",
+"scope": "health"
+},
 "workday:stelizabeth/wd115/StElizabethExternalCareerSite": {
 "fails": 0,
 "home": "Edgewood, KY",
@@ -4221,6 +4228,20 @@
 "workday:wellstar/wd1/wellstarcareers": {
 "fails": 0,
 "name": "Wellstar Health System"
+},
+"workday:worldwide/wd1/external": {
+"added": "2026-11-09",
+"fails": 0,
+"from": "survey",
+"name": "Worldwide",
+"scope": "health"
+},
+"workday:wustl/wd1/external": {
+"added": "2026-11-09",
+"fails": 0,
+"from": "survey",
+"name": "Wash U",
+"scope": "health"
 },
 "workday:wvumedicine/wd1/PEAK": {
 "fails": 0,
