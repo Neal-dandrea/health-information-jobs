@@ -2418,7 +2418,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 98,
+"fails": 99,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2801,7 +2801,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 6,
+"fails": 7,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
@@ -3862,7 +3862,7 @@
 },
 "workday:premierinc/wd1/external_professional": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Premier",
 "scope": "health"
