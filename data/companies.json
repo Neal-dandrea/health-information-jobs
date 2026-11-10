@@ -1899,7 +1899,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -2049,7 +2049,7 @@
 "name": "Adventist Health"
 },
 "oracle:eeho.fa.us2.oraclecloud.com/CX_45001": {
-"fails": 0,
+"fails": 1,
 "name": "Oracle",
 "strict": true
 },
@@ -2418,7 +2418,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 99,
+"fails": 100,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2801,7 +2801,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 7,
+"fails": 8,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
@@ -3862,7 +3862,7 @@
 },
 "workday:premierinc/wd1/external_professional": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Premier",
 "scope": "health"
