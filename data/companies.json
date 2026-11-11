@@ -1488,7 +1488,7 @@
 "name": "Chestnut Health Systems"
 },
 "icims:careers-cotiviti": {
-"fails": 0,
+"fails": 1,
 "name": "Cotiviti"
 },
 "icims:careers-curanahealth": {
@@ -2425,7 +2425,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 103,
+"fails": 104,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2471,7 +2471,7 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 2,
+"fails": 0,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
@@ -2808,7 +2808,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 11,
+"fails": 12,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
@@ -2919,7 +2919,7 @@
 "name": "Banner Health"
 },
 "workday:baptistjax/wd1/External_Careers": {
-"fails": 0,
+"fails": 1,
 "name": "Baptist Health"
 },
 "workday:baxter/wd1/baxter": {
@@ -3644,7 +3644,7 @@
 "name": "Montefiore Medical Center"
 },
 "workday:multicare/wd1/multicare": {
-"fails": 0,
+"fails": 1,
 "name": "MultiCare Health System"
 },
 "workday:musc/wd1/MUSC": {
@@ -4116,7 +4116,7 @@
 },
 "workday:taskus/wd1/careers": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Taskus",
 "scope": "health"
