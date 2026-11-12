@@ -10,6 +10,13 @@
 "fails": 0,
 "name": "Abridge"
 },
+"ashby:adaptive-innovations": {
+"added": "2026-11-12",
+"fails": 0,
+"from": "survey",
+"name": "Adaptive Innovations",
+"scope": "health"
+},
 "ashby:adonis": {
 "fails": 0,
 "name": "Adonis"
@@ -1502,6 +1509,13 @@
 "fails": 0,
 "name": "Devereux Advanced Behavioral Health"
 },
+"icims:careers-edf-re": {
+"added": "2026-11-12",
+"fails": 0,
+"from": "survey",
+"name": "EDF power solutions",
+"scope": "health"
+},
 "icims:careers-emerus": {
 "added": "2026-10-19",
 "fails": 0,
@@ -2138,6 +2152,13 @@
 "name": "Kroger",
 "strict": true
 },
+"oracle:elyb.fa.us2.oraclecloud.com/CX_1001": {
+"added": "2026-11-12",
+"fails": 0,
+"from": "survey",
+"name": "Elyb",
+"scope": "health"
+},
 "oracle:eney.fa.us2.oraclecloud.com/CX_1001": {
 "added": "2026-10-09",
 "fails": 0,
@@ -2329,6 +2350,13 @@
 "oracle:ibpcjb.fa.ocs.oraclecloud.com/CX_1004": {
 "fails": 0,
 "name": "Ascension"
+},
+"oracle:ibwsjb.fa.ocs.oraclecloud.com/CX_1": {
+"added": "2026-11-12",
+"fails": 0,
+"from": "survey",
+"name": "EHC",
+"scope": "health"
 },
 "oracle:parkview-ibyyjb.fa.ocs.oraclecloud.com/CX_1": {
 "fails": 0,
@@ -3250,6 +3278,13 @@
 "fails": 0,
 "name": "Essentia Health"
 },
+"workday:etch/wd5/etch": {
+"added": "2026-11-12",
+"fails": 0,
+"from": "survey",
+"name": "Etch",
+"scope": "health"
+},
 "workday:evolent/wd1/External": {
 "fails": 0,
 "name": "Evolent"
@@ -3813,6 +3848,13 @@
 "fails": 0,
 "name": "Oxford Global Resources",
 "strict": true
+},
+"workday:pacificsource/wd5/broadbean_external": {
+"added": "2026-11-12",
+"fails": 0,
+"from": "survey",
+"name": "Pacificsource",
+"scope": "health"
 },
 "workday:pennant/wd1/PennantServicesCareerSite": {
 "added": "2026-10-05",
