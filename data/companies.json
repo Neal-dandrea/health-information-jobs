@@ -438,6 +438,13 @@
 "name": "Solace Health",
 "scope": "health"
 },
+"ashby:sondermind": {
+"added": "2026-11-13",
+"fails": 0,
+"from": "survey",
+"name": "Sondermind",
+"scope": "health"
+},
 "ashby:sparrow": {
 "added": "2026-10-05",
 "fails": 0,
@@ -450,6 +457,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Sprinter Health",
+"scope": "health"
+},
+"ashby:statista": {
+"added": "2026-11-13",
+"fails": 0,
+"from": "survey",
+"name": "Statista",
 "scope": "health"
 },
 "ashby:talkiatry": {
@@ -1255,6 +1269,13 @@
 "greenhouse:qgenda": {
 "fails": 0,
 "name": "QGenda"
+},
+"greenhouse:rackner": {
+"added": "2026-11-13",
+"fails": 0,
+"from": "survey",
+"name": "Rackner",
+"scope": "health"
 },
 "greenhouse:revolutionmedicines": {
 "added": "2026-10-05",
@@ -2602,6 +2623,13 @@
 "fails": 0,
 "name": "Privia Health"
 },
+"smartrecruiters:SGS": {
+"added": "2026-11-13",
+"fails": 0,
+"from": "survey",
+"name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale de Surveillance (SGS)",
+"scope": "health"
+},
 "smartrecruiters:SMCP": {
 "added": "2026-10-05",
 "fails": 0,
@@ -3851,6 +3879,13 @@
 },
 "workday:pacificsource/wd5/broadbean_external": {
 "added": "2026-11-12",
+"fails": 0,
+"from": "survey",
+"name": "Pacificsource",
+"scope": "health"
+},
+"workday:pacificsource/wd5/pacificsource": {
+"added": "2026-11-13",
 "fails": 0,
 "from": "survey",
 "name": "Pacificsource",
