@@ -2474,7 +2474,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 109,
+"fails": 110,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2864,7 +2864,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 17,
+"fails": 18,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
@@ -2914,7 +2914,7 @@
 "scope": "health"
 },
 "workday:allina/wd5/External": {
-"fails": 0,
+"fails": 1,
 "name": "Allina Health"
 },
 "workday:altaishealthsolutions/wd108/External": {
@@ -3139,7 +3139,7 @@
 "name": "Cleveland Clinic"
 },
 "workday:centene/wd5/Centene_External": {
-"fails": 0,
+"fails": 1,
 "name": "Centene"
 },
 "workday:chaptershealth/wd5/jobs": {
@@ -3166,7 +3166,7 @@
 "name": "ChristianaCare"
 },
 "workday:cigna/wd5/cignacareers": {
-"fails": 0,
+"fails": 1,
 "name": "Cigna Group"
 },
 "workday:cincinnatichildrens/wd5/careersatcincinnatichildrens": {
@@ -3370,7 +3370,7 @@
 "strict": true
 },
 "workday:geisinger/wd5/GeisingerExternal": {
-"fails": 0,
+"fails": 1,
 "name": "Geisinger"
 },
 "workday:geisinger/wd5/geisingerexternal": {
@@ -3478,23 +3478,23 @@
 "name": "Houston Methodist"
 },
 "workday:hshs/wd1/hshscareers": {
-"fails": 0,
+"fails": 1,
 "name": "Hospital Sisters Health System"
 },
 "workday:humana/wd5/Humana_External_Career_Site": {
-"fails": 0,
+"fails": 1,
 "name": "Humana"
 },
 "workday:humana/wd5/centerwell_external_career_site": {
 "added": "2026-10-23",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "CenterWell",
 "scope": "health"
 },
 "workday:humana/wd5/humana_external_career_site": {
 "added": "2026-10-17",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Humana",
 "scope": "health"
@@ -3550,13 +3550,13 @@
 "name": "Jefferson Health"
 },
 "workday:jj/wd5/JJ": {
-"fails": 0,
+"fails": 1,
 "name": "Johnson & Johnson",
 "strict": true
 },
 "workday:jj/wd5/displacedemployees": {
 "added": "2026-10-06",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jj",
 "scope": "health"
@@ -3620,7 +3620,7 @@
 "name": "Lehigh Valley Health Network"
 },
 "workday:magellanhealth/wd5/magellan_health_careers": {
-"fails": 0,
+"fails": 1,
 "name": "Magellan Health"
 },
 "workday:massgeneralbrigham/wd1/MGBExternal": {
@@ -3721,7 +3721,7 @@
 "name": "MVP Health Care"
 },
 "workday:myhrabc/wd5/Global": {
-"fails": 0,
+"fails": 1,
 "name": "Cencora",
 "strict": true
 },
@@ -4150,7 +4150,7 @@
 "scope": "health"
 },
 "workday:spectrumhealth/wd5/CorewellHealthCareers": {
-"fails": 0,
+"fails": 1,
 "name": "Corewell Health"
 },
 "workday:ssmh/wd115/ssmhealth": {
