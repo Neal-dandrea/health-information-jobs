@@ -2453,7 +2453,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 107,
+"fails": 108,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2499,7 +2499,7 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 2,
+"fails": 0,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
@@ -2514,7 +2514,7 @@
 "name": "Bamboo Health"
 },
 "rmk:careers.essilorluxottica.com": {
-"fails": 2,
+"fails": 0,
 "name": "EssilorLuxottica",
 "strict": true
 },
@@ -2836,7 +2836,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 15,
+"fails": 16,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
