@@ -1530,7 +1530,7 @@
 "name": "Chestnut Health Systems"
 },
 "icims:careers-cotiviti": {
-"fails": 0,
+"fails": 1,
 "name": "Cotiviti"
 },
 "icims:careers-curanahealth": {
@@ -2488,7 +2488,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 112,
+"fails": 113,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2885,7 +2885,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 20,
+"fails": 21,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
@@ -2951,7 +2951,7 @@
 },
 "workday:amgen/wd1/careers": {
 "added": "2026-10-09",
-"fails": 2,
+"fails": 0,
 "from": "survey",
 "name": "Amgen",
 "scope": "health"
@@ -3266,7 +3266,7 @@
 "strict": true
 },
 "workday:davita/wd1/DKC_External": {
-"fails": 2,
+"fails": 0,
 "name": "DaVita"
 },
 "workday:daytonchildrens/wd1/dayton_childrens_career_site": {
@@ -3297,26 +3297,26 @@
 "scope": "health"
 },
 "workday:easyservice/wd5/BonSecoursCareers": {
-"fails": 2,
+"fails": 0,
 "name": "Bon Secours"
 },
 "workday:easyservice/wd5/BonSecoursMercyHealthCareers": {
-"fails": 2,
+"fails": 0,
 "name": "Bon Secours Mercy Health"
 },
 "workday:easyservice/wd5/MercyHealthCareers": {
-"fails": 2,
+"fails": 0,
 "name": "Mercy Health"
 },
 "workday:easyservice/wd5/mercyhealthcareers": {
 "added": "2026-10-15",
-"fails": 2,
+"fails": 0,
 "from": "survey",
 "name": "Easyservice",
 "scope": "health"
 },
 "workday:elevancehealth/wd1/ANT": {
-"fails": 2,
+"fails": 0,
 "name": "Elevance Health"
 },
 "workday:ensemblehp/wd5/ensemblehealthpartnerscareers": {
@@ -3347,18 +3347,18 @@
 },
 "workday:fmr/wd1/fidelitycareers": {
 "added": "2026-10-05",
-"fails": 2,
+"fails": 0,
 "from": "survey",
 "name": "Fidelity Investments",
 "scope": "health"
 },
 "workday:franciscanalliance/wd5/FA_External_Career_Site": {
-"fails": 2,
+"fails": 0,
 "name": "Franciscan Health"
 },
 "workday:franciscanalliance/wd5/fa_external_career_site": {
 "added": "2026-10-05",
-"fails": 2,
+"fails": 0,
 "from": "survey",
 "name": "Franciscanalliance",
 "scope": "health"
@@ -3391,12 +3391,12 @@
 "strict": true
 },
 "workday:geisinger/wd5/GeisingerExternal": {
-"fails": 3,
+"fails": 0,
 "name": "Geisinger"
 },
 "workday:geisinger/wd5/geisingerexternal": {
 "added": "2026-10-05",
-"fails": 2,
+"fails": 0,
 "from": "survey",
 "name": "Geisinger",
 "scope": "health"
@@ -3503,19 +3503,19 @@
 "name": "Hospital Sisters Health System"
 },
 "workday:humana/wd5/Humana_External_Career_Site": {
-"fails": 3,
+"fails": 0,
 "name": "Humana"
 },
 "workday:humana/wd5/centerwell_external_career_site": {
 "added": "2026-10-23",
-"fails": 3,
+"fails": 0,
 "from": "survey",
 "name": "CenterWell",
 "scope": "health"
 },
 "workday:humana/wd5/humana_external_career_site": {
 "added": "2026-10-17",
-"fails": 3,
+"fails": 0,
 "from": "survey",
 "name": "Humana",
 "scope": "health"
@@ -3598,7 +3598,7 @@
 "name": "Kaweah Health"
 },
 "workday:labcorp/wd1/external": {
-"fails": 2,
+"fails": 0,
 "name": "Labcorp",
 "strict": true
 },
@@ -3648,7 +3648,7 @@
 "name": "Lehigh Valley Health Network"
 },
 "workday:magellanhealth/wd5/magellan_health_careers": {
-"fails": 3,
+"fails": 4,
 "name": "Magellan Health"
 },
 "workday:massgeneralbrigham/wd1/MGBExternal": {
@@ -3712,7 +3712,7 @@
 "name": "Methodist Le Bonheur Healthcare"
 },
 "workday:methodisthealthsystem/wd1/MHS_Careers": {
-"fails": 2,
+"fails": 0,
 "name": "Methodist Health System"
 },
 "workday:modivcare/wd1/careers": {
@@ -3739,7 +3739,7 @@
 "name": "MultiCare Health System"
 },
 "workday:musc/wd1/MUSC": {
-"fails": 2,
+"fails": 0,
 "name": "MUSC Health"
 },
 "workday:mvphealthcare/wd5/mvphealthcare": {
@@ -3834,12 +3834,12 @@
 "name": "Ochsner Health"
 },
 "workday:ohiohealth/wd5/OhioHealthJobs": {
-"fails": 2,
+"fails": 0,
 "name": "OhioHealth"
 },
 "workday:ohiohealth/wd5/ohiohealthjobs": {
 "added": "2026-10-05",
-"fails": 2,
+"fails": 0,
 "from": "survey",
 "name": "Ohiohealth",
 "scope": "health"
@@ -4010,7 +4010,7 @@
 "scope": "health"
 },
 "workday:r1rcm/wd1/R1RCM": {
-"fails": 2,
+"fails": 0,
 "name": "R1 RCM"
 },
 "workday:rackspace/wd1/External": {
@@ -4074,7 +4074,7 @@
 "scope": "health"
 },
 "workday:sagility/wd1/SagilityUSA": {
-"fails": 2,
+"fails": 0,
 "name": "Sagility"
 },
 "workday:saintfrancis/wd115/External": {
@@ -4133,7 +4133,7 @@
 "scope": "health"
 },
 "workday:sentara/wd1/SCS": {
-"fails": 2,
+"fails": 0,
 "name": "Sentara Health"
 },
 "workday:sfmc/wd1/sfhs": {
@@ -4178,7 +4178,7 @@
 "scope": "health"
 },
 "workday:spectrumhealth/wd5/CorewellHealthCareers": {
-"fails": 3,
+"fails": 0,
 "name": "Corewell Health"
 },
 "workday:ssmh/wd115/ssmhealth": {
