@@ -888,6 +888,13 @@
 "name": "EPIC Insurance Brokers & Consultants",
 "scope": "health"
 },
+"greenhouse:elationhealth": {
+"added": "2026-11-14",
+"fails": 0,
+"from": "survey",
+"name": "Elation Health",
+"scope": "health"
+},
 "greenhouse:erasca": {
 "added": "2026-10-19",
 "fails": 0,
@@ -1146,6 +1153,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Noctrixhealth",
+"scope": "health"
+},
+"greenhouse:octave": {
+"added": "2026-11-14",
+"fails": 0,
+"from": "survey",
+"name": "Octave",
 "scope": "health"
 },
 "greenhouse:omadahealth": {
@@ -2669,6 +2683,13 @@
 "name": "Energypool",
 "scope": "health"
 },
+"smartrecruiters:greencrosspetwellnesscompany": {
+"added": "2026-11-14",
+"fails": 0,
+"from": "survey",
+"name": "Greencross Pet Wellness Company",
+"scope": "health"
+},
 "smartrecruiters:guidehealth": {
 "added": "2026-10-05",
 "fails": 0,
@@ -3590,6 +3611,13 @@
 "fails": 1,
 "from": "survey",
 "name": "Lcmchealth",
+"scope": "health"
+},
+"workday:legalshieldcorp/wd1/lsc": {
+"added": "2026-11-14",
+"fails": 0,
+"from": "survey",
+"name": "PPLSI",
 "scope": "health"
 },
 "workday:lifestance/wd5/careers": {
