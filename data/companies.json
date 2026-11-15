@@ -1057,6 +1057,13 @@
 "name": "Jade Biosciences",
 "scope": "health"
 },
+"greenhouse:kailera": {
+"added": "2026-11-15",
+"fails": 0,
+"from": "survey",
+"name": "Kailera",
+"scope": "health"
+},
 "greenhouse:kodiaksolutions": {
 "added": "2026-10-05",
 "fails": 0,
@@ -1512,6 +1519,13 @@
 "name": "BerryDunn",
 "scope": "health"
 },
+"icims:careers-betterhealthgroup": {
+"added": "2026-11-15",
+"fails": 0,
+"from": "survey",
+"name": "Better Health Group Services, Inc.",
+"scope": "health"
+},
 "icims:careers-brightspring": {
 "fails": 0,
 "name": "BrightSpring Health Services"
@@ -1840,6 +1854,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Assist World",
+"scope": "health"
+},
+"lever:bighealth": {
+"added": "2026-11-15",
+"fails": 0,
+"from": "survey",
+"name": "Big Health",
 "scope": "health"
 },
 "lever:clarifyhealth": {
