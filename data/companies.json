@@ -1976,7 +1976,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -2026,13 +2026,13 @@
 },
 "lever:penumbrainc": {
 "added": "2026-10-23",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Penumbra Inc",
 "scope": "health"
 },
 "lever:pointclickcare": {
-"fails": 0,
+"fails": 1,
 "name": "PointClickCare"
 },
 "lever:porter": {
@@ -2509,7 +2509,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 115,
+"fails": 116,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2906,7 +2906,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 23,
+"fails": 24,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
@@ -3017,7 +3017,7 @@
 "name": "Banner Health"
 },
 "workday:baptistjax/wd1/External_Careers": {
-"fails": 1,
+"fails": 0,
 "name": "Baptist Health"
 },
 "workday:baxter/wd1/baxter": {
@@ -3669,7 +3669,7 @@
 "name": "Lehigh Valley Health Network"
 },
 "workday:magellanhealth/wd5/magellan_health_careers": {
-"fails": 6,
+"fails": 7,
 "name": "Magellan Health"
 },
 "workday:massgeneralbrigham/wd1/MGBExternal": {
