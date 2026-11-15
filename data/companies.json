@@ -1530,7 +1530,7 @@
 "name": "Chestnut Health Systems"
 },
 "icims:careers-cotiviti": {
-"fails": 1,
+"fails": 0,
 "name": "Cotiviti"
 },
 "icims:careers-curanahealth": {
@@ -2488,7 +2488,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 113,
+"fails": 114,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2885,7 +2885,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 21,
+"fails": 22,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
@@ -3648,7 +3648,7 @@
 "name": "Lehigh Valley Health Network"
 },
 "workday:magellanhealth/wd5/magellan_health_careers": {
-"fails": 4,
+"fails": 5,
 "name": "Magellan Health"
 },
 "workday:massgeneralbrigham/wd1/MGBExternal": {
