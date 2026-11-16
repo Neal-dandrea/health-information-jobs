@@ -21,6 +21,13 @@
 "fails": 0,
 "name": "Adonis"
 },
+"ashby:aios": {
+"added": "2026-11-16",
+"fails": 0,
+"from": "survey",
+"name": "Aios",
+"scope": "health"
+},
 "ashby:akasa": {
 "fails": 0,
 "name": "Akasa"
