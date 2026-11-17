@@ -1534,7 +1534,7 @@
 "scope": "health"
 },
 "icims:careers-brightspring": {
-"fails": 1,
+"fails": 0,
 "name": "BrightSpring Health Services"
 },
 "icims:careers-brightviewhealth": {
@@ -1796,7 +1796,7 @@
 "name": "Novant Health"
 },
 "jibe:jobs.uhsinc.com": {
-"fails": 1,
+"fails": 0,
 "name": "Universal Health Services"
 },
 "jibe:www.bjccareers.org": {
@@ -1978,7 +1978,7 @@
 "scope": "health"
 },
 "lever:includedhealth": {
-"fails": 1,
+"fails": 0,
 "name": "Included Health"
 },
 "lever:jobgether": {
@@ -2516,7 +2516,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 118,
+"fails": 119,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2546,7 +2546,7 @@
 "strict": true
 },
 "radancy:careers.memorialcare.org": {
-"fails": 1,
+"fails": 0,
 "name": "MemorialCare"
 },
 "radancy:careers.unitedhealthgroup.com": {
@@ -2554,11 +2554,11 @@
 "name": "UnitedHealth Group"
 },
 "radancy:jobs.hackensackmeridianhealth.org": {
-"fails": 1,
+"fails": 0,
 "name": "Hackensack Meridian Health"
 },
 "radancy:jobs.scionhealth.com": {
-"fails": 1,
+"fails": 0,
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
@@ -2913,7 +2913,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 26,
+"fails": 27,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
@@ -3145,7 +3145,7 @@
 "scope": "health"
 },
 "workday:cardinalhealth/wd1/EXT": {
-"fails": 1,
+"fails": 0,
 "name": "Cardinal Health",
 "strict": true
 },
