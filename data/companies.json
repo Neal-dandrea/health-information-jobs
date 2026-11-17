@@ -1153,6 +1153,13 @@
 "name": "Midi Health",
 "scope": "health"
 },
+"greenhouse:modenaallergyasthma": {
+"added": "2026-11-17",
+"fails": 0,
+"from": "survey",
+"name": "Modena Allergy + Asthma",
+"scope": "health"
+},
 "greenhouse:natera": {
 "fails": 0,
 "name": "Natera",
@@ -2753,6 +2760,13 @@
 "name": "Munson Healthcare",
 "scope": "health"
 },
+"smartrecruiters:scalian": {
+"added": "2026-11-17",
+"fails": 0,
+"from": "survey",
+"name": "Scalian",
+"scope": "health"
+},
 "smartrecruiters:sutherland": {
 "fails": 0,
 "name": "Sutherland",
@@ -2866,6 +2880,13 @@
 "fails": 0,
 "from": "careers page",
 "name": "Meduit"
+},
+"ukg:recruiting.ultipro.com/NAT1046NSMIN/799e3621-67ba-4409-a058-76559641806c": {
+"added": "2026-11-17",
+"fails": 0,
+"from": "survey",
+"name": "Recruiting.Ultipro.Com",
+"scope": "health"
 },
 "ukg:recruiting.ultipro.com/NEC1002NCO/ae716500-5e52-4cd8-a968-50ed46cc651c": {
 "added": "2026-10-07",
@@ -4237,6 +4258,20 @@
 "workday:stormontvail/wd1/SVH": {
 "fails": 0,
 "name": "Stormont Vail Health"
+},
+"workday:strayer/wd1/SEI": {
+"added": "2026-11-17",
+"fails": 0,
+"from": "survey",
+"name": "Strategic Education",
+"scope": "health"
+},
+"workday:strayer/wd1/cu_careers": {
+"added": "2026-11-17",
+"fails": 0,
+"from": "survey",
+"name": "Strayer",
+"scope": "health"
 },
 "workday:stryker/wd1/StrykerCareers": {
 "fails": 0,
