@@ -238,6 +238,13 @@
 "name": "Hire Hangar",
 "scope": "health"
 },
+"ashby:honeydew": {
+"added": "2026-11-18",
+"fails": 0,
+"from": "survey",
+"name": "Honeydew",
+"scope": "health"
+},
 "ashby:humatahealth": {
 "added": "2026-10-05",
 "fails": 0,
@@ -3191,6 +3198,13 @@
 "workday:carilionclinic/wd12/External_Careers": {
 "fails": 0,
 "name": "Carilion Clinic"
+},
+"workday:carilionclinic/wd12/external_careers": {
+"added": "2026-11-18",
+"fails": 0,
+"from": "survey",
+"name": "Carilion Clinic",
+"scope": "health"
 },
 "workday:carislifesciences/wd12/cls": {
 "added": "2026-10-05",
