@@ -115,7 +115,7 @@
 "name": "Candid Health"
 },
 "ashby:cedar": {
-"fails": 1,
+"fails": 2,
 "name": "Cedar"
 },
 "ashby:centerfield": {
@@ -2394,14 +2394,14 @@
 },
 "oracle:iadyup.fa.ocs.oraclecloud.com/CX_1": {
 "added": "2026-10-24",
-"fails": 1,
+"fails": 2,
 "from": "survey",
 "name": "Trillium Health Partners",
 "scope": "health"
 },
 "oracle:iadyup.fa.ocs.oraclecloud.com/CX_4001": {
 "added": "2026-10-23",
-"fails": 1,
+"fails": 2,
 "from": "survey",
 "name": "Iadyup",
 "scope": "health"
@@ -2530,7 +2530,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 125,
+"fails": 126,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2941,7 +2941,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 33,
+"fails": 34,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
