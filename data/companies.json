@@ -3464,6 +3464,13 @@
 "name": "Geisinger",
 "scope": "health"
 },
+"workday:genesiscare/wd1/Genesiscare_Careers": {
+"added": "2026-11-20",
+"fails": 0,
+"from": "survey",
+"name": "Genesiscare",
+"scope": "health"
+},
 "workday:genesishcs/wd1/GenesisHCS": {
 "fails": 0,
 "home": "Zanesville, OH",
