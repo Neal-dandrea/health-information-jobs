@@ -115,7 +115,7 @@
 "name": "Candid Health"
 },
 "ashby:cedar": {
-"fails": 3,
+"fails": 4,
 "name": "Cedar"
 },
 "ashby:centerfield": {
@@ -1997,7 +1997,7 @@
 },
 "lever:jobgether": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "survey",
 "name": "Jobgether",
 "scope": "health"
@@ -2530,7 +2530,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 127,
+"fails": 128,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2576,7 +2576,7 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 0,
+"fails": 1,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
@@ -2858,14 +2858,14 @@
 },
 "ukg:recruiting.ultipro.com/BHI1000BHIS/e71a3962-c9a3-4604-8ed7-40c2f20ed960": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "careers page",
 "home": "Cincinnati, OH",
 "local": true,
 "name": "Maple Knoll / BHI Senior Living"
 },
 "ukg:recruiting.ultipro.com/CAR1038/a2cb2439-e7a8-4744-1acc-2ee745a1bfeb": {
-"fails": 1,
+"fails": 0,
 "home": "Loveland, OH",
 "name": "Carespring"
 },
@@ -2878,7 +2878,7 @@
 },
 "ukg:recruiting.ultipro.com/GRA1030GRALA/2d2b5749-b7ba-4967-bd35-8d14640a1518": {
 "added": "2026-10-05",
-"fails": 1,
+"fails": 0,
 "from": "careers page",
 "name": "Grand Lake Health System"
 },
@@ -2941,7 +2941,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 35,
+"fails": 36,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
