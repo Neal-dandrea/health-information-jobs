@@ -649,6 +649,13 @@
 "fails": 0,
 "name": "Amwell"
 },
+"greenhouse:anteristech": {
+"added": "2026-11-21",
+"fails": 0,
+"from": "survey",
+"name": "Anteris Technologies",
+"scope": "health"
+},
 "greenhouse:assemblyhealth": {
 "added": "2026-10-05",
 "fails": 0,
@@ -1634,6 +1641,13 @@
 "name": "Meridian Bioscience",
 "strict": true
 },
+"icims:careers-mindpathhealth": {
+"added": "2026-11-21",
+"fails": 0,
+"from": "survey",
+"name": "Mindpathhealth",
+"scope": "health"
+},
 "icims:careers-mrocorp": {
 "fails": 0,
 "name": "MRO Corp"
@@ -1714,6 +1728,13 @@
 "icims:careers-ventrahealth": {
 "fails": 0,
 "name": "Ventra Health"
+},
+"icims:careers-virginpulse": {
+"added": "2026-11-21",
+"fails": 0,
+"from": "survey",
+"name": "Virginpulse",
+"scope": "health"
 },
 "icims:careers-wcgclinical": {
 "fails": 0,
@@ -3086,6 +3107,13 @@
 "workday:bcbsla/wd1/External": {
 "fails": 0,
 "name": "Blue Cross and Blue Shield of Louisiana"
+},
+"workday:bcbsla/wd1/external": {
+"added": "2026-11-21",
+"fails": 0,
+"from": "survey",
+"name": "Blue Cross and Blue Shield of Louisiana",
+"scope": "health"
 },
 "workday:bcbsma/wd5/BCBSMA": {
 "fails": 0,
