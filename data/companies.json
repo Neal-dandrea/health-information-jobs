@@ -359,6 +359,13 @@
 "name": "Nuna",
 "scope": "health"
 },
+"ashby:onyx-bio": {
+"added": "2026-11-22",
+"fails": 0,
+"from": "survey",
+"name": "Onyx Bio",
+"scope": "health"
+},
 "ashby:openloophealth": {
 "fails": 0,
 "name": "OpenLoop Health"
@@ -1190,6 +1197,13 @@
 "name": "Noctrixhealth",
 "scope": "health"
 },
+"greenhouse:northpointrecoveryholdingsllc": {
+"added": "2026-11-22",
+"fails": 0,
+"from": "survey",
+"name": "Northpointrecoveryholdingsllc",
+"scope": "health"
+},
 "greenhouse:octave": {
 "added": "2026-11-14",
 "fails": 0,
@@ -1684,6 +1698,13 @@
 "name": "Ohsu",
 "scope": "health"
 },
+"icims:careers-personifyhealth": {
+"added": "2026-11-22",
+"fails": 0,
+"from": "survey",
+"name": "Personify Health",
+"scope": "health"
+},
 "icims:careers-plansys": {
 "added": "2026-11-01",
 "fails": 0,
@@ -2028,6 +2049,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Karius",
+"scope": "health"
+},
+"lever:lsa-hr": {
+"added": "2026-11-22",
+"fails": 0,
+"from": "survey",
+"name": "Lsa Hr",
 "scope": "health"
 },
 "lever:lyrahealth": {
@@ -3398,6 +3426,13 @@
 "workday:easyservice/wd5/MercyHealthCareers": {
 "fails": 0,
 "name": "Mercy Health"
+},
+"workday:easyservice/wd5/bonsecoursmercyhealthcareers": {
+"added": "2026-11-22",
+"fails": 0,
+"from": "survey",
+"name": "Easyservice",
+"scope": "health"
 },
 "workday:easyservice/wd5/mercyhealthcareers": {
 "added": "2026-10-15",
