@@ -115,7 +115,7 @@
 "name": "Candid Health"
 },
 "ashby:cedar": {
-"fails": 9,
+"fails": 10,
 "name": "Cedar"
 },
 "ashby:centerfield": {
@@ -705,7 +705,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 0,
+"fails": 1,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -2474,7 +2474,7 @@
 "name": "Lifepoint Health"
 },
 "oracle:ibpcjb.fa.ocs.oraclecloud.com/CX_1004": {
-"fails": 1,
+"fails": 0,
 "name": "Ascension"
 },
 "oracle:ibwsjb.fa.ocs.oraclecloud.com/CX_1": {
@@ -2579,7 +2579,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 133,
+"fails": 134,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2625,7 +2625,7 @@
 "name": "ScionHealth / Kindred"
 },
 "radancy:www.commonspirit.careers": {
-"fails": 1,
+"fails": 0,
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
@@ -2990,7 +2990,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 41,
+"fails": 42,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
