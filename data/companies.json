@@ -115,7 +115,7 @@
 "name": "Candid Health"
 },
 "ashby:cedar": {
-"fails": 11,
+"fails": 12,
 "name": "Cedar"
 },
 "ashby:centerfield": {
@@ -705,7 +705,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 0,
+"fails": 1,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -2579,7 +2579,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 135,
+"fails": 136,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2990,7 +2990,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 43,
+"fails": 44,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
@@ -3168,7 +3168,7 @@
 },
 "workday:bcbsnj/wd5/hc": {
 "added": "2026-10-05",
-"fails": 0,
+"fails": 1,
 "from": "survey",
 "name": "Horizon NJ Health",
 "scope": "health"
