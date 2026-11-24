@@ -115,7 +115,7 @@
 "name": "Candid Health"
 },
 "ashby:cedar": {
-"fails": 10,
+"fails": 11,
 "name": "Cedar"
 },
 "ashby:centerfield": {
@@ -705,7 +705,7 @@
 "scope": "health"
 },
 "greenhouse:bayada": {
-"fails": 1,
+"fails": 0,
 "name": "BAYADA Home Health Care"
 },
 "greenhouse:beaconbiosignals": {
@@ -2579,7 +2579,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 134,
+"fails": 135,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2990,7 +2990,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 42,
+"fails": 43,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
