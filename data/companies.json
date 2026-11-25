@@ -487,6 +487,13 @@
 "name": "Statista",
 "scope": "health"
 },
+"ashby:stedi": {
+"added": "2026-11-25",
+"fails": 0,
+"from": "survey",
+"name": "Stedi",
+"scope": "health"
+},
 "ashby:talkiatry": {
 "added": "2026-11-06",
 "fails": 0,
