@@ -115,7 +115,7 @@
 "name": "Candid Health"
 },
 "ashby:cedar": {
-"fails": 13,
+"fails": 14,
 "name": "Cedar"
 },
 "ashby:centerfield": {
@@ -2593,7 +2593,7 @@
 "name": "Duke Health"
 },
 "phenom:careers.templehealth.org/us/en": {
-"fails": 137,
+"fails": 138,
 "name": "Temple Health"
 },
 "phenom:careers.uabmedicine.org/us/en": {
@@ -2643,7 +2643,7 @@
 "name": "CommonSpirit Health"
 },
 "radancy:www.kaiserpermanentejobs.org": {
-"fails": 0,
+"fails": 1,
 "name": "Kaiser Permanente",
 "strict": true
 },
@@ -3004,7 +3004,7 @@
 "name": "Schneck Medical Center"
 },
 "workday:aah/wd5/External": {
-"fails": 45,
+"fails": 46,
 "name": "Advocate Health"
 },
 "workday:abbott/wd5/abbottcareers": {
