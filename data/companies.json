@@ -3553,6 +3553,13 @@
 "home": "Zanesville, OH",
 "name": "Genesis HealthCare System"
 },
+"workday:gh/wd1/gh": {
+"added": "2026-11-27",
+"fails": 0,
+"from": "survey",
+"name": "Gh",
+"scope": "health"
+},
 "workday:ghc/wd1/GHG_Careers": {
 "added": "2026-10-10",
 "fails": 0,
@@ -4452,6 +4459,13 @@
 "workday:uoflhealth/wd1/UofLHealthCareers": {
 "fails": 0,
 "name": "UofL Health"
+},
+"workday:uoflhealth/wd1/uoflhealthcareers": {
+"added": "2026-11-27",
+"fails": 0,
+"from": "survey",
+"name": "UofL Health",
+"scope": "health"
 },
 "workday:usuro/wd1/nju_careers": {
 "added": "2026-10-05",
