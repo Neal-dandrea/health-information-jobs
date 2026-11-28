@@ -160,6 +160,13 @@
 "name": "Compass Surgical Partners",
 "scope": "health"
 },
+"ashby:conduit-health": {
+"added": "2026-11-28",
+"fails": 0,
+"from": "survey",
+"name": "Conduit Health",
+"scope": "health"
+},
 "ashby:felix": {
 "added": "2026-10-26",
 "fails": 0,
@@ -971,6 +978,13 @@
 "fails": 0,
 "from": "survey",
 "name": "Freenome",
+"scope": "health"
+},
+"greenhouse:galileo": {
+"added": "2026-11-28",
+"fails": 0,
+"from": "survey",
+"name": "Galileo",
 "scope": "health"
 },
 "greenhouse:garnerhealth": {
